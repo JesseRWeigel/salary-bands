@@ -1,0 +1,8097 @@
+{
+ "employer_permutation_control": {
+  "employers_published": 836,
+  "real_p10_to_p90_spread_of_employer_medians": 100669,
+  "seed": 20260801,
+  "shuffled_p10_to_p90_spread_of_employer_medians": 23217
+ },
+ "employers_all_families": [
+  {
+   "filings": 4998,
+   "n": 4998,
+   "name": "AMAZON COM SERVICES",
+   "name_variants": [
+    [
+     "Amazon.com Services LLC",
+     4622
+    ],
+    [
+     "AMAZON.COM SERVICES LLC",
+     376
+    ]
+   ],
+   "p10": 114000,
+   "p25": 137400,
+   "p50": 164656,
+   "p75": 190500,
+   "p90": 213700
+  },
+  {
+   "filings": 3873,
+   "n": 3873,
+   "name": "COGNIZANT TECHNOLOGY SOLUTIONS",
+   "name_variants": [
+    [
+     "COGNIZANT TECHNOLOGY SOLUTIONS US CORP",
+     3873
+    ]
+   ],
+   "p10": 86445,
+   "p25": 99902,
+   "p50": 113797,
+   "p75": 130083,
+   "p90": 147676
+  },
+  {
+   "filings": 3084,
+   "n": 3084,
+   "name": "MICROSOFT",
+   "name_variants": [
+    [
+     "Microsoft Corporation",
+     3084
+    ]
+   ],
+   "p10": 145742,
+   "p25": 161166,
+   "p50": 179000,
+   "p75": 197995,
+   "p90": 217078
+  },
+  {
+   "filings": 2924,
+   "n": 2924,
+   "name": "ERNST YOUNG U S",
+   "name_variants": [
+    [
+     "Ernst & Young U.S. LLP",
+     2924
+    ]
+   ],
+   "p10": 101125,
+   "p25": 128993,
+   "p50": 168998,
+   "p75": 210264,
+   "p90": 251016
+  },
+  {
+   "filings": 2621,
+   "n": 2621,
+   "name": "APPLE",
+   "name_variants": [
+    [
+     "Apple Inc.",
+     2621
+    ]
+   ],
+   "p10": 147400,
+   "p25": 162500,
+   "p50": 183783,
+   "p75": 206138,
+   "p90": 223142
+  },
+  {
+   "filings": 2607,
+   "n": 2607,
+   "name": "INFOSYS",
+   "name_variants": [
+    [
+     "INFOSYS LIMITED",
+     2607
+    ]
+   ],
+   "p10": 80974,
+   "p25": 86403,
+   "p50": 92581,
+   "p75": 111550,
+   "p90": 126818
+  },
+  {
+   "filings": 2082,
+   "n": 2082,
+   "name": "TATA CONSULTANCY SERVICES",
+   "name_variants": [
+    [
+     "TATA CONSULTANCY SERVICES LIMITED",
+     1220
+    ],
+    [
+     "Tata Consultancy Services Limited",
+     862
+    ]
+   ],
+   "p10": 74838,
+   "p25": 81911,
+   "p50": 90002,
+   "p75": 97375,
+   "p90": 116324
+  },
+  {
+   "filings": 1845,
+   "n": 1845,
+   "name": "DELOITTE CONSULTING",
+   "name_variants": [
+    [
+     "Deloitte Consulting LLP",
+     1845
+    ]
+   ],
+   "p10": 96117,
+   "p25": 118900,
+   "p50": 148800,
+   "p75": 183000,
+   "p90": 210787
+  },
+  {
+   "filings": 1662,
+   "n": 1662,
+   "name": "META PLATFORMS",
+   "name_variants": [
+    [
+     "Meta Platforms, Inc",
+     1662
+    ]
+   ],
+   "p10": 173000,
+   "p25": 193000,
+   "p50": 220471,
+   "p75": 245713,
+   "p90": 270000
+  },
+  {
+   "filings": 1649,
+   "n": 1649,
+   "name": "GOOGLE",
+   "name_variants": [
+    [
+     "Google LLC",
+     1649
+    ]
+   ],
+   "p10": 158000,
+   "p25": 175000,
+   "p50": 197000,
+   "p75": 228000,
+   "p90": 256400
+  },
+  {
+   "filings": 1130,
+   "n": 1130,
+   "name": "JPMORGAN CHASE CO",
+   "name_variants": [
+    [
+     "JPMorgan Chase & Co.",
+     1116
+    ],
+    [
+     "JPMORGAN CHASE & CO.",
+     14
+    ]
+   ],
+   "p10": 130000,
+   "p25": 143700,
+   "p50": 162000,
+   "p75": 182000,
+   "p90": 204100
+  },
+  {
+   "filings": 1098,
+   "n": 1098,
+   "name": "AMAZON WEB SERVICES",
+   "name_variants": [
+    [
+     "Amazon Web Services, Inc.",
+     992
+    ],
+    [
+     "AMAZON WEB SERVICES, INC.",
+     105
+    ],
+    [
+     "Amazon Web Services, Inc",
+     1
+    ]
+   ],
+   "p10": 117785,
+   "p25": 138000,
+   "p50": 159950,
+   "p75": 181975,
+   "p90": 205208
+  },
+  {
+   "filings": 1086,
+   "n": 1086,
+   "name": "COMPUNNEL SOFTWARE GROUP",
+   "name_variants": [
+    [
+     "COMPUNNEL SOFTWARE GROUP, INC",
+     1077
+    ],
+    [
+     "COMPUNNEL SOFTWARE GROUP, INC.",
+     5
+    ],
+    [
+     "COMPUNNEL SOFTWARE GROUP INC.",
+     4
+    ]
+   ],
+   "p10": 91500,
+   "p25": 101000,
+   "p50": 112940,
+   "p75": 130000,
+   "p90": 132000
+  },
+  {
+   "filings": 1021,
+   "n": 1021,
+   "name": "CAPGEMINI",
+   "name_variants": [
+    [
+     "Capgemini America Inc",
+     540
+    ],
+    [
+     "CAPGEMINI AMERICA INC",
+     445
+    ],
+    [
+     "Capgemini America, Inc.",
+     36
+    ]
+   ],
+   "p10": 103500,
+   "p25": 118000,
+   "p50": 131000,
+   "p75": 146444,
+   "p90": 160805
+  },
+  {
+   "filings": 991,
+   "n": 991,
+   "name": "WAL MART ASSOCIATES",
+   "name_variants": [
+    [
+     "WAL-MART ASSOCIATES, INC.",
+     991
+    ]
+   ],
+   "p10": 117000,
+   "p25": 134112,
+   "p50": 150405,
+   "p75": 167743,
+   "p90": 186786
+  },
+  {
+   "filings": 960,
+   "n": 960,
+   "name": "FIDELITY TECHNOLOGY GROUP LLC D B A FIDELITY INVESTMENTS",
+   "name_variants": [
+    [
+     "Fidelity Technology Group, LLC d/b/a Fidelity Investments",
+     960
+    ]
+   ],
+   "p10": 110795,
+   "p25": 116016,
+   "p50": 125119,
+   "p75": 141981,
+   "p90": 158974
+  },
+  {
+   "filings": 886,
+   "n": 886,
+   "name": "HCL",
+   "name_variants": [
+    [
+     "HCL AMERICA INC",
+     886
+    ]
+   ],
+   "p10": 91728,
+   "p25": 101173,
+   "p50": 117862,
+   "p75": 132142,
+   "p90": 146266
+  },
+  {
+   "filings": 883,
+   "n": 883,
+   "name": "WIPRO",
+   "name_variants": [
+    [
+     "WIPRO LIMITED",
+     883
+    ]
+   ],
+   "p10": 77418,
+   "p25": 86611,
+   "p50": 98301,
+   "p75": 118119,
+   "p90": 139443
+  },
+  {
+   "filings": 880,
+   "n": 880,
+   "name": "NVIDIA",
+   "name_variants": [
+    [
+     "NVIDIA Corporation",
+     880
+    ]
+   ],
+   "p10": 148049,
+   "p25": 173229,
+   "p50": 196679,
+   "p75": 216091,
+   "p90": 248186
+  },
+  {
+   "filings": 872,
+   "n": 872,
+   "name": "ACCENTURE",
+   "name_variants": [
+    [
+     "Accenture LLP",
+     872
+    ]
+   ],
+   "p10": 111416,
+   "p25": 127316,
+   "p50": 144900,
+   "p75": 166916,
+   "p90": 191550
+  },
+  {
+   "filings": 786,
+   "n": 786,
+   "name": "LTIMINDTREE",
+   "name_variants": [
+    [
+     "LTIMindtree Limited",
+     695
+    ],
+    [
+     "LTIMINDTREE Limited",
+     91
+    ]
+   ],
+   "p10": 80975,
+   "p25": 89118,
+   "p50": 99428,
+   "p75": 111551,
+   "p90": 131997
+  },
+  {
+   "filings": 694,
+   "n": 694,
+   "name": "SALESFORCE",
+   "name_variants": [
+    [
+     "Salesforce, Inc.",
+     694
+    ]
+   ],
+   "p10": 153294,
+   "p25": 180000,
+   "p50": 215000,
+   "p75": 245843,
+   "p90": 283433
+  },
+  {
+   "filings": 688,
+   "n": 688,
+   "name": "CITIBANK N A",
+   "name_variants": [
+    [
+     "Citibank, N.A.",
+     688
+    ]
+   ],
+   "p10": 131458,
+   "p25": 145642,
+   "p50": 156999,
+   "p75": 174848,
+   "p90": 195505
+  },
+  {
+   "filings": 610,
+   "n": 610,
+   "name": "MPHASIS",
+   "name_variants": [
+    [
+     "Mphasis Corporation",
+     610
+    ]
+   ],
+   "p10": 84501,
+   "p25": 99209,
+   "p50": 120000,
+   "p75": 132808,
+   "p90": 148050
+  },
+  {
+   "filings": 585,
+   "n": 585,
+   "name": "IBM",
+   "name_variants": [
+    [
+     "IBM Corporation",
+     585
+    ]
+   ],
+   "p10": 99590,
+   "p25": 112029,
+   "p50": 134216,
+   "p75": 179712,
+   "p90": 225624
+  },
+  {
+   "filings": 578,
+   "n": 578,
+   "name": "QUALCOMM",
+   "name_variants": [
+    [
+     "Qualcomm Technologies, Inc.",
+     555
+    ],
+    [
+     "Qualcomm Incorporated",
+     23
+    ]
+   ],
+   "p10": 122396,
+   "p25": 130187,
+   "p50": 154733,
+   "p75": 179000,
+   "p90": 193328
+  },
+  {
+   "filings": 574,
+   "n": 574,
+   "name": "TESLA",
+   "name_variants": [
+    [
+     "Tesla, Inc.",
+     574
+    ]
+   ],
+   "p10": 113887,
+   "p25": 134479,
+   "p50": 157214,
+   "p75": 186468,
+   "p90": 215000
+  },
+  {
+   "filings": 568,
+   "n": 568,
+   "name": "AMAZON DEVELOPMENT CENTER U S",
+   "name_variants": [
+    [
+     "Amazon Development Center U.S., Inc.",
+     521
+    ],
+    [
+     "AMAZON DEVELOPMENT CENTER U.S., INC.",
+     46
+    ],
+    [
+     "Amazon Development Center U.S. Inc.",
+     1
+    ]
+   ],
+   "p10": 119870,
+   "p25": 140765,
+   "p50": 160750,
+   "p75": 185000,
+   "p90": 212351
+  },
+  {
+   "filings": 521,
+   "n": 521,
+   "name": "INTEL",
+   "name_variants": [
+    [
+     "Intel Corporation",
+     520
+    ],
+    [
+     "Intel Americas, Inc.",
+     1
+    ]
+   ],
+   "p10": 113942,
+   "p25": 126420,
+   "p50": 139540,
+   "p75": 156770,
+   "p90": 177200
+  },
+  {
+   "filings": 406,
+   "n": 406,
+   "name": "GRANDISON MANAGEMENT",
+   "name_variants": [
+    [
+     "Grandison Management, Inc.",
+     406
+    ]
+   ],
+   "p10": 63627,
+   "p25": 67896,
+   "p50": 71968,
+   "p75": 73632,
+   "p90": 77771
+  },
+  {
+   "filings": 404,
+   "n": 404,
+   "name": "LINKEDIN",
+   "name_variants": [
+    [
+     "LinkedIn Corporation",
+     236
+    ],
+    [
+     "LINKEDIN CORPORATION",
+     168
+    ]
+   ],
+   "p10": 139000,
+   "p25": 154000,
+   "p50": 180710,
+   "p75": 207000,
+   "p90": 232846
+  },
+  {
+   "filings": 392,
+   "n": 392,
+   "name": "PEOPLE TECH GROUP",
+   "name_variants": [
+    [
+     "People Tech Group, Inc",
+     392
+    ]
+   ],
+   "p10": 83824,
+   "p25": 101421,
+   "p50": 117749,
+   "p75": 139298,
+   "p90": 150758
+  },
+  {
+   "filings": 382,
+   "n": 382,
+   "name": "ORACLE",
+   "name_variants": [
+    [
+     "Oracle America, Inc.",
+     382
+    ]
+   ],
+   "p10": 114779,
+   "p25": 128789,
+   "p50": 149739,
+   "p75": 166752,
+   "p90": 202779
+  },
+  {
+   "filings": 377,
+   "n": 377,
+   "name": "PAYPAL",
+   "name_variants": [
+    [
+     "PayPal, Inc.",
+     377
+    ]
+   ],
+   "p10": 140937,
+   "p25": 168832,
+   "p50": 194226,
+   "p75": 214580,
+   "p90": 242597
+  },
+  {
+   "filings": 352,
+   "n": 352,
+   "name": "TECH MAHINDRA",
+   "name_variants": [
+    [
+     "TECH MAHINDRA (AMERICAS), INC",
+     339
+    ],
+    [
+     "TECH MAHINDRA TECHNOLOGIES, INC",
+     9
+    ],
+    [
+     "Tech Mahindra Technologies, Inc.",
+     2
+    ],
+    [
+     "Tech Mahindra Technologies, Inc",
+     1
+    ]
+   ],
+   "p10": 87901,
+   "p25": 97511,
+   "p50": 110947,
+   "p75": 130063,
+   "p90": 145000
+  },
+  {
+   "filings": 349,
+   "n": 349,
+   "name": "AMAZON DATA SERVICES",
+   "name_variants": [
+    [
+     "Amazon Data Services, Inc",
+     305
+    ],
+    [
+     "AMAZON DATA SERVICES, INC.",
+     27
+    ],
+    [
+     "Amazon Data Services, Inc.",
+     16
+    ],
+    [
+     "Amazon Data Services Inc.",
+     1
+    ]
+   ],
+   "p10": 108278,
+   "p25": 129000,
+   "p50": 148700,
+   "p75": 170000,
+   "p90": 195000
+  },
+  {
+   "filings": 346,
+   "n": 346,
+   "name": "CISCO SYSTEMS",
+   "name_variants": [
+    [
+     "Cisco Systems, Inc.",
+     346
+    ]
+   ],
+   "p10": 114100,
+   "p25": 132574,
+   "p50": 150700,
+   "p75": 177520,
+   "p90": 204050
+  },
+  {
+   "filings": 338,
+   "n": 338,
+   "name": "CUMMINS",
+   "name_variants": [
+    [
+     "Cummins Inc.",
+     338
+    ]
+   ],
+   "p10": 91838,
+   "p25": 95847,
+   "p50": 108224,
+   "p75": 121181,
+   "p90": 135491
+  },
+  {
+   "filings": 332,
+   "n": 332,
+   "name": "FORD MOTOR",
+   "name_variants": [
+    [
+     "FORD MOTOR COMPANY",
+     332
+    ]
+   ],
+   "p10": 97014,
+   "p25": 112560,
+   "p50": 125362,
+   "p75": 139277,
+   "p90": 162593
+  },
+  {
+   "filings": 331,
+   "n": 331,
+   "name": "BARCLAYS SERVICES",
+   "name_variants": [
+    [
+     "Barclays Services Corp.",
+     253
+    ],
+    [
+     "Barclays Services LLC",
+     78
+    ]
+   ],
+   "p10": 133000,
+   "p25": 145500,
+   "p50": 161000,
+   "p75": 180000,
+   "p90": 213005
+  },
+  {
+   "filings": 329,
+   "n": 329,
+   "name": "MORGAN STANLEY SERVICES GROUP",
+   "name_variants": [
+    [
+     "Morgan Stanley Services Group Inc.",
+     316
+    ],
+    [
+     "Morgan Stanley Services Group, Inc.",
+     13
+    ]
+   ],
+   "p10": 135000,
+   "p25": 150000,
+   "p50": 165517,
+   "p75": 185000,
+   "p90": 205600
+  },
+  {
+   "filings": 318,
+   "n": 318,
+   "name": "DELOITTE TOUCHE",
+   "name_variants": [
+    [
+     "Deloitte & Touche LLP",
+     318
+    ]
+   ],
+   "p10": 97610,
+   "p25": 115743,
+   "p50": 143125,
+   "p75": 162963,
+   "p90": 188490
+  },
+  {
+   "filings": 316,
+   "n": 316,
+   "name": "GENERAL MOTORS",
+   "name_variants": [
+    [
+     "General Motors",
+     316
+    ]
+   ],
+   "p10": 120000,
+   "p25": 129241,
+   "p50": 144946,
+   "p75": 162668,
+   "p90": 212000
+  },
+  {
+   "filings": 308,
+   "n": 308,
+   "name": "CGI TECHNOLOGIES AND SOLUTIONS",
+   "name_variants": [
+    [
+     "CGI Technologies and Solutions Inc.",
+     308
+    ]
+   ],
+   "p10": 83932,
+   "p25": 98197,
+   "p50": 113547,
+   "p75": 130000,
+   "p90": 144300
+  },
+  {
+   "filings": 308,
+   "n": 308,
+   "name": "KFORCE",
+   "name_variants": [
+    [
+     "KFORCE INC.",
+     308
+    ]
+   ],
+   "p10": 100539,
+   "p25": 112060,
+   "p50": 125133,
+   "p75": 134971,
+   "p90": 144810
+  },
+  {
+   "filings": 304,
+   "n": 304,
+   "name": "RANDSTAD DIGITAL",
+   "name_variants": [
+    [
+     "RANDSTAD DIGITAL, LLC",
+     304
+    ]
+   ],
+   "p10": 115000,
+   "p25": 128867,
+   "p50": 132000,
+   "p75": 140000,
+   "p90": 150700
+  },
+  {
+   "filings": 300,
+   "n": 300,
+   "name": "U S BANK NATIONAL ASSOCIATION",
+   "name_variants": [
+    [
+     "U.S. Bank National Association",
+     199
+    ],
+    [
+     "U.S. BANK NATIONAL ASSOCIATION",
+     101
+    ]
+   ],
+   "p10": 108077,
+   "p25": 116625,
+   "p50": 130707,
+   "p75": 143438,
+   "p90": 156998
+  },
+  {
+   "filings": 293,
+   "n": 293,
+   "name": "CAPITAL ONE SERVICES",
+   "name_variants": [
+    [
+     "Capital One Services, LLC",
+     293
+    ]
+   ],
+   "p10": 109000,
+   "p25": 150197,
+   "p50": 175800,
+   "p75": 204900,
+   "p90": 225400
+  },
+  {
+   "filings": 279,
+   "n": 279,
+   "name": "PRICEWATERHOUSECOOPERS ADVISORY SERVICES",
+   "name_variants": [
+    [
+     "PRICEWATERHOUSECOOPERS ADVISORY SERVICES LLC",
+     265
+    ],
+    [
+     "PricewaterhouseCoopers Advisory Services LLC",
+     14
+    ]
+   ],
+   "p10": 147000,
+   "p25": 171500,
+   "p50": 189000,
+   "p75": 209000,
+   "p90": 238000
+  },
+  {
+   "filings": 261,
+   "n": 261,
+   "name": "ADOBE",
+   "name_variants": [
+    [
+     "Adobe Inc.",
+     261
+    ]
+   ],
+   "p10": 157636,
+   "p25": 181922,
+   "p50": 205000,
+   "p75": 227000,
+   "p90": 262000
+  },
+  {
+   "filings": 259,
+   "n": 259,
+   "name": "UST GLOBAL",
+   "name_variants": [
+    [
+     "UST Global Inc",
+     223
+    ],
+    [
+     "UST GLOBAL INC",
+     36
+    ]
+   ],
+   "p10": 92539,
+   "p25": 102645,
+   "p50": 114450,
+   "p75": 129200,
+   "p90": 142500
+  },
+  {
+   "filings": 257,
+   "n": 257,
+   "name": "CHARTER COMMUNICATIONS",
+   "name_variants": [
+    [
+     "Charter Communications, Inc.",
+     179
+    ],
+    [
+     "Charter Communications Inc.",
+     78
+    ]
+   ],
+   "p10": 97386,
+   "p25": 114712,
+   "p50": 126506,
+   "p75": 140795,
+   "p90": 161886
+  },
+  {
+   "filings": 257,
+   "n": 257,
+   "name": "SERVICENOW",
+   "name_variants": [
+    [
+     "ServiceNow, Inc.",
+     257
+    ]
+   ],
+   "p10": 118550,
+   "p25": 139152,
+   "p50": 168958,
+   "p75": 198702,
+   "p90": 234377
+  },
+  {
+   "filings": 257,
+   "n": 257,
+   "name": "UBER",
+   "name_variants": [
+    [
+     "Uber Technologies, Inc.",
+     257
+    ]
+   ],
+   "p10": 150000,
+   "p25": 172700,
+   "p50": 198500,
+   "p75": 228000,
+   "p90": 241820
+  },
+  {
+   "filings": 255,
+   "n": 255,
+   "name": "BYTEDANCE",
+   "name_variants": [
+    [
+     "BYTEDANCE INC.",
+     139
+    ],
+    [
+     "ByteDance Inc.",
+     116
+    ]
+   ],
+   "p10": 130500,
+   "p25": 162411,
+   "p50": 200000,
+   "p75": 253650,
+   "p90": 311200
+  },
+  {
+   "filings": 249,
+   "n": 249,
+   "name": "AT T SERVICES",
+   "name_variants": [
+    [
+     "AT&T SERVICES, INC.",
+     249
+    ]
+   ],
+   "p10": 145185,
+   "p25": 155150,
+   "p50": 166673,
+   "p75": 182695,
+   "p90": 200000
+  },
+  {
+   "filings": 248,
+   "n": 248,
+   "name": "L T TECHNOLOGY SERVICES",
+   "name_variants": [
+    [
+     "L&T Technology Services Limited",
+     195
+    ],
+    [
+     "L&T Technology Services LLC",
+     23
+    ],
+    [
+     "L&T TECHNOLOGY SERVICES LIMITED",
+     20
+    ],
+    [
+     "L&T TECHNOLOGY SERVICES LLC",
+     10
+    ]
+   ],
+   "p10": 82243,
+   "p25": 87904,
+   "p50": 94382,
+   "p75": 105000,
+   "p90": 121004
+  },
+  {
+   "filings": 238,
+   "n": 238,
+   "name": "INTUIT",
+   "name_variants": [
+    [
+     "Intuit Inc.",
+     238
+    ]
+   ],
+   "p10": 141847,
+   "p25": 153158,
+   "p50": 183108,
+   "p75": 217579,
+   "p90": 242709
+  },
+  {
+   "filings": 235,
+   "n": 235,
+   "name": "TIKTOK",
+   "name_variants": [
+    [
+     "TikTok Inc.",
+     235
+    ]
+   ],
+   "p10": 120000,
+   "p25": 144000,
+   "p50": 185000,
+   "p75": 250650,
+   "p90": 303325
+  },
+  {
+   "filings": 233,
+   "n": 233,
+   "name": "SKILLTUNE",
+   "name_variants": [
+    [
+     "SKILLTUNE TECHNOLOGIES INC",
+     216
+    ],
+    [
+     "Skilltune Technologies INC",
+     17
+    ]
+   ],
+   "p10": 65000,
+   "p25": 76900,
+   "p50": 98320,
+   "p75": 120500,
+   "p90": 137400
+  }
+ ],
+ "families": [
+  {
+   "distinct_titles": 259,
+   "employers": [
+    {
+     "n": 13,
+     "name": "REDDIT",
+     "p10": 247912,
+     "p25": 261665,
+     "p50": 280000,
+     "p75": 300000,
+     "p90": 300000
+    },
+    {
+     "n": 12,
+     "name": "BYTEDANCE",
+     "p10": 211000,
+     "p25": 224350,
+     "p50": 271118,
+     "p75": 321000,
+     "p90": 330300
+    },
+    {
+     "n": 13,
+     "name": "NETFLIX",
+     "p10": 214993,
+     "p25": 226158,
+     "p50": 264514,
+     "p75": 264514,
+     "p90": 273583
+    },
+    {
+     "n": 19,
+     "name": "TIKTOK U S DATA SECURITY",
+     "p10": 196000,
+     "p25": 222300,
+     "p50": 245000,
+     "p75": 291250,
+     "p90": 312000
+    },
+    {
+     "n": 10,
+     "name": "TIKTOK",
+     "p10": 217416,
+     "p25": 220000,
+     "p50": 241500,
+     "p75": 266500,
+     "p90": 304000
+    },
+    {
+     "n": 30,
+     "name": "ADOBE",
+     "p10": 197500,
+     "p25": 207000,
+     "p50": 226000,
+     "p75": 251000,
+     "p90": 270000
+    },
+    {
+     "n": 32,
+     "name": "META PLATFORMS",
+     "p10": 182000,
+     "p25": 193000,
+     "p50": 219955,
+     "p75": 235582,
+     "p90": 263803
+    },
+    {
+     "n": 10,
+     "name": "UBER",
+     "p10": 183230,
+     "p25": 191375,
+     "p50": 217600,
+     "p75": 230650,
+     "p90": 235500
+    },
+    {
+     "n": 10,
+     "name": "CRUISE",
+     "p10": 199150,
+     "p25": 204575,
+     "p50": 216619,
+     "p75": 246150,
+     "p90": 258340
+    },
+    {
+     "n": 10,
+     "name": "TESLA",
+     "p10": 182444,
+     "p25": 202875,
+     "p50": 214875,
+     "p75": 265955,
+     "p90": 300000
+    },
+    {
+     "n": 17,
+     "name": "ATLASSIAN",
+     "p10": 184645,
+     "p25": 200000,
+     "p50": 210000,
+     "p75": 230000,
+     "p90": 234000
+    },
+    {
+     "n": 10,
+     "name": "PAYPAL",
+     "p10": 174952,
+     "p25": 181894,
+     "p50": 210000,
+     "p75": 238750,
+     "p90": 246000
+    },
+    {
+     "n": 36,
+     "name": "APPLE",
+     "p10": 164375,
+     "p25": 184639,
+     "p50": 208764,
+     "p75": 224418,
+     "p90": 226418
+    },
+    {
+     "n": 11,
+     "name": "DOORDASH",
+     "p10": 180000,
+     "p25": 196914,
+     "p50": 197000,
+     "p75": 197400,
+     "p90": 225077
+    },
+    {
+     "n": 36,
+     "name": "PINTEREST",
+     "p10": 139329,
+     "p25": 167986,
+     "p50": 191548,
+     "p75": 226138,
+     "p90": 226138
+    },
+    {
+     "n": 55,
+     "name": "LINKEDIN",
+     "p10": 154199,
+     "p25": 170000,
+     "p50": 190942,
+     "p75": 214847,
+     "p90": 226138
+    },
+    {
+     "n": 26,
+     "name": "SNAP",
+     "p10": 172022,
+     "p25": 174015,
+     "p50": 184142,
+     "p75": 203695,
+     "p90": 212857
+    },
+    {
+     "n": 18,
+     "name": "QUALCOMM",
+     "p10": 130187,
+     "p25": 140800,
+     "p50": 158400,
+     "p75": 174025,
+     "p90": 187741
+    }
+   ],
+   "family": "Machine learning engineer",
+   "levels": [
+    {
+     "n": 95,
+     "name": "Staff",
+     "p10": 159040,
+     "p25": 192328,
+     "p50": 224047,
+     "p75": 264514,
+     "p90": 300000
+    },
+    {
+     "n": 28,
+     "name": "Principal",
+     "p10": 162848,
+     "p25": 187500,
+     "p50": 215100,
+     "p75": 265886,
+     "p90": 294500
+    },
+    {
+     "n": 10,
+     "name": "Level V",
+     "p10": 202346,
+     "p25": 202346,
+     "p50": 204145,
+     "p75": 212202,
+     "p90": 218612
+    },
+    {
+     "n": 288,
+     "name": "Senior",
+     "p10": 138812,
+     "p25": 167156,
+     "p50": 195000,
+     "p75": 226138,
+     "p90": 250000
+    },
+    {
+     "n": 19,
+     "name": "Level III",
+     "p10": 111603,
+     "p25": 132317,
+     "p50": 194000,
+     "p75": 236000,
+     "p90": 257200
+    },
+    {
+     "n": 26,
+     "name": "Lead",
+     "p10": 139753,
+     "p25": 158750,
+     "p50": 189373,
+     "p75": 209056,
+     "p90": 246328
+    },
+    {
+     "n": 442,
+     "name": "Unstated",
+     "p10": 109542,
+     "p25": 149240,
+     "p50": 185322,
+     "p75": 225469,
+     "p90": 264514
+    },
+    {
+     "n": 23,
+     "name": "Level II",
+     "p10": 130167,
+     "p25": 149240,
+     "p50": 180000,
+     "p75": 187741,
+     "p90": 190000
+    },
+    {
+     "n": 14,
+     "name": "Level IV",
+     "p10": 172022,
+     "p25": 174015,
+     "p50": 174015,
+     "p75": 180710,
+     "p90": 187574
+    }
+   ],
+   "metros": [
+    {
+     "n": 477,
+     "name": "SF Bay Area, CA",
+     "p10": 171421,
+     "p25": 187741,
+     "p50": 214907,
+     "p75": 238820,
+     "p90": 275000
+    },
+    {
+     "n": 112,
+     "name": "Seattle, WA",
+     "p10": 149240,
+     "p25": 167306,
+     "p50": 196957,
+     "p75": 219250,
+     "p90": 263811
+    },
+    {
+     "n": 86,
+     "name": "New York City metro",
+     "p10": 131997,
+     "p25": 159251,
+     "p50": 178014,
+     "p75": 222579,
+     "p90": 250000
+    },
+    {
+     "n": 19,
+     "name": "Boston, MA",
+     "p10": 150600,
+     "p25": 156558,
+     "p50": 175000,
+     "p75": 200000,
+     "p90": 220000
+    },
+    {
+     "n": 23,
+     "name": "Los Angeles, CA",
+     "p10": 131810,
+     "p25": 153795,
+     "p50": 174500,
+     "p75": 192500,
+     "p90": 232000
+    },
+    {
+     "n": 18,
+     "name": "Washington DC metro",
+     "p10": 109000,
+     "p25": 125824,
+     "p50": 164615,
+     "p75": 179500,
+     "p90": 184500
+    },
+    {
+     "n": 24,
+     "name": "Austin, TX",
+     "p10": 105187,
+     "p25": 138114,
+     "p50": 158750,
+     "p75": 200000,
+     "p90": 283800
+    },
+    {
+     "n": 17,
+     "name": "San Diego, CA",
+     "p10": 130187,
+     "p25": 138800,
+     "p50": 158400,
+     "p75": 159100,
+     "p90": 179000
+    },
+    {
+     "n": 15,
+     "name": "Atlanta, GA",
+     "p10": 86166,
+     "p25": 98093,
+     "p50": 129100,
+     "p75": 176000,
+     "p90": 200000
+    },
+    {
+     "n": 30,
+     "name": "Dallas-Fort Worth, TX",
+     "p10": 92527,
+     "p25": 112923,
+     "p50": 125000,
+     "p75": 145042,
+     "p90": 169225
+    }
+   ],
+   "n": 949,
+   "p10": 125583,
+   "p25": 160000,
+   "p50": 191000,
+   "p75": 226138,
+   "p90": 264514,
+   "top_titles": [
+    [
+     "MACHINE LEARNING ENGINEER",
+     219
+    ],
+    [
+     "SENIOR MACHINE LEARNING ENGINEER",
+     112
+    ],
+    [
+     "SOFTWARE ENGINEER, MACHINE LEARNING",
+     46
+    ],
+    [
+     "STAFF MACHINE LEARNING ENGINEER",
+     43
+    ],
+    [
+     "SR. MACHINE LEARNING ENGINEER",
+     30
+    ],
+    [
+     "AI/ML ENGINEER",
+     28
+    ],
+    [
+     "MACHINE LEARNING ENGINEER II",
+     19
+    ],
+    [
+     "SR. SOFTWARE ENGINEER, MACHINE LEARNING",
+     16
+    ],
+    [
+     "STAFF SOFTWARE ENGINEER, MACHINE LEARNING",
+     13
+    ],
+    [
+     "MACHINE LEARNING ENGINEER (4)",
+     13
+    ],
+    [
+     "PRINCIPAL MACHINE LEARNING ENGINEER",
+     12
+    ],
+    [
+     "SENIOR AI/ML ENGINEER",
+     12
+    ]
+   ]
+  },
+  {
+   "distinct_titles": 83,
+   "employers": [
+    {
+     "n": 10,
+     "name": "APPLE",
+     "p10": 169282,
+     "p25": 176370,
+     "p50": 190519,
+     "p75": 209545,
+     "p90": 216134
+    }
+   ],
+   "family": "Applied / research scientist (ML, AI)",
+   "levels": [
+    {
+     "n": 12,
+     "name": "Staff",
+     "p10": 214647,
+     "p25": 214784,
+     "p50": 231047,
+     "p75": 255768,
+     "p90": 277780
+    },
+    {
+     "n": 78,
+     "name": "Unstated",
+     "p10": 113545,
+     "p25": 141142,
+     "p50": 181050,
+     "p75": 250150,
+     "p90": 321500
+    },
+    {
+     "n": 42,
+     "name": "Senior",
+     "p10": 133123,
+     "p25": 160729,
+     "p50": 173665,
+     "p75": 199229,
+     "p90": 224369
+    }
+   ],
+   "metros": [
+    {
+     "n": 66,
+     "name": "SF Bay Area, CA",
+     "p10": 163903,
+     "p25": 175835,
+     "p50": 213756,
+     "p75": 264879,
+     "p90": 315000
+    },
+    {
+     "n": 10,
+     "name": "Seattle, WA",
+     "p10": 146000,
+     "p25": 166742,
+     "p50": 204558,
+     "p75": 217045,
+     "p90": 241500
+    },
+    {
+     "n": 15,
+     "name": "New York City metro",
+     "p10": 149704,
+     "p25": 170564,
+     "p50": 181000,
+     "p75": 245100,
+     "p90": 270037
+    },
+    {
+     "n": 10,
+     "name": "Boston, MA",
+     "p10": 113464,
+     "p25": 151250,
+     "p50": 177223,
+     "p75": 205466,
+     "p90": 242000
+    }
+   ],
+   "n": 151,
+   "p10": 120000,
+   "p25": 150000,
+   "p50": 180600,
+   "p75": 231000,
+   "p90": 296464,
+   "top_titles": [
+    [
+     "MACHINE LEARNING SCIENTIST",
+     18
+    ],
+    [
+     "MACHINE LEARNING RESEARCHER",
+     10
+    ],
+    [
+     "SENIOR MACHINE LEARNING SCIENTIST",
+     8
+    ],
+    [
+     "AI RESEARCHER",
+     6
+    ],
+    [
+     "AI RESEARCH SCIENTIST",
+     6
+    ],
+    [
+     "ML - DATA SCIENTIST",
+     5
+    ],
+    [
+     "SENIOR APPLIED MACHINE LEARNING SCIENTIST",
+     4
+    ],
+    [
+     "STAFF AI SCIENTIST",
+     4
+    ],
+    [
+     "SR DATA SCIENTIST, ML/AI",
+     3
+    ],
+    [
+     "APPLIED MACHINE LEARNING SCIENTIST",
+     3
+    ],
+    [
+     "MACHINE LEARNING SCIENTIST II",
+     3
+    ],
+    [
+     "SENIOR AI SCIENTIST",
+     3
+    ]
+   ]
+  },
+  {
+   "distinct_titles": 305,
+   "employers": [
+    {
+     "n": 24,
+     "name": "TIKTOK",
+     "p10": 143378,
+     "p25": 168331,
+     "p50": 225077,
+     "p75": 266250,
+     "p90": 294000
+    },
+    {
+     "n": 71,
+     "name": "META PLATFORMS",
+     "p10": 180000,
+     "p25": 190112,
+     "p50": 216571,
+     "p75": 225000,
+     "p90": 248920
+    },
+    {
+     "n": 47,
+     "name": "GOOGLE",
+     "p10": 178600,
+     "p25": 180000,
+     "p50": 200000,
+     "p75": 227000,
+     "p90": 260800
+    },
+    {
+     "n": 10,
+     "name": "IBM",
+     "p10": 162510,
+     "p25": 179220,
+     "p50": 196351,
+     "p75": 221870,
+     "p90": 241990
+    },
+    {
+     "n": 16,
+     "name": "TIKTOK U S DATA SECURITY",
+     "p10": 136544,
+     "p25": 166573,
+     "p50": 182650,
+     "p75": 220000,
+     "p90": 234500
+    },
+    {
+     "n": 38,
+     "name": "PAYPAL",
+     "p10": 141979,
+     "p25": 155046,
+     "p50": 182500,
+     "p75": 200000,
+     "p90": 230000
+    },
+    {
+     "n": 13,
+     "name": "DOORDASH",
+     "p10": 164320,
+     "p25": 178000,
+     "p50": 178800,
+     "p75": 216800,
+     "p90": 216800
+    },
+    {
+     "n": 17,
+     "name": "AMAZON WEB SERVICES",
+     "p10": 136000,
+     "p25": 153400,
+     "p50": 177840,
+     "p75": 190000,
+     "p90": 228940
+    },
+    {
+     "n": 27,
+     "name": "INTUIT",
+     "p10": 141875,
+     "p25": 145308,
+     "p50": 176570,
+     "p75": 180508,
+     "p90": 206155
+    },
+    {
+     "n": 12,
+     "name": "AETNA RESOURCES",
+     "p10": 138223,
+     "p25": 161344,
+     "p50": 173511,
+     "p75": 193305,
+     "p90": 196994
+    },
+    {
+     "n": 27,
+     "name": "APPLE",
+     "p10": 137566,
+     "p25": 163300,
+     "p50": 172100,
+     "p75": 195427,
+     "p90": 207184
+    },
+    {
+     "n": 63,
+     "name": "WAL MART ASSOCIATES",
+     "p10": 155853,
+     "p25": 170606,
+     "p50": 171337,
+     "p75": 173081,
+     "p90": 197598
+    },
+    {
+     "n": 76,
+     "name": "AMAZON COM SERVICES",
+     "p10": 136000,
+     "p25": 141300,
+     "p50": 164700,
+     "p75": 184273,
+     "p90": 196560
+    },
+    {
+     "n": 12,
+     "name": "BYTEDANCE",
+     "p10": 129709,
+     "p25": 139961,
+     "p50": 163322,
+     "p75": 193750,
+     "p90": 225193
+    },
+    {
+     "n": 16,
+     "name": "CAREMARK",
+     "p10": 148253,
+     "p25": 153872,
+     "p50": 162554,
+     "p75": 174776,
+     "p90": 191383
+    },
+    {
+     "n": 14,
+     "name": "PINTEREST",
+     "p10": 130021,
+     "p25": 139506,
+     "p50": 161076,
+     "p75": 174304,
+     "p90": 225077
+    },
+    {
+     "n": 15,
+     "name": "HOME DEPOT MANAGEMENT",
+     "p10": 113400,
+     "p25": 149160,
+     "p50": 160000,
+     "p75": 170000,
+     "p90": 186027
+    },
+    {
+     "n": 11,
+     "name": "FEDERAL EXPRESS",
+     "p10": 120000,
+     "p25": 121389,
+     "p50": 129373,
+     "p75": 147446,
+     "p90": 181374
+    },
+    {
+     "n": 10,
+     "name": "FARMERS GROUP",
+     "p10": 103597,
+     "p25": 115058,
+     "p50": 125927,
+     "p75": 126539,
+     "p90": 142037
+    },
+    {
+     "n": 15,
+     "name": "RELX",
+     "p10": 97660,
+     "p25": 99187,
+     "p50": 120000,
+     "p75": 157916,
+     "p90": 171333
+    },
+    {
+     "n": 16,
+     "name": "FORD MOTOR",
+     "p10": 100955,
+     "p25": 107848,
+     "p50": 116569,
+     "p75": 129742,
+     "p90": 141218
+    },
+    {
+     "n": 11,
+     "name": "COMPUNNEL SOFTWARE GROUP",
+     "p10": 109500,
+     "p25": 110000,
+     "p50": 116000,
+     "p75": 141575,
+     "p90": 143400
+    }
+   ],
+   "family": "Data scientist",
+   "levels": [
+    {
+     "n": 99,
+     "name": "Staff",
+     "p10": 155231,
+     "p25": 171337,
+     "p50": 187000,
+     "p75": 219650,
+     "p90": 238400
+    },
+    {
+     "n": 103,
+     "name": "Lead",
+     "p10": 123487,
+     "p25": 147080,
+     "p50": 176900,
+     "p75": 196133,
+     "p90": 216369
+    },
+    {
+     "n": 63,
+     "name": "Principal",
+     "p10": 130000,
+     "p25": 143125,
+     "p50": 170000,
+     "p75": 204483,
+     "p90": 244600
+    },
+    {
+     "n": 79,
+     "name": "Level III",
+     "p10": 119188,
+     "p25": 139908,
+     "p50": 165300,
+     "p75": 187968,
+     "p90": 201017
+    },
+    {
+     "n": 543,
+     "name": "Senior",
+     "p10": 112056,
+     "p25": 130708,
+     "p50": 155053,
+     "p75": 175000,
+     "p90": 208240
+    },
+    {
+     "n": 125,
+     "name": "Level II",
+     "p10": 101792,
+     "p25": 120155,
+     "p50": 138000,
+     "p75": 156000,
+     "p90": 181890
+    },
+    {
+     "n": 11,
+     "name": "Level IV",
+     "p10": 100000,
+     "p25": 115952,
+     "p50": 130270,
+     "p75": 141741,
+     "p90": 158808
+    },
+    {
+     "n": 857,
+     "name": "Unstated",
+     "p10": 87744,
+     "p25": 102000,
+     "p50": 129890,
+     "p75": 178000,
+     "p90": 217256
+    },
+    {
+     "n": 27,
+     "name": "Level I",
+     "p10": 74929,
+     "p25": 89346,
+     "p50": 108300,
+     "p75": 135680,
+     "p90": 153924
+    }
+   ],
+   "metros": [
+    {
+     "n": 464,
+     "name": "SF Bay Area, CA",
+     "p10": 135601,
+     "p25": 167908,
+     "p50": 185000,
+     "p75": 220000,
+     "p90": 250000
+    },
+    {
+     "n": 234,
+     "name": "New York City metro",
+     "p10": 109491,
+     "p25": 130389,
+     "p50": 165000,
+     "p75": 193045,
+     "p90": 214741
+    },
+    {
+     "n": 162,
+     "name": "Seattle, WA",
+     "p10": 129709,
+     "p25": 136000,
+     "p50": 163322,
+     "p75": 195920,
+     "p90": 219117
+    },
+    {
+     "n": 58,
+     "name": "Los Angeles, CA",
+     "p10": 101198,
+     "p25": 119881,
+     "p50": 150000,
+     "p75": 177384,
+     "p90": 205000
+    },
+    {
+     "n": 53,
+     "name": "Washington DC metro",
+     "p10": 111940,
+     "p25": 116000,
+     "p50": 143395,
+     "p75": 165000,
+     "p90": 179229
+    },
+    {
+     "n": 72,
+     "name": "Chicago, IL",
+     "p10": 93974,
+     "p25": 109875,
+     "p50": 141105,
+     "p75": 160000,
+     "p90": 173779
+    },
+    {
+     "n": 53,
+     "name": "Austin, TX",
+     "p10": 100507,
+     "p25": 124000,
+     "p50": 139300,
+     "p75": 154494,
+     "p90": 182400
+    },
+    {
+     "n": 62,
+     "name": "Boston, MA",
+     "p10": 89427,
+     "p25": 114383,
+     "p50": 137946,
+     "p75": 160814,
+     "p90": 179000
+    },
+    {
+     "n": 54,
+     "name": "Atlanta, GA",
+     "p10": 93974,
+     "p25": 109159,
+     "p50": 133567,
+     "p75": 154500,
+     "p90": 174705
+    },
+    {
+     "n": 19,
+     "name": "San Diego, CA",
+     "p10": 106300,
+     "p25": 116029,
+     "p50": 130915,
+     "p75": 154550,
+     "p90": 177260
+    },
+    {
+     "n": 122,
+     "name": "Dallas-Fort Worth, TX",
+     "p10": 96034,
+     "p25": 99612,
+     "p50": 130250,
+     "p75": 151530,
+     "p90": 175821
+    },
+    {
+     "n": 19,
+     "name": "Charlotte, NC",
+     "p10": 105949,
+     "p25": 114006,
+     "p50": 126000,
+     "p75": 149651,
+     "p90": 191104
+    },
+    {
+     "n": 36,
+     "name": "Houston, TX",
+     "p10": 83991,
+     "p25": 98914,
+     "p50": 122711,
+     "p75": 130000,
+     "p90": 138427
+    },
+    {
+     "n": 18,
+     "name": "Philadelphia, PA",
+     "p10": 88111,
+     "p25": 96013,
+     "p50": 120495,
+     "p75": 138113,
+     "p90": 159180
+    },
+    {
+     "n": 35,
+     "name": "Research Triangle, NC",
+     "p10": 89483,
+     "p25": 99187,
+     "p50": 119801,
+     "p75": 139323,
+     "p90": 167496
+    },
+    {
+     "n": 21,
+     "name": "Detroit / Ann Arbor, MI",
+     "p10": 97140,
+     "p25": 104000,
+     "p50": 113580,
+     "p75": 128710,
+     "p90": 165000
+    },
+    {
+     "n": 11,
+     "name": "Minneapolis-St. Paul, MN",
+     "p10": 95326,
+     "p25": 96413,
+     "p50": 110000,
+     "p75": 141000,
+     "p90": 183546
+    },
+    {
+     "n": 12,
+     "name": "Phoenix, AZ",
+     "p10": 92766,
+     "p25": 95589,
+     "p50": 105675,
+     "p75": 126223,
+     "p90": 156328
+    }
+   ],
+   "n": 1909,
+   "p10": 96013,
+   "p25": 116616,
+   "p50": 148000,
+   "p75": 180272,
+   "p90": 215000,
+   "top_titles": [
+    [
+     "DATA SCIENTIST",
+     621
+    ],
+    [
+     "SENIOR DATA SCIENTIST",
+     297
+    ],
+    [
+     "DATA SCIENTIST II",
+     107
+    ],
+    [
+     "STAFF DATA SCIENTIST",
+     77
+    ],
+    [
+     "LEAD DATA SCIENTIST",
+     73
+    ],
+    [
+     "DATA SCIENTIST III",
+     70
+    ],
+    [
+     "SR. DATA SCIENTIST",
+     62
+    ],
+    [
+     "SR DATA SCIENTIST",
+     44
+    ],
+    [
+     "PRINCIPAL DATA SCIENTIST",
+     34
+    ],
+    [
+     "DATA SCIENTIST, ANALYTICS",
+     23
+    ],
+    [
+     "DATA SCIENTIST I",
+     20
+    ],
+    [
+     "ASSOCIATE DATA SCIENTIST",
+     15
+    ]
+   ]
+  },
+  {
+   "distinct_titles": 636,
+   "employers": [
+    {
+     "n": 11,
+     "name": "NETFLIX",
+     "p10": 264514,
+     "p25": 264514,
+     "p50": 264514,
+     "p75": 270182,
+     "p90": 275850
+    },
+    {
+     "n": 17,
+     "name": "BYTEDANCE",
+     "p10": 130953,
+     "p25": 160000,
+     "p50": 219769,
+     "p75": 238114,
+     "p90": 277010
+    },
+    {
+     "n": 84,
+     "name": "META PLATFORMS",
+     "p10": 172990,
+     "p25": 190194,
+     "p50": 211500,
+     "p75": 224131,
+     "p90": 252478
+    },
+    {
+     "n": 10,
+     "name": "MCKINSEY COMPANY INC UNITED STATES",
+     "p10": 187620,
+     "p25": 190925,
+     "p50": 202350,
+     "p75": 214100,
+     "p90": 243370
+    },
+    {
+     "n": 12,
+     "name": "ATLASSIAN",
+     "p10": 160400,
+     "p25": 179750,
+     "p50": 200000,
+     "p75": 207500,
+     "p90": 256325
+    },
+    {
+     "n": 12,
+     "name": "ADOBE",
+     "p10": 181000,
+     "p25": 190000,
+     "p50": 194000,
+     "p75": 205915,
+     "p90": 218700
+    },
+    {
+     "n": 16,
+     "name": "TIKTOK U S DATA SECURITY",
+     "p10": 143951,
+     "p25": 170750,
+     "p50": 193500,
+     "p75": 223750,
+     "p90": 261515
+    },
+    {
+     "n": 10,
+     "name": "AIRBNB",
+     "p10": 191000,
+     "p25": 191000,
+     "p50": 191000,
+     "p75": 191000,
+     "p90": 192300
+    },
+    {
+     "n": 27,
+     "name": "TIKTOK",
+     "p10": 101712,
+     "p25": 135901,
+     "p50": 184205,
+     "p75": 255650,
+     "p90": 293320
+    },
+    {
+     "n": 22,
+     "name": "APPLE",
+     "p10": 138801,
+     "p25": 148741,
+     "p50": 180321,
+     "p75": 214231,
+     "p90": 227244
+    },
+    {
+     "n": 26,
+     "name": "NAVY FEDERAL CREDIT UNION",
+     "p10": 152271,
+     "p25": 165196,
+     "p50": 175344,
+     "p75": 179675,
+     "p90": 184094
+    },
+    {
+     "n": 25,
+     "name": "GOVERNMENT EMPLOYEE INSURANCE COMPANY GEICO",
+     "p10": 147834,
+     "p25": 155800,
+     "p50": 170200,
+     "p75": 200000,
+     "p90": 218000
+    },
+    {
+     "n": 13,
+     "name": "GOOGLE",
+     "p10": 122200,
+     "p25": 136170,
+     "p50": 169000,
+     "p75": 175000,
+     "p90": 213800
+    },
+    {
+     "n": 18,
+     "name": "TESLA",
+     "p10": 144250,
+     "p25": 152931,
+     "p50": 168400,
+     "p75": 203750,
+     "p90": 230400
+    },
+    {
+     "n": 12,
+     "name": "VISA TECHNOLOGY OPERATIONS",
+     "p10": 141033,
+     "p25": 152131,
+     "p50": 162230,
+     "p75": 174675,
+     "p90": 195396
+    },
+    {
+     "n": 180,
+     "name": "AMAZON COM SERVICES",
+     "p10": 132100,
+     "p25": 137400,
+     "p50": 158000,
+     "p75": 178800,
+     "p90": 192290
+    },
+    {
+     "n": 12,
+     "name": "VERIZON DATA SERVICES",
+     "p10": 142885,
+     "p25": 147058,
+     "p50": 153457,
+     "p75": 158807,
+     "p90": 164868
+    },
+    {
+     "n": 12,
+     "name": "CVS SHARED SERVICES RESOURCES",
+     "p10": 130000,
+     "p25": 131500,
+     "p50": 151500,
+     "p75": 170000,
+     "p90": 174500
+    },
+    {
+     "n": 13,
+     "name": "THE VANGUARD GROUP",
+     "p10": 139431,
+     "p25": 149668,
+     "p50": 151129,
+     "p75": 162959,
+     "p90": 173681
+    },
+    {
+     "n": 11,
+     "name": "T MOBILE",
+     "p10": 130000,
+     "p25": 140029,
+     "p50": 150761,
+     "p75": 161075,
+     "p90": 167983
+    },
+    {
+     "n": 14,
+     "name": "AETNA RESOURCES",
+     "p10": 125900,
+     "p25": 128420,
+     "p50": 150740,
+     "p75": 169682,
+     "p90": 177104
+    },
+    {
+     "n": 29,
+     "name": "WAL MART ASSOCIATES",
+     "p10": 122366,
+     "p25": 130000,
+     "p50": 150080,
+     "p75": 153301,
+     "p90": 176001
+    },
+    {
+     "n": 11,
+     "name": "AMERICAN EXPRESS TRAVEL RELATED SERVICES",
+     "p10": 115000,
+     "p25": 136125,
+     "p50": 148174,
+     "p75": 170151,
+     "p90": 178464
+    },
+    {
+     "n": 36,
+     "name": "CAREMARK",
+     "p10": 125836,
+     "p25": 134792,
+     "p50": 147776,
+     "p75": 157640,
+     "p90": 184046
+    },
+    {
+     "n": 39,
+     "name": "AMAZON WEB SERVICES",
+     "p10": 111432,
+     "p25": 130400,
+     "p50": 145300,
+     "p75": 165950,
+     "p90": 173622
+    }
+   ],
+   "family": "Data engineer",
+   "levels": [
+    {
+     "n": 134,
+     "name": "Staff",
+     "p10": 141961,
+     "p25": 155726,
+     "p50": 175996,
+     "p75": 206232,
+     "p90": 225811
+    },
+    {
+     "n": 161,
+     "name": "Level III",
+     "p10": 119351,
+     "p25": 132000,
+     "p50": 163322,
+     "p75": 184800,
+     "p90": 200550
+    },
+    {
+     "n": 19,
+     "name": "Level IV",
+     "p10": 121618,
+     "p25": 132635,
+     "p50": 153920,
+     "p75": 187500,
+     "p90": 208501
+    },
+    {
+     "n": 172,
+     "name": "Lead",
+     "p10": 112793,
+     "p25": 131625,
+     "p50": 151422,
+     "p75": 170015,
+     "p90": 192669
+    },
+    {
+     "n": 131,
+     "name": "Principal",
+     "p10": 124084,
+     "p25": 135126,
+     "p50": 151139,
+     "p75": 188792,
+     "p90": 230000
+    },
+    {
+     "n": 961,
+     "name": "Senior",
+     "p10": 112247,
+     "p25": 125820,
+     "p50": 140587,
+     "p75": 161637,
+     "p90": 189592
+    },
+    {
+     "n": 233,
+     "name": "Level II",
+     "p10": 102370,
+     "p25": 120000,
+     "p50": 134600,
+     "p75": 156000,
+     "p90": 173600
+    },
+    {
+     "n": 44,
+     "name": "Level I",
+     "p10": 84930,
+     "p25": 110439,
+     "p50": 124758,
+     "p75": 134978,
+     "p90": 139700
+    },
+    {
+     "n": 1974,
+     "name": "Unstated",
+     "p10": 87366,
+     "p25": 96135,
+     "p50": 113000,
+     "p75": 135580,
+     "p90": 175000
+    }
+   ],
+   "metros": [
+    {
+     "n": 399,
+     "name": "SF Bay Area, CA",
+     "p10": 130000,
+     "p25": 160203,
+     "p50": 190000,
+     "p75": 219218,
+     "p90": 252936
+    },
+    {
+     "n": 56,
+     "name": "Los Angeles, CA",
+     "p10": 99736,
+     "p25": 124250,
+     "p50": 155000,
+     "p75": 183851,
+     "p90": 194650
+    },
+    {
+     "n": 315,
+     "name": "Seattle, WA",
+     "p10": 117749,
+     "p25": 132100,
+     "p50": 150000,
+     "p75": 178869,
+     "p90": 203360
+    },
+    {
+     "n": 12,
+     "name": "Miami-Fort Lauderdale, FL",
+     "p10": 105318,
+     "p25": 110494,
+     "p50": 141089,
+     "p75": 145485,
+     "p90": 149497
+    },
+    {
+     "n": 231,
+     "name": "New York City metro",
+     "p10": 103210,
+     "p25": 112625,
+     "p50": 140000,
+     "p75": 170000,
+     "p90": 200000
+    },
+    {
+     "n": 62,
+     "name": "Boston, MA",
+     "p10": 104810,
+     "p25": 125205,
+     "p50": 137973,
+     "p75": 154605,
+     "p90": 184991
+    },
+    {
+     "n": 162,
+     "name": "Austin, TX",
+     "p10": 100339,
+     "p25": 114754,
+     "p50": 137650,
+     "p75": 160506,
+     "p90": 175043
+    },
+    {
+     "n": 24,
+     "name": "Columbus, OH",
+     "p10": 105638,
+     "p25": 118170,
+     "p50": 132748,
+     "p75": 140006,
+     "p90": 152562
+    },
+    {
+     "n": 23,
+     "name": "San Diego, CA",
+     "p10": 102710,
+     "p25": 109979,
+     "p50": 130395,
+     "p75": 156091,
+     "p90": 181060
+    },
+    {
+     "n": 91,
+     "name": "Chicago, IL",
+     "p10": 96741,
+     "p25": 108100,
+     "p50": 128822,
+     "p75": 153159,
+     "p90": 170000
+    },
+    {
+     "n": 22,
+     "name": "Portland, OR",
+     "p10": 101129,
+     "p25": 103224,
+     "p50": 127878,
+     "p75": 153245,
+     "p90": 190995
+    },
+    {
+     "n": 135,
+     "name": "Atlanta, GA",
+     "p10": 89140,
+     "p25": 109283,
+     "p50": 126186,
+     "p75": 145430,
+     "p90": 159232
+    },
+    {
+     "n": 150,
+     "name": "Washington DC metro",
+     "p10": 97344,
+     "p25": 115235,
+     "p50": 126090,
+     "p75": 151962,
+     "p90": 176686
+    },
+    {
+     "n": 127,
+     "name": "Charlotte, NC",
+     "p10": 91416,
+     "p25": 106040,
+     "p50": 124800,
+     "p75": 144932,
+     "p90": 158848
+    },
+    {
+     "n": 28,
+     "name": "Nashville, TN",
+     "p10": 87940,
+     "p25": 103334,
+     "p50": 123809,
+     "p75": 137956,
+     "p90": 147430
+    },
+    {
+     "n": 10,
+     "name": "Pittsburgh, PA",
+     "p10": 80302,
+     "p25": 107750,
+     "p50": 123240,
+     "p75": 135000,
+     "p90": 136399
+    },
+    {
+     "n": 108,
+     "name": "Research Triangle, NC",
+     "p10": 94953,
+     "p25": 113277,
+     "p50": 120632,
+     "p75": 136644,
+     "p90": 152249
+    },
+    {
+     "n": 35,
+     "name": "Tampa, FL",
+     "p10": 83295,
+     "p25": 94250,
+     "p50": 120458,
+     "p75": 144410,
+     "p90": 150006
+    },
+    {
+     "n": 23,
+     "name": "Denver / Boulder, CO",
+     "p10": 95680,
+     "p25": 96125,
+     "p50": 116480,
+     "p75": 124170,
+     "p90": 139020
+    },
+    {
+     "n": 19,
+     "name": "Minneapolis-St. Paul, MN",
+     "p10": 104000,
+     "p25": 106579,
+     "p50": 115315,
+     "p75": 155328,
+     "p90": 175940
+    },
+    {
+     "n": 74,
+     "name": "Phoenix, AZ",
+     "p10": 85795,
+     "p25": 96000,
+     "p50": 115000,
+     "p75": 141800,
+     "p90": 165000
+    },
+    {
+     "n": 601,
+     "name": "Dallas-Fort Worth, TX",
+     "p10": 91000,
+     "p25": 96500,
+     "p50": 113000,
+     "p75": 135907,
+     "p90": 159120
+    },
+    {
+     "n": 42,
+     "name": "Philadelphia, PA",
+     "p10": 88179,
+     "p25": 96013,
+     "p50": 107526,
+     "p75": 131901,
+     "p90": 149764
+    },
+    {
+     "n": 27,
+     "name": "Austin-adjacent San Antonio, TX",
+     "p10": 83582,
+     "p25": 91562,
+     "p50": 106579,
+     "p75": 138192,
+     "p90": 156890
+    },
+    {
+     "n": 77,
+     "name": "Houston, TX",
+     "p10": 85600,
+     "p25": 90000,
+     "p50": 106000,
+     "p75": 116480,
+     "p90": 127837
+    },
+    {
+     "n": 33,
+     "name": "Detroit / Ann Arbor, MI",
+     "p10": 73179,
+     "p25": 84053,
+     "p50": 102190,
+     "p75": 120349,
+     "p90": 137024
+    }
+   ],
+   "n": 3833,
+   "p10": 93000,
+   "p25": 109491,
+   "p50": 130000,
+   "p75": 156911,
+   "p90": 189592,
+   "top_titles": [
+    [
+     "DATA ENGINEER",
+     1330
+    ],
+    [
+     "SENIOR DATA ENGINEER",
+     472
+    ],
+    [
+     "DATA ENGINEER II",
+     180
+    ],
+    [
+     "DATA ENGINEER III",
+     123
+    ],
+    [
+     "SR. DATA ENGINEER",
+     102
+    ],
+    [
+     "LEAD DATA ENGINEER",
+     93
+    ],
+    [
+     "PRINCIPAL DATA ENGINEER",
+     84
+    ],
+    [
+     "SR DATA ENGINEER",
+     78
+    ],
+    [
+     "STAFF DATA ENGINEER",
+     71
+    ],
+    [
+     "IT CONSULTANT (DATA ENGINEER)",
+     53
+    ],
+    [
+     "AZURE DATA ENGINEER",
+     33
+    ],
+    [
+     "DATA ENGINEER I",
+     30
+    ]
+   ]
+  },
+  {
+   "distinct_titles": 482,
+   "employers": [
+    {
+     "n": 40,
+     "name": "TIGER ANALYTICS",
+     "p10": 120000,
+     "p25": 150375,
+     "p50": 165000,
+     "p75": 180000,
+     "p90": 197800
+    },
+    {
+     "n": 35,
+     "name": "CITIBANK N A",
+     "p10": 140737,
+     "p25": 142105,
+     "p50": 155000,
+     "p75": 161766,
+     "p90": 173000
+    },
+    {
+     "n": 16,
+     "name": "WAL MART ASSOCIATES",
+     "p10": 132580,
+     "p25": 134674,
+     "p50": 145047,
+     "p75": 152148,
+     "p90": 152148
+    },
+    {
+     "n": 19,
+     "name": "CAPGEMINI",
+     "p10": 131504,
+     "p25": 136043,
+     "p50": 142106,
+     "p75": 149732,
+     "p90": 154980
+    },
+    {
+     "n": 11,
+     "name": "OPTUM SERVICES",
+     "p10": 97032,
+     "p25": 107068,
+     "p50": 118893,
+     "p75": 129205,
+     "p90": 134971
+    },
+    {
+     "n": 24,
+     "name": "KFORCE",
+     "p10": 96034,
+     "p25": 106028,
+     "p50": 115939,
+     "p75": 129709,
+     "p90": 136610
+    },
+    {
+     "n": 24,
+     "name": "CAPITAL ONE NATIONAL ASSOCIATION",
+     "p10": 94451,
+     "p25": 105500,
+     "p50": 109000,
+     "p75": 115900,
+     "p90": 127500
+    },
+    {
+     "n": 44,
+     "name": "CAPITAL ONE SERVICES",
+     "p10": 87818,
+     "p25": 99100,
+     "p50": 109000,
+     "p75": 113653,
+     "p90": 127500
+    },
+    {
+     "n": 14,
+     "name": "ROBOTICS",
+     "p10": 80163,
+     "p25": 89523,
+     "p50": 105997,
+     "p75": 108618,
+     "p90": 109491
+    },
+    {
+     "n": 14,
+     "name": "DISCOVER PRODUCTS",
+     "p10": 88000,
+     "p25": 96928,
+     "p50": 105500,
+     "p75": 105500,
+     "p90": 105500
+    }
+   ],
+   "family": "Data analyst",
+   "levels": [
+    {
+     "n": 15,
+     "name": "Level IV",
+     "p10": 127204,
+     "p25": 143270,
+     "p50": 174304,
+     "p75": 184737,
+     "p90": 191076
+    },
+    {
+     "n": 17,
+     "name": "Staff",
+     "p10": 116170,
+     "p25": 139403,
+     "p50": 168000,
+     "p75": 194834,
+     "p90": 202760
+    },
+    {
+     "n": 110,
+     "name": "Lead",
+     "p10": 105500,
+     "p25": 118235,
+     "p50": 139901,
+     "p75": 159146,
+     "p90": 180529
+    },
+    {
+     "n": 38,
+     "name": "Level III",
+     "p10": 84548,
+     "p25": 110561,
+     "p50": 135100,
+     "p75": 143848,
+     "p90": 156879
+    },
+    {
+     "n": 48,
+     "name": "Principal",
+     "p10": 112904,
+     "p25": 115900,
+     "p50": 127500,
+     "p75": 135584,
+     "p90": 165521
+    },
+    {
+     "n": 439,
+     "name": "Senior",
+     "p10": 88150,
+     "p25": 99000,
+     "p50": 110822,
+     "p75": 136250,
+     "p90": 155200
+    },
+    {
+     "n": 62,
+     "name": "Level II",
+     "p10": 67269,
+     "p25": 84611,
+     "p50": 98925,
+     "p75": 124650,
+     "p90": 147036
+    },
+    {
+     "n": 842,
+     "name": "Unstated",
+     "p10": 70916,
+     "p25": 80163,
+     "p50": 95035,
+     "p75": 115000,
+     "p90": 141992
+    },
+    {
+     "n": 20,
+     "name": "Level I",
+     "p10": 65848,
+     "p25": 66951,
+     "p50": 74318,
+     "p75": 83791,
+     "p90": 121454
+    }
+   ],
+   "metros": [
+    {
+     "n": 124,
+     "name": "SF Bay Area, CA",
+     "p10": 96452,
+     "p25": 120000,
+     "p50": 148042,
+     "p75": 168591,
+     "p90": 196770
+    },
+    {
+     "n": 49,
+     "name": "Seattle, WA",
+     "p10": 96117,
+     "p25": 107381,
+     "p50": 129709,
+     "p75": 148526,
+     "p90": 186300
+    },
+    {
+     "n": 117,
+     "name": "New York City metro",
+     "p10": 79456,
+     "p25": 92000,
+     "p50": 118720,
+     "p75": 145000,
+     "p90": 170000
+    },
+    {
+     "n": 203,
+     "name": "Dallas-Fort Worth, TX",
+     "p10": 83950,
+     "p25": 96034,
+     "p50": 113000,
+     "p75": 134106,
+     "p90": 159684
+    },
+    {
+     "n": 33,
+     "name": "Phoenix, AZ",
+     "p10": 75421,
+     "p25": 90000,
+     "p50": 112000,
+     "p75": 135000,
+     "p90": 153800
+    },
+    {
+     "n": 47,
+     "name": "Los Angeles, CA",
+     "p10": 73174,
+     "p25": 95430,
+     "p50": 110091,
+     "p75": 135473,
+     "p90": 170044
+    },
+    {
+     "n": 16,
+     "name": "San Diego, CA",
+     "p10": 76271,
+     "p25": 95750,
+     "p50": 110000,
+     "p75": 123513,
+     "p90": 156892
+    },
+    {
+     "n": 84,
+     "name": "Washington DC metro",
+     "p10": 88462,
+     "p25": 98000,
+     "p50": 109000,
+     "p75": 115970,
+     "p90": 127500
+    },
+    {
+     "n": 12,
+     "name": "Tampa, FL",
+     "p10": 93226,
+     "p25": 93226,
+     "p50": 107974,
+     "p75": 130163,
+     "p90": 140586
+    },
+    {
+     "n": 41,
+     "name": "Boston, MA",
+     "p10": 74318,
+     "p25": 90000,
+     "p50": 106434,
+     "p75": 130500,
+     "p90": 137946
+    },
+    {
+     "n": 10,
+     "name": "Salt Lake City, UT",
+     "p10": 94023,
+     "p25": 99750,
+     "p50": 106250,
+     "p75": 114750,
+     "p90": 116144
+    },
+    {
+     "n": 21,
+     "name": "Charlotte, NC",
+     "p10": 86682,
+     "p25": 105747,
+     "p50": 106000,
+     "p75": 129854,
+     "p90": 139135
+    },
+    {
+     "n": 11,
+     "name": "Nashville, TN",
+     "p10": 93850,
+     "p25": 97337,
+     "p50": 103334,
+     "p75": 121719,
+     "p90": 135262
+    },
+    {
+     "n": 47,
+     "name": "Austin, TX",
+     "p10": 76128,
+     "p25": 91323,
+     "p50": 102000,
+     "p75": 125340,
+     "p90": 149981
+    },
+    {
+     "n": 13,
+     "name": "Minneapolis-St. Paul, MN",
+     "p10": 80898,
+     "p25": 90500,
+     "p50": 100000,
+     "p75": 119642,
+     "p90": 142230
+    },
+    {
+     "n": 52,
+     "name": "Atlanta, GA",
+     "p10": 82253,
+     "p25": 92481,
+     "p50": 97624,
+     "p75": 126837,
+     "p90": 140033
+    },
+    {
+     "n": 54,
+     "name": "Philadelphia, PA",
+     "p10": 72867,
+     "p25": 87786,
+     "p50": 97555,
+     "p75": 122507,
+     "p90": 142051
+    },
+    {
+     "n": 15,
+     "name": "Detroit / Ann Arbor, MI",
+     "p10": 78046,
+     "p25": 87844,
+     "p50": 97032,
+     "p75": 114810,
+     "p90": 120386
+    },
+    {
+     "n": 76,
+     "name": "Chicago, IL",
+     "p10": 74277,
+     "p25": 85692,
+     "p50": 96928,
+     "p75": 119669,
+     "p90": 151050
+    },
+    {
+     "n": 20,
+     "name": "Research Triangle, NC",
+     "p10": 78880,
+     "p25": 87347,
+     "p50": 96909,
+     "p75": 111172,
+     "p90": 116016
+    },
+    {
+     "n": 37,
+     "name": "Houston, TX",
+     "p10": 65395,
+     "p25": 70000,
+     "p50": 89378,
+     "p75": 108118,
+     "p90": 140911
+    },
+    {
+     "n": 18,
+     "name": "Columbus, OH",
+     "p10": 65915,
+     "p25": 80032,
+     "p50": 83953,
+     "p75": 100064,
+     "p90": 107472
+    }
+   ],
+   "n": 1603,
+   "p10": 74277,
+   "p25": 88435,
+   "p50": 105500,
+   "p75": 130000,
+   "p90": 156000,
+   "top_titles": [
+    [
+     "DATA ANALYST",
+     430
+    ],
+    [
+     "SENIOR DATA ANALYST",
+     185
+    ],
+    [
+     "PRINCIPAL DATA ANALYST",
+     36
+    ],
+    [
+     "SR. DATA ANALYST",
+     35
+    ],
+    [
+     "BUSINESS DATA ANALYST",
+     29
+    ],
+    [
+     "SR DATA ANALYST",
+     24
+    ],
+    [
+     "LEAD DATA ANALYST",
+     22
+    ],
+    [
+     "DATA ANALYST II",
+     20
+    ],
+    [
+     "DATA ANALYTICS LEAD ANALYST",
+     17
+    ],
+    [
+     "DATA ENGINEERING ANALYST",
+     17
+    ],
+    [
+     "LEAD DATA SCIENCE ANALYST",
+     17
+    ],
+    [
+     "DATA ANALYST 2",
+     16
+    ]
+   ]
+  },
+  {
+   "distinct_titles": 891,
+   "employers": [
+    {
+     "n": 11,
+     "name": "TIKTOK",
+     "p10": 215000,
+     "p25": 223000,
+     "p50": 255000,
+     "p75": 294640,
+     "p90": 320000
+    },
+    {
+     "n": 25,
+     "name": "BYTEDANCE",
+     "p10": 184208,
+     "p25": 190000,
+     "p50": 240000,
+     "p75": 300000,
+     "p90": 316800
+    },
+    {
+     "n": 20,
+     "name": "TIKTOK U S DATA SECURITY",
+     "p10": 199150,
+     "p25": 207950,
+     "p50": 213250,
+     "p75": 261000,
+     "p90": 308300
+    },
+    {
+     "n": 13,
+     "name": "PAYPAL",
+     "p10": 150865,
+     "p25": 154726,
+     "p50": 200000,
+     "p75": 215000,
+     "p90": 215000
+    },
+    {
+     "n": 27,
+     "name": "GOOGLE",
+     "p10": 145000,
+     "p25": 166000,
+     "p50": 196000,
+     "p75": 228000,
+     "p90": 247800
+    },
+    {
+     "n": 14,
+     "name": "PALO ALTO NETWORKS",
+     "p10": 159291,
+     "p25": 171967,
+     "p50": 184857,
+     "p75": 198802,
+     "p90": 205977
+    },
+    {
+     "n": 95,
+     "name": "LINKEDIN",
+     "p10": 139000,
+     "p25": 170000,
+     "p50": 180710,
+     "p75": 207000,
+     "p90": 264514
+    },
+    {
+     "n": 21,
+     "name": "MICROSOFT",
+     "p10": 128440,
+     "p25": 165280,
+     "p50": 178318,
+     "p75": 195719,
+     "p90": 206705
+    },
+    {
+     "n": 10,
+     "name": "BARCLAYS SERVICES",
+     "p10": 126207,
+     "p25": 130504,
+     "p50": 158186,
+     "p75": 166506,
+     "p90": 170190
+    },
+    {
+     "n": 16,
+     "name": "THE VANGUARD GROUP",
+     "p10": 136129,
+     "p25": 139605,
+     "p50": 156666,
+     "p75": 177943,
+     "p90": 188168
+    },
+    {
+     "n": 15,
+     "name": "ALIBABA CLOUD",
+     "p10": 123423,
+     "p25": 143812,
+     "p50": 153962,
+     "p75": 160951,
+     "p90": 183548
+    },
+    {
+     "n": 12,
+     "name": "GOVERNMENT EMPLOYEE INSURANCE COMPANY GEICO",
+     "p10": 139906,
+     "p25": 141125,
+     "p50": 153400,
+     "p75": 180000,
+     "p90": 180000
+    },
+    {
+     "n": 26,
+     "name": "ORACLE",
+     "p10": 131609,
+     "p25": 145622,
+     "p50": 152922,
+     "p75": 161849,
+     "p90": 174383
+    },
+    {
+     "n": 11,
+     "name": "HUMANA",
+     "p10": 120000,
+     "p25": 121126,
+     "p50": 140795,
+     "p75": 150128,
+     "p90": 153482
+    },
+    {
+     "n": 15,
+     "name": "EQUIFAX",
+     "p10": 118051,
+     "p25": 123610,
+     "p50": 140046,
+     "p75": 152131,
+     "p90": 152131
+    },
+    {
+     "n": 29,
+     "name": "VISA TECHNOLOGY OPERATIONS",
+     "p10": 112753,
+     "p25": 124700,
+     "p50": 138738,
+     "p75": 160600,
+     "p90": 164660
+    },
+    {
+     "n": 10,
+     "name": "CISCO SYSTEMS",
+     "p10": 120822,
+     "p25": 125778,
+     "p50": 138076,
+     "p75": 171706,
+     "p90": 179726
+    },
+    {
+     "n": 17,
+     "name": "JPMORGAN CHASE CO",
+     "p10": 125839,
+     "p25": 129400,
+     "p50": 136000,
+     "p75": 144200,
+     "p90": 168080
+    },
+    {
+     "n": 15,
+     "name": "RANDSTAD DIGITAL",
+     "p10": 130000,
+     "p25": 131000,
+     "p50": 136000,
+     "p75": 146506,
+     "p90": 186003
+    },
+    {
+     "n": 46,
+     "name": "FIDELITY TECHNOLOGY GROUP LLC D B A FIDELITY INVESTMENTS",
+     "p10": 107395,
+     "p25": 113870,
+     "p50": 129055,
+     "p75": 140150,
+     "p90": 156998
+    },
+    {
+     "n": 13,
+     "name": "WAL MART ASSOCIATES",
+     "p10": 102136,
+     "p25": 117300,
+     "p50": 120536,
+     "p75": 148308,
+     "p90": 160005
+    },
+    {
+     "n": 12,
+     "name": "UST GLOBAL",
+     "p10": 100342,
+     "p25": 106808,
+     "p50": 116085,
+     "p75": 130402,
+     "p90": 149061
+    },
+    {
+     "n": 10,
+     "name": "CHARTER COMMUNICATIONS",
+     "p10": 97318,
+     "p25": 97386,
+     "p50": 115565,
+     "p75": 133555,
+     "p90": 136319
+    },
+    {
+     "n": 10,
+     "name": "AMERICAN AIRLINES",
+     "p10": 104548,
+     "p25": 111535,
+     "p50": 112923,
+     "p75": 112923,
+     "p90": 112923
+    },
+    {
+     "n": 10,
+     "name": "BRILLIUS",
+     "p10": 94590,
+     "p25": 96250,
+     "p50": 108095,
+     "p75": 114939,
+     "p90": 126090
+    }
+   ],
+   "family": "DevOps / SRE / platform engineer",
+   "levels": [
+    {
+     "n": 135,
+     "name": "Staff",
+     "p10": 134971,
+     "p25": 160526,
+     "p50": 200000,
+     "p75": 214256,
+     "p90": 264514
+    },
+    {
+     "n": 119,
+     "name": "Principal",
+     "p10": 131739,
+     "p25": 139651,
+     "p50": 157560,
+     "p75": 182790,
+     "p90": 203071
+    },
+    {
+     "n": 731,
+     "name": "Senior",
+     "p10": 112424,
+     "p25": 125000,
+     "p50": 146489,
+     "p75": 170000,
+     "p90": 203534
+    },
+    {
+     "n": 125,
+     "name": "Lead",
+     "p10": 108077,
+     "p25": 125000,
+     "p50": 144144,
+     "p75": 165000,
+     "p90": 184721
+    },
+    {
+     "n": 63,
+     "name": "Level III",
+     "p10": 102894,
+     "p25": 123741,
+     "p50": 135159,
+     "p75": 155980,
+     "p90": 172725
+    },
+    {
+     "n": 50,
+     "name": "Level II",
+     "p10": 105009,
+     "p25": 124381,
+     "p50": 135000,
+     "p75": 148821,
+     "p90": 158360
+    },
+    {
+     "n": 12,
+     "name": "Level IV",
+     "p10": 105798,
+     "p25": 117478,
+     "p50": 132938,
+     "p75": 156208,
+     "p90": 183556
+    },
+    {
+     "n": 14,
+     "name": "Level I",
+     "p10": 85902,
+     "p25": 107879,
+     "p50": 123339,
+     "p75": 138750,
+     "p90": 151540
+    },
+    {
+     "n": 1502,
+     "name": "Unstated",
+     "p10": 89007,
+     "p25": 100798,
+     "p50": 114524,
+     "p75": 139443,
+     "p90": 181239
+    }
+   ],
+   "metros": [
+    {
+     "n": 418,
+     "name": "SF Bay Area, CA",
+     "p10": 139443,
+     "p25": 169145,
+     "p50": 190000,
+     "p75": 217751,
+     "p90": 264514
+    },
+    {
+     "n": 99,
+     "name": "Seattle, WA",
+     "p10": 115834,
+     "p25": 145300,
+     "p50": 165280,
+     "p75": 199250,
+     "p90": 212262
+    },
+    {
+     "n": 27,
+     "name": "Los Angeles, CA",
+     "p10": 125800,
+     "p25": 133020,
+     "p50": 150100,
+     "p75": 174120,
+     "p90": 195040
+    },
+    {
+     "n": 10,
+     "name": "Miami-Fort Lauderdale, FL",
+     "p10": 124980,
+     "p25": 130652,
+     "p50": 149234,
+     "p75": 168871,
+     "p90": 186500
+    },
+    {
+     "n": 17,
+     "name": "San Diego, CA",
+     "p10": 128864,
+     "p25": 135000,
+     "p50": 146000,
+     "p75": 170000,
+     "p90": 175644
+    },
+    {
+     "n": 50,
+     "name": "Boston, MA",
+     "p10": 102533,
+     "p25": 113777,
+     "p50": 145734,
+     "p75": 177360,
+     "p90": 185065
+    },
+    {
+     "n": 169,
+     "name": "New York City metro",
+     "p10": 99839,
+     "p25": 120000,
+     "p50": 139000,
+     "p75": 170000,
+     "p90": 222453
+    },
+    {
+     "n": 89,
+     "name": "Washington DC metro",
+     "p10": 101900,
+     "p25": 126090,
+     "p50": 131560,
+     "p75": 150758,
+     "p90": 175427
+    },
+    {
+     "n": 35,
+     "name": "Philadelphia, PA",
+     "p10": 92824,
+     "p25": 109845,
+     "p50": 131300,
+     "p75": 157333,
+     "p90": 169749
+    },
+    {
+     "n": 122,
+     "name": "Atlanta, GA",
+     "p10": 88200,
+     "p25": 109283,
+     "p50": 130030,
+     "p75": 149940,
+     "p90": 159914
+    },
+    {
+     "n": 14,
+     "name": "Tampa, FL",
+     "p10": 80779,
+     "p25": 85500,
+     "p50": 129396,
+     "p75": 144000,
+     "p90": 175490
+    },
+    {
+     "n": 75,
+     "name": "Research Triangle, NC",
+     "p10": 109653,
+     "p25": 116709,
+     "p50": 126000,
+     "p75": 141855,
+     "p90": 157435
+    },
+    {
+     "n": 23,
+     "name": "Minneapolis-St. Paul, MN",
+     "p10": 88084,
+     "p25": 106579,
+     "p50": 125798,
+     "p75": 153611,
+     "p90": 165376
+    },
+    {
+     "n": 133,
+     "name": "Austin, TX",
+     "p10": 90663,
+     "p25": 114754,
+     "p50": 125640,
+     "p75": 155250,
+     "p90": 170000
+    },
+    {
+     "n": 10,
+     "name": "Salt Lake City, UT",
+     "p10": 104500,
+     "p25": 106481,
+     "p50": 124990,
+     "p75": 146469,
+     "p90": 156398
+    },
+    {
+     "n": 55,
+     "name": "Phoenix, AZ",
+     "p10": 87651,
+     "p25": 111072,
+     "p50": 123827,
+     "p75": 142270,
+     "p90": 179240
+    },
+    {
+     "n": 41,
+     "name": "Denver / Boulder, CO",
+     "p10": 96707,
+     "p25": 117021,
+     "p50": 121000,
+     "p75": 142314,
+     "p90": 173000
+    },
+    {
+     "n": 30,
+     "name": "Detroit / Ann Arbor, MI",
+     "p10": 101971,
+     "p25": 102190,
+     "p50": 117999,
+     "p75": 140006,
+     "p90": 152410
+    },
+    {
+     "n": 35,
+     "name": "Houston, TX",
+     "p10": 84456,
+     "p25": 102393,
+     "p50": 117478,
+     "p75": 139000,
+     "p90": 149855
+    },
+    {
+     "n": 473,
+     "name": "Dallas-Fort Worth, TX",
+     "p10": 90000,
+     "p25": 105997,
+     "p50": 113000,
+     "p75": 137248,
+     "p90": 156998
+    },
+    {
+     "n": 29,
+     "name": "Columbus, OH",
+     "p10": 91291,
+     "p25": 101899,
+     "p50": 112923,
+     "p75": 128200,
+     "p90": 136977
+    },
+    {
+     "n": 61,
+     "name": "Charlotte, NC",
+     "p10": 91291,
+     "p25": 105200,
+     "p50": 112424,
+     "p75": 133536,
+     "p90": 157275
+    },
+    {
+     "n": 77,
+     "name": "Chicago, IL",
+     "p10": 82846,
+     "p25": 98238,
+     "p50": 108100,
+     "p75": 140587,
+     "p90": 154836
+    }
+   ],
+   "n": 2751,
+   "p10": 93538,
+   "p25": 110906,
+   "p50": 131997,
+   "p75": 162000,
+   "p90": 200000,
+   "top_titles": [
+    [
+     "DEVOPS ENGINEER",
+     449
+    ],
+    [
+     "CLOUD ENGINEER",
+     116
+    ],
+    [
+     "SITE RELIABILITY ENGINEER",
+     104
+    ],
+    [
+     "SENIOR DEVOPS ENGINEER",
+     89
+    ],
+    [
+     "SENIOR SITE RELIABILITY ENGINEER",
+     60
+    ],
+    [
+     "SENIOR CLOUD ENGINEER",
+     48
+    ],
+    [
+     "INFRASTRUCTURE ENGINEER",
+     39
+    ],
+    [
+     "SR. SOFTWARE ENGINEER, SYSTEMS INFRASTRUCTURE",
+     34
+    ],
+    [
+     "SENIOR INFRASTRUCTURE ENGINEER",
+     33
+    ],
+    [
+     "STAFF SITE RELIABILITY ENGINEER",
+     28
+    ],
+    [
+     "PLATFORM ENGINEER",
+     28
+    ],
+    [
+     "SENIOR PLATFORM ENGINEER",
+     26
+    ]
+   ]
+  },
+  {
+   "distinct_titles": 238,
+   "employers": [
+    {
+     "n": 10,
+     "name": "META PLATFORMS",
+     "p10": 182100,
+     "p25": 195375,
+     "p50": 244360,
+     "p75": 259249,
+     "p90": 271216
+    },
+    {
+     "n": 14,
+     "name": "APPLE",
+     "p10": 163550,
+     "p25": 171898,
+     "p50": 206751,
+     "p75": 212202,
+     "p90": 219362
+    },
+    {
+     "n": 81,
+     "name": "AMAZON COM SERVICES",
+     "p10": 136000,
+     "p25": 158000,
+     "p50": 170000,
+     "p75": 178400,
+     "p90": 190000
+    },
+    {
+     "n": 14,
+     "name": "AMAZON WEB SERVICES",
+     "p10": 137110,
+     "p25": 150600,
+     "p50": 161215,
+     "p75": 175550,
+     "p90": 180850
+    },
+    {
+     "n": 11,
+     "name": "VISA TECHNOLOGY OPERATIONS",
+     "p10": 145300,
+     "p25": 148770,
+     "p50": 157100,
+     "p75": 161351,
+     "p90": 169978
+    }
+   ],
+   "family": "Security engineer",
+   "levels": [
+    {
+     "n": 42,
+     "name": "Staff",
+     "p10": 150542,
+     "p25": 167250,
+     "p50": 191029,
+     "p75": 225389,
+     "p90": 259338
+    },
+    {
+     "n": 31,
+     "name": "Level III",
+     "p10": 108949,
+     "p25": 144909,
+     "p50": 178400,
+     "p75": 188500,
+     "p90": 200000
+    },
+    {
+     "n": 24,
+     "name": "Principal",
+     "p10": 120420,
+     "p25": 133771,
+     "p50": 160000,
+     "p75": 200852,
+     "p90": 257555
+    },
+    {
+     "n": 77,
+     "name": "Level II",
+     "p10": 104226,
+     "p25": 145511,
+     "p50": 159300,
+     "p75": 175000,
+     "p90": 191160
+    },
+    {
+     "n": 35,
+     "name": "Level I",
+     "p10": 136000,
+     "p25": 136000,
+     "p50": 155300,
+     "p75": 160000,
+     "p90": 170000
+    },
+    {
+     "n": 22,
+     "name": "Lead",
+     "p10": 131417,
+     "p25": 146225,
+     "p50": 154518,
+     "p75": 179241,
+     "p90": 215020
+    },
+    {
+     "n": 178,
+     "name": "Senior",
+     "p10": 114939,
+     "p25": 130052,
+     "p50": 149240,
+     "p75": 175083,
+     "p90": 215128
+    },
+    {
+     "n": 301,
+     "name": "Unstated",
+     "p10": 84198,
+     "p25": 98176,
+     "p50": 122471,
+     "p75": 160000,
+     "p90": 205923
+    }
+   ],
+   "metros": [
+    {
+     "n": 114,
+     "name": "SF Bay Area, CA",
+     "p10": 125903,
+     "p25": 171091,
+     "p50": 200000,
+     "p75": 243188,
+     "p90": 264514
+    },
+    {
+     "n": 49,
+     "name": "New York City metro",
+     "p10": 94696,
+     "p25": 132000,
+     "p50": 173000,
+     "p75": 200000,
+     "p90": 231800
+    },
+    {
+     "n": 72,
+     "name": "Seattle, WA",
+     "p10": 114400,
+     "p25": 150600,
+     "p50": 170000,
+     "p75": 192857,
+     "p90": 212202
+    },
+    {
+     "n": 59,
+     "name": "Austin, TX",
+     "p10": 124450,
+     "p25": 146423,
+     "p50": 159300,
+     "p75": 170650,
+     "p90": 180468
+    },
+    {
+     "n": 11,
+     "name": "Los Angeles, CA",
+     "p10": 91354,
+     "p25": 94798,
+     "p50": 158000,
+     "p75": 166073,
+     "p90": 175000
+    },
+    {
+     "n": 39,
+     "name": "Washington DC metro",
+     "p10": 116182,
+     "p25": 126358,
+     "p50": 146000,
+     "p75": 164989,
+     "p90": 199740
+    },
+    {
+     "n": 17,
+     "name": "Phoenix, AZ",
+     "p10": 116297,
+     "p25": 130208,
+     "p50": 138965,
+     "p75": 161021,
+     "p90": 175212
+    },
+    {
+     "n": 13,
+     "name": "Boston, MA",
+     "p10": 99535,
+     "p25": 113000,
+     "p50": 136700,
+     "p75": 175000,
+     "p90": 188240
+    },
+    {
+     "n": 19,
+     "name": "Chicago, IL",
+     "p10": 88800,
+     "p25": 98176,
+     "p50": 132434,
+     "p75": 146667,
+     "p90": 183521
+    },
+    {
+     "n": 11,
+     "name": "Detroit / Ann Arbor, MI",
+     "p10": 84053,
+     "p25": 93293,
+     "p50": 130625,
+     "p75": 137600,
+     "p90": 155825
+    },
+    {
+     "n": 24,
+     "name": "Atlanta, GA",
+     "p10": 90962,
+     "p25": 108519,
+     "p50": 130438,
+     "p75": 146903,
+     "p90": 169890
+    },
+    {
+     "n": 60,
+     "name": "Dallas-Fort Worth, TX",
+     "p10": 92023,
+     "p25": 104214,
+     "p50": 126340,
+     "p75": 150925,
+     "p90": 176360
+    }
+   ],
+   "n": 714,
+   "p10": 94966,
+   "p25": 117796,
+   "p50": 148150,
+   "p75": 178400,
+   "p90": 212202,
+   "top_titles": [
+    [
+     "SECURITY ENGINEER II",
+     59
+    ],
+    [
+     "SECURITY ENGINEER",
+     58
+    ],
+    [
+     "INFORMATION SECURITY ENGINEER",
+     50
+    ],
+    [
+     "SENIOR SECURITY ENGINEER",
+     34
+    ],
+    [
+     "SECURITY ENGINEER I",
+     32
+    ],
+    [
+     "NETWORK SECURITY ENGINEER",
+     30
+    ],
+    [
+     "SECURITY ENGINEER III",
+     19
+    ],
+    [
+     "SOFTWARE DEVELOPMENT ENGINEER - SECURITY",
+     13
+    ],
+    [
+     "CYBER SECURITY ENGINEER",
+     12
+    ],
+    [
+     "CYBERSECURITY ENGINEER",
+     12
+    ],
+    [
+     "PRODUCT SECURITY ENGINEER",
+     11
+    ],
+    [
+     "STAFF SECURITY ENGINEER",
+     10
+    ]
+   ]
+  },
+  {
+   "distinct_titles": 2770,
+   "employers": [
+    {
+     "n": 36,
+     "name": "ROBLOX",
+     "p10": 229355,
+     "p25": 238520,
+     "p50": 273070,
+     "p75": 290169,
+     "p90": 322170
+    },
+    {
+     "n": 61,
+     "name": "NETFLIX",
+     "p10": 264514,
+     "p25": 264514,
+     "p50": 264514,
+     "p75": 264514,
+     "p90": 264514
+    },
+    {
+     "n": 21,
+     "name": "OPENAI OPCO",
+     "p10": 210000,
+     "p25": 210000,
+     "p50": 255000,
+     "p75": 325000,
+     "p90": 325000
+    },
+    {
+     "n": 19,
+     "name": "REDDIT",
+     "p10": 222618,
+     "p25": 243705,
+     "p50": 255000,
+     "p75": 272359,
+     "p90": 306823
+    },
+    {
+     "n": 16,
+     "name": "CRUSOE ENERGY SYSTEMS",
+     "p10": 182500,
+     "p25": 192500,
+     "p50": 240000,
+     "p75": 252500,
+     "p90": 270000
+    },
+    {
+     "n": 12,
+     "name": "PEOPLE CENTER INC D B A RIPPLING",
+     "p10": 165273,
+     "p25": 210750,
+     "p50": 239000,
+     "p75": 271250,
+     "p90": 284000
+    },
+    {
+     "n": 10,
+     "name": "JUMP OPERATIONS",
+     "p10": 196000,
+     "p25": 206250,
+     "p50": 237500,
+     "p75": 250000,
+     "p90": 250000
+    },
+    {
+     "n": 12,
+     "name": "DATADOG",
+     "p10": 172908,
+     "p25": 200775,
+     "p50": 232750,
+     "p75": 240500,
+     "p90": 249200
+    },
+    {
+     "n": 10,
+     "name": "CSS PAYROLL CO L P",
+     "p10": 155000,
+     "p25": 210000,
+     "p50": 230000,
+     "p75": 230000,
+     "p90": 240000
+    },
+    {
+     "n": 387,
+     "name": "SALESFORCE",
+     "p10": 166333,
+     "p25": 193523,
+     "p50": 222768,
+     "p75": 250000,
+     "p90": 277687
+    },
+    {
+     "n": 728,
+     "name": "META PLATFORMS",
+     "p10": 182000,
+     "p25": 207502,
+     "p50": 222738,
+     "p75": 235362,
+     "p90": 266838
+    },
+    {
+     "n": 16,
+     "name": "AUGER",
+     "p10": 180000,
+     "p25": 195000,
+     "p50": 222500,
+     "p75": 247500,
+     "p90": 327500
+    },
+    {
+     "n": 32,
+     "name": "WAYMO",
+     "p10": 200000,
+     "p25": 200000,
+     "p50": 222000,
+     "p75": 245000,
+     "p90": 280000
+    },
+    {
+     "n": 12,
+     "name": "CREDIT KARMA",
+     "p10": 180968,
+     "p25": 180968,
+     "p50": 221488,
+     "p75": 270957,
+     "p90": 270958
+    },
+    {
+     "n": 17,
+     "name": "PURE STORAGE",
+     "p10": 193000,
+     "p25": 202000,
+     "p50": 220000,
+     "p75": 250000,
+     "p90": 254000
+    },
+    {
+     "n": 33,
+     "name": "COINBASE",
+     "p10": 179300,
+     "p25": 179300,
+     "p50": 218900,
+     "p75": 218900,
+     "p90": 226340
+    },
+    {
+     "n": 31,
+     "name": "VMWARE",
+     "p10": 161047,
+     "p25": 180642,
+     "p50": 216598,
+     "p75": 219683,
+     "p90": 222095
+    },
+    {
+     "n": 11,
+     "name": "TWO SIGMA INVESTMENTS",
+     "p10": 190000,
+     "p25": 193500,
+     "p50": 215000,
+     "p75": 222500,
+     "p90": 255000
+    },
+    {
+     "n": 17,
+     "name": "CONFLUENT",
+     "p10": 177887,
+     "p25": 189664,
+     "p50": 214800,
+     "p75": 229530,
+     "p90": 247820
+    },
+    {
+     "n": 32,
+     "name": "ZOOX",
+     "p10": 162773,
+     "p25": 187951,
+     "p50": 213512,
+     "p75": 214750,
+     "p90": 225424
+    },
+    {
+     "n": 10,
+     "name": "BLOCK",
+     "p10": 198061,
+     "p25": 203128,
+     "p50": 212601,
+     "p75": 219953,
+     "p90": 237900
+    },
+    {
+     "n": 12,
+     "name": "CITADEL ENTERPRISE AMERICAS SERVICES",
+     "p10": 200000,
+     "p25": 200000,
+     "p50": 212500,
+     "p75": 225000,
+     "p90": 256500
+    },
+    {
+     "n": 26,
+     "name": "ZSCALER",
+     "p10": 166868,
+     "p25": 194670,
+     "p50": 210000,
+     "p75": 238841,
+     "p90": 247500
+    },
+    {
+     "n": 15,
+     "name": "TINDER",
+     "p10": 151219,
+     "p25": 169797,
+     "p50": 208480,
+     "p75": 220000,
+     "p90": 223000
+    },
+    {
+     "n": 62,
+     "name": "TIKTOK",
+     "p10": 144000,
+     "p25": 168210,
+     "p50": 208000,
+     "p75": 250000,
+     "p90": 304606
+    }
+   ],
+   "family": "Software engineer",
+   "levels": [
+    {
+     "n": 10,
+     "name": "Distinguished",
+     "p10": 181316,
+     "p25": 184827,
+     "p50": 184827,
+     "p75": 276954,
+     "p90": 290700
+    },
+    {
+     "n": 1459,
+     "name": "Staff",
+     "p10": 141741,
+     "p25": 154090,
+     "p50": 182994,
+     "p75": 216323,
+     "p90": 250059
+    },
+    {
+     "n": 1023,
+     "name": "Principal",
+     "p10": 129042,
+     "p25": 142537,
+     "p50": 165000,
+     "p75": 200000,
+     "p90": 235080
+    },
+    {
+     "n": 1553,
+     "name": "Level III",
+     "p10": 115170,
+     "p25": 130000,
+     "p50": 160805,
+     "p75": 204500,
+     "p90": 220684
+    },
+    {
+     "n": 2392,
+     "name": "Level II",
+     "p10": 110452,
+     "p25": 132703,
+     "p50": 158100,
+     "p75": 177225,
+     "p90": 190000
+    },
+    {
+     "n": 95,
+     "name": "Level V",
+     "p10": 112424,
+     "p25": 128966,
+     "p50": 153358,
+     "p75": 187283,
+     "p90": 212202
+    },
+    {
+     "n": 232,
+     "name": "Level IV",
+     "p10": 112923,
+     "p25": 125981,
+     "p50": 153323,
+     "p75": 165115,
+     "p90": 180710
+    },
+    {
+     "n": 1268,
+     "name": "Lead",
+     "p10": 115000,
+     "p25": 131999,
+     "p50": 149897,
+     "p75": 165848,
+     "p90": 190003
+    },
+    {
+     "n": 6460,
+     "name": "Senior",
+     "p10": 112923,
+     "p25": 126090,
+     "p50": 144000,
+     "p75": 171602,
+     "p90": 204546
+    },
+    {
+     "n": 19893,
+     "name": "Unstated",
+     "p10": 91374,
+     "p25": 108077,
+     "p50": 130000,
+     "p75": 174000,
+     "p90": 214907
+    },
+    {
+     "n": 673,
+     "name": "Level I",
+     "p10": 101546,
+     "p25": 117749,
+     "p50": 129000,
+     "p75": 138700,
+     "p90": 160805
+    },
+    {
+     "n": 13,
+     "name": "Junior/entry",
+     "p10": 74697,
+     "p25": 84053,
+     "p50": 102190,
+     "p75": 126942,
+     "p90": 131600
+    }
+   ],
+   "metros": [
+    {
+     "n": 6377,
+     "name": "SF Bay Area, CA",
+     "p10": 150000,
+     "p25": 171165,
+     "p50": 197600,
+     "p75": 226138,
+     "p90": 258238
+    },
+    {
+     "n": 4744,
+     "name": "Seattle, WA",
+     "p10": 135522,
+     "p25": 155000,
+     "p50": 177406,
+     "p75": 200000,
+     "p90": 218100
+    },
+    {
+     "n": 374,
+     "name": "San Diego, CA",
+     "p10": 130187,
+     "p25": 130187,
+     "p50": 157581,
+     "p75": 184600,
+     "p90": 193104
+    },
+    {
+     "n": 388,
+     "name": "Los Angeles, CA",
+     "p10": 109539,
+     "p25": 129667,
+     "p50": 157123,
+     "p75": 180703,
+     "p90": 200767
+    },
+    {
+     "n": 2007,
+     "name": "New York City metro",
+     "p10": 103500,
+     "p25": 131997,
+     "p50": 156550,
+     "p75": 188000,
+     "p90": 223026
+    },
+    {
+     "n": 579,
+     "name": "Boston, MA",
+     "p10": 116133,
+     "p25": 131082,
+     "p50": 154606,
+     "p75": 174000,
+     "p90": 192778
+    },
+    {
+     "n": 169,
+     "name": "Portland, OR",
+     "p10": 112270,
+     "p25": 127878,
+     "p50": 152880,
+     "p75": 162857,
+     "p90": 190346
+    },
+    {
+     "n": 1352,
+     "name": "Austin, TX",
+     "p10": 105944,
+     "p25": 114754,
+     "p50": 139152,
+     "p75": 163550,
+     "p90": 185000
+    },
+    {
+     "n": 237,
+     "name": "Denver / Boulder, CO",
+     "p10": 105461,
+     "p25": 120536,
+     "p50": 132482,
+     "p75": 150000,
+     "p90": 182557
+    },
+    {
+     "n": 135,
+     "name": "Salt Lake City, UT",
+     "p10": 95059,
+     "p25": 105750,
+     "p50": 128440,
+     "p75": 153627,
+     "p90": 169000
+    },
+    {
+     "n": 802,
+     "name": "Washington DC metro",
+     "p10": 101421,
+     "p25": 118891,
+     "p50": 126253,
+     "p75": 151000,
+     "p90": 176000
+    },
+    {
+     "n": 217,
+     "name": "Minneapolis-St. Paul, MN",
+     "p10": 92408,
+     "p25": 106579,
+     "p50": 125798,
+     "p75": 141400,
+     "p90": 152058
+    },
+    {
+     "n": 899,
+     "name": "Charlotte, NC",
+     "p10": 91516,
+     "p25": 112424,
+     "p50": 125746,
+     "p75": 135000,
+     "p90": 154669
+    },
+    {
+     "n": 590,
+     "name": "Chicago, IL",
+     "p10": 85467,
+     "p25": 108077,
+     "p50": 125525,
+     "p75": 150000,
+     "p90": 166411
+    },
+    {
+     "n": 627,
+     "name": "Research Triangle, NC",
+     "p10": 109262,
+     "p25": 114900,
+     "p50": 122583,
+     "p75": 140652,
+     "p90": 159400
+    },
+    {
+     "n": 103,
+     "name": "Nashville, TN",
+     "p10": 90578,
+     "p25": 103334,
+     "p50": 122117,
+     "p75": 137467,
+     "p90": 158285
+    },
+    {
+     "n": 577,
+     "name": "Detroit / Ann Arbor, MI",
+     "p10": 95243,
+     "p25": 102263,
+     "p50": 120349,
+     "p75": 138486,
+     "p90": 152064
+    },
+    {
+     "n": 160,
+     "name": "Pittsburgh, PA",
+     "p10": 98197,
+     "p25": 98400,
+     "p50": 119475,
+     "p75": 140754,
+     "p90": 163200
+    },
+    {
+     "n": 514,
+     "name": "Phoenix, AZ",
+     "p10": 90000,
+     "p25": 111072,
+     "p50": 119101,
+     "p75": 142855,
+     "p90": 161740
+    },
+    {
+     "n": 201,
+     "name": "Tampa, FL",
+     "p10": 95332,
+     "p25": 100797,
+     "p50": 118660,
+     "p75": 140000,
+     "p90": 157933
+    },
+    {
+     "n": 1200,
+     "name": "Atlanta, GA",
+     "p10": 91000,
+     "p25": 109283,
+     "p50": 115000,
+     "p75": 138867,
+     "p90": 158417
+    },
+    {
+     "n": 465,
+     "name": "Philadelphia, PA",
+     "p10": 88088,
+     "p25": 109845,
+     "p50": 114800,
+     "p75": 137500,
+     "p90": 153358
+    },
+    {
+     "n": 3837,
+     "name": "Dallas-Fort Worth, TX",
+     "p10": 91000,
+     "p25": 112923,
+     "p50": 113000,
+     "p75": 135000,
+     "p90": 157000
+    },
+    {
+     "n": 118,
+     "name": "Miami-Fort Lauderdale, FL",
+     "p10": 90000,
+     "p25": 110947,
+     "p50": 112622,
+     "p75": 139750,
+     "p90": 167500
+    },
+    {
+     "n": 227,
+     "name": "Columbus, OH",
+     "p10": 90000,
+     "p25": 101899,
+     "p50": 111630,
+     "p75": 130000,
+     "p90": 145473
+    },
+    {
+     "n": 139,
+     "name": "Austin-adjacent San Antonio, TX",
+     "p10": 87955,
+     "p25": 106579,
+     "p50": 107000,
+     "p75": 129146,
+     "p90": 149825
+    },
+    {
+     "n": 538,
+     "name": "Houston, TX",
+     "p10": 84100,
+     "p25": 105976,
+     "p50": 106000,
+     "p75": 127837,
+     "p90": 149718
+    }
+   ],
+   "n": 35071,
+   "p10": 100000,
+   "p25": 113000,
+   "p50": 140000,
+   "p75": 178700,
+   "p90": 213512,
+   "top_titles": [
+    [
+     "SOFTWARE ENGINEER",
+     7501
+    ],
+    [
+     "SOFTWARE DEVELOPER",
+     5764
+    ],
+    [
+     "SENIOR SOFTWARE ENGINEER",
+     2738
+    ],
+    [
+     "SOFTWARE ENGINEERING",
+     1947
+    ],
+    [
+     "SOFTWARE DEV ENGINEER II",
+     821
+    ],
+    [
+     "SOFTWARE DEVELOPMENT ENGINEER II",
+     752
+    ],
+    [
+     "STAFF SOFTWARE ENGINEER",
+     717
+    ],
+    [
+     "LEAD SOFTWARE ENGINEER",
+     627
+    ],
+    [
+     "SR. SOFTWARE ENGINEER",
+     527
+    ],
+    [
+     "SENIOR SOFTWARE DEVELOPER",
+     514
+    ],
+    [
+     "SOFTWARE DEV ENGINEER III",
+     401
+    ],
+    [
+     "SOFTWARE ENGINEER III",
+     392
+    ]
+   ]
+  },
+  {
+   "distinct_titles": 221,
+   "employers": [
+    {
+     "n": 20,
+     "name": "GOOGLE",
+     "p10": 192000,
+     "p25": 216500,
+     "p50": 231500,
+     "p75": 262750,
+     "p90": 285000
+    },
+    {
+     "n": 76,
+     "name": "META PLATFORMS",
+     "p10": 182000,
+     "p25": 192422,
+     "p50": 220653,
+     "p75": 255617,
+     "p90": 263803
+    },
+    {
+     "n": 23,
+     "name": "NVIDIA",
+     "p10": 161840,
+     "p25": 164403,
+     "p50": 201094,
+     "p75": 264711,
+     "p90": 272000
+    },
+    {
+     "n": 25,
+     "name": "LAWRENCE LIVERMORE NATIONAL SECURITY",
+     "p10": 158400,
+     "p25": 180000,
+     "p50": 187379,
+     "p75": 208084,
+     "p90": 228470
+    },
+    {
+     "n": 248,
+     "name": "AMAZON COM SERVICES",
+     "p10": 142800,
+     "p25": 162610,
+     "p50": 179427,
+     "p75": 200625,
+     "p90": 213479
+    },
+    {
+     "n": 10,
+     "name": "ORACLE",
+     "p10": 146118,
+     "p25": 157193,
+     "p50": 175238,
+     "p75": 191065,
+     "p90": 207659
+    },
+    {
+     "n": 29,
+     "name": "AMAZON WEB SERVICES",
+     "p10": 122852,
+     "p25": 156831,
+     "p50": 170300,
+     "p75": 189750,
+     "p90": 197739
+    },
+    {
+     "n": 31,
+     "name": "AMAZON DEVELOPMENT CENTER U S",
+     "p10": 119870,
+     "p25": 136050,
+     "p50": 157300,
+     "p75": 174800,
+     "p90": 185000
+    },
+    {
+     "n": 10,
+     "name": "UT BATTELLE LLC OAK RIDGE NATIONAL LABORATORY",
+     "p10": 129653,
+     "p25": 136915,
+     "p50": 143871,
+     "p75": 151997,
+     "p90": 173652
+    },
+    {
+     "n": 20,
+     "name": "ST JUDE CHILDREN S RESEARCH HOSPITAL",
+     "p10": 86320,
+     "p25": 86320,
+     "p50": 99320,
+     "p75": 104000,
+     "p90": 106184
+    },
+    {
+     "n": 17,
+     "name": "JOHNS HOPKINS UNIVERSITY",
+     "p10": 73807,
+     "p25": 77126,
+     "p50": 95000,
+     "p75": 105000,
+     "p90": 125070
+    },
+    {
+     "n": 11,
+     "name": "UNIVERSITY OF MARYLAND COLLEGE PARK",
+     "p10": 72045,
+     "p25": 81900,
+     "p50": 90900,
+     "p75": 107272,
+     "p90": 114421
+    },
+    {
+     "n": 11,
+     "name": "MEMORIAL SLOAN KETTERING CANCER CENTER",
+     "p10": 85000,
+     "p25": 85000,
+     "p50": 85000,
+     "p75": 92500,
+     "p90": 95000
+    },
+    {
+     "n": 10,
+     "name": "PURDUE UNIVERSITY",
+     "p10": 64800,
+     "p25": 70250,
+     "p50": 84200,
+     "p75": 101832,
+     "p90": 103171
+    },
+    {
+     "n": 49,
+     "name": "THE LELAND STANFORD JR UNIVERSITY",
+     "p10": 77751,
+     "p25": 80000,
+     "p50": 84000,
+     "p75": 87700,
+     "p90": 93400
+    },
+    {
+     "n": 13,
+     "name": "TRUSTEES OF BOSTON UNIVERSITY",
+     "p10": 70591,
+     "p25": 75130,
+     "p50": 83000,
+     "p75": 90000,
+     "p90": 99760
+    },
+    {
+     "n": 22,
+     "name": "NYU GROSSMAN SCHOOL OF MEDICINE",
+     "p10": 73570,
+     "p25": 74786,
+     "p50": 82867,
+     "p75": 100000,
+     "p90": 102710
+    },
+    {
+     "n": 11,
+     "name": "TEXAS A M UNIVERSITY",
+     "p10": 57366,
+     "p25": 59998,
+     "p50": 82404,
+     "p75": 94251,
+     "p90": 131768
+    },
+    {
+     "n": 10,
+     "name": "THE UNIVERSITY OF TEXAS AT AUSTIN",
+     "p10": 69684,
+     "p25": 72875,
+     "p50": 82150,
+     "p75": 100100,
+     "p90": 109200
+    },
+    {
+     "n": 28,
+     "name": "MASSACHUSETTS INSTITUTE OF",
+     "p10": 74235,
+     "p25": 78100,
+     "p50": 81879,
+     "p75": 89986,
+     "p90": 101051
+    },
+    {
+     "n": 11,
+     "name": "NEW YORK UNIVERSITY",
+     "p10": 72280,
+     "p25": 77500,
+     "p50": 80496,
+     "p75": 89872,
+     "p90": 93000
+    },
+    {
+     "n": 19,
+     "name": "THE UNIVERSITY OF TEXAS M D ANDERSON CANCER CENTER",
+     "p10": 71563,
+     "p25": 75175,
+     "p50": 79500,
+     "p75": 84700,
+     "p90": 91099
+    },
+    {
+     "n": 73,
+     "name": "COLUMBIA UNIVERSITY",
+     "p10": 73254,
+     "p25": 75324,
+     "p50": 79327,
+     "p75": 82750,
+     "p90": 92518
+    },
+    {
+     "n": 10,
+     "name": "RESEARCH FOUNDATION FOR THE STATE UNIVERSITY OF NEW YORK",
+     "p10": 71260,
+     "p25": 72500,
+     "p50": 78407,
+     "p75": 87500,
+     "p90": 97500
+    },
+    {
+     "n": 50,
+     "name": "YALE UNIVERSITY",
+     "p10": 75000,
+     "p25": 75000,
+     "p50": 75000,
+     "p75": 84690,
+     "p90": 98470
+    }
+   ],
+   "family": "Research / applied scientist (unspecified)",
+   "levels": [
+    {
+     "n": 125,
+     "name": "Level III",
+     "p10": 85384,
+     "p25": 156831,
+     "p50": 185723,
+     "p75": 206430,
+     "p90": 217226
+    },
+    {
+     "n": 29,
+     "name": "Principal",
+     "p10": 121854,
+     "p25": 138320,
+     "p50": 177000,
+     "p75": 250370,
+     "p90": 272000
+    },
+    {
+     "n": 25,
+     "name": "Staff",
+     "p10": 113131,
+     "p25": 138480,
+     "p50": 167077,
+     "p75": 254100,
+     "p90": 315000
+    },
+    {
+     "n": 262,
+     "name": "Level II",
+     "p10": 84406,
+     "p25": 119870,
+     "p50": 164800,
+     "p75": 180000,
+     "p90": 193200
+    },
+    {
+     "n": 61,
+     "name": "Level I",
+     "p10": 68000,
+     "p25": 78330,
+     "p50": 107106,
+     "p75": 157300,
+     "p90": 185000
+    },
+    {
+     "n": 130,
+     "name": "Senior",
+     "p10": 74810,
+     "p25": 85000,
+     "p50": 103975,
+     "p75": 140329,
+     "p90": 210000
+    },
+    {
+     "n": 1033,
+     "name": "Unstated",
+     "p10": 65722,
+     "p25": 72411,
+     "p50": 82400,
+     "p75": 123946,
+     "p90": 205000
+    }
+   ],
+   "metros": [
+    {
+     "n": 259,
+     "name": "SF Bay Area, CA",
+     "p10": 144239,
+     "p25": 171600,
+     "p50": 196190,
+     "p75": 228420,
+     "p90": 258524
+    },
+    {
+     "n": 214,
+     "name": "Seattle, WA",
+     "p10": 122852,
+     "p25": 153892,
+     "p50": 177853,
+     "p75": 200525,
+     "p90": 228553
+    },
+    {
+     "n": 20,
+     "name": "San Diego, CA",
+     "p10": 95522,
+     "p25": 126682,
+     "p50": 148500,
+     "p75": 206533,
+     "p90": 239406
+    },
+    {
+     "n": 27,
+     "name": "Los Angeles, CA",
+     "p10": 96729,
+     "p25": 119870,
+     "p50": 120000,
+     "p75": 165000,
+     "p90": 205193
+    },
+    {
+     "n": 12,
+     "name": "Detroit / Ann Arbor, MI",
+     "p10": 83942,
+     "p25": 91463,
+     "p50": 117363,
+     "p75": 131617,
+     "p90": 136575
+    },
+    {
+     "n": 20,
+     "name": "Austin, TX",
+     "p10": 71800,
+     "p25": 80300,
+     "p50": 105083,
+     "p75": 160810,
+     "p90": 178747
+    },
+    {
+     "n": 25,
+     "name": "Washington DC metro",
+     "p10": 69135,
+     "p25": 79000,
+     "p50": 98010,
+     "p75": 137176,
+     "p90": 161640
+    },
+    {
+     "n": 194,
+     "name": "New York City metro",
+     "p10": 74263,
+     "p25": 79327,
+     "p50": 90000,
+     "p75": 176424,
+     "p90": 204700
+    },
+    {
+     "n": 99,
+     "name": "Boston, MA",
+     "p10": 71481,
+     "p25": 76096,
+     "p50": 85000,
+     "p75": 122860,
+     "p90": 149340
+    },
+    {
+     "n": 20,
+     "name": "Columbus, OH",
+     "p10": 76300,
+     "p25": 79875,
+     "p50": 84969,
+     "p75": 96196,
+     "p90": 102647
+    },
+    {
+     "n": 14,
+     "name": "Chicago, IL",
+     "p10": 60549,
+     "p25": 79830,
+     "p50": 84524,
+     "p75": 96912,
+     "p90": 152448
+    },
+    {
+     "n": 43,
+     "name": "Houston, TX",
+     "p10": 68000,
+     "p25": 70977,
+     "p50": 78687,
+     "p75": 94292,
+     "p90": 121502
+    },
+    {
+     "n": 11,
+     "name": "Tampa, FL",
+     "p10": 60521,
+     "p25": 64757,
+     "p50": 75920,
+     "p75": 79413,
+     "p90": 85988
+    },
+    {
+     "n": 18,
+     "name": "Philadelphia, PA",
+     "p10": 61318,
+     "p25": 64606,
+     "p50": 74672,
+     "p75": 77210,
+     "p90": 108448
+    },
+    {
+     "n": 27,
+     "name": "Dallas-Fort Worth, TX",
+     "p10": 68155,
+     "p25": 70000,
+     "p50": 72000,
+     "p75": 80000,
+     "p90": 83578
+    },
+    {
+     "n": 41,
+     "name": "Atlanta, GA",
+     "p10": 66492,
+     "p25": 68557,
+     "p50": 70500,
+     "p75": 79500,
+     "p90": 96262
+    },
+    {
+     "n": 11,
+     "name": "Austin-adjacent San Antonio, TX",
+     "p10": 65000,
+     "p25": 65000,
+     "p50": 66990,
+     "p75": 89900,
+     "p90": 120766
+    },
+    {
+     "n": 14,
+     "name": "Pittsburgh, PA",
+     "p10": 59087,
+     "p25": 61028,
+     "p50": 66238,
+     "p75": 155900,
+     "p90": 181200
+    }
+   ],
+   "n": 1683,
+   "p10": 68182,
+   "p25": 75554,
+   "p50": 98925,
+   "p75": 171600,
+   "p90": 210000,
+   "top_titles": [
+    [
+     "RESEARCH SCIENTIST",
+     534
+    ],
+    [
+     "APPLIED SCIENTIST II",
+     170
+    ],
+    [
+     "ASSOCIATE RESEARCH SCIENTIST",
+     124
+    ],
+    [
+     "APPLIED SCIENTIST III",
+     92
+    ],
+    [
+     "ASSISTANT RESEARCH SCIENTIST",
+     80
+    ],
+    [
+     "SENIOR RESEARCH SCIENTIST",
+     70
+    ],
+    [
+     "RESEARCH SCIENTIST II",
+     70
+    ],
+    [
+     "BASIC LIFE RESEARCH SCIENTIST",
+     37
+    ],
+    [
+     "POSTDOCTORAL RESEARCH SCIENTIST",
+     34
+    ],
+    [
+     "RESEARCH SCIENTIST I",
+     33
+    ],
+    [
+     "APPLIED SCIENTIST",
+     27
+    ],
+    [
+     "APPLIED SCIENTIST I",
+     26
+    ]
+   ]
+  },
+  {
+   "distinct_titles": 703,
+   "employers": [
+    {
+     "n": 71,
+     "name": "META PLATFORMS",
+     "p10": 186056,
+     "p25": 208211,
+     "p50": 234706,
+     "p75": 262977,
+     "p90": 285180
+    },
+    {
+     "n": 22,
+     "name": "EBAY",
+     "p10": 170363,
+     "p25": 206820,
+     "p50": 228639,
+     "p75": 245367,
+     "p90": 253834
+    },
+    {
+     "n": 26,
+     "name": "INTUIT",
+     "p10": 158254,
+     "p25": 185400,
+     "p50": 221851,
+     "p75": 225000,
+     "p90": 240370
+    },
+    {
+     "n": 58,
+     "name": "GOOGLE",
+     "p10": 178400,
+     "p25": 197500,
+     "p50": 215000,
+     "p75": 251656,
+     "p90": 286200
+    },
+    {
+     "n": 36,
+     "name": "PAYPAL",
+     "p10": 165416,
+     "p25": 193000,
+     "p50": 210649,
+     "p75": 230000,
+     "p90": 250500
+    },
+    {
+     "n": 11,
+     "name": "PALO ALTO NETWORKS",
+     "p10": 169445,
+     "p25": 195437,
+     "p50": 208344,
+     "p75": 223142,
+     "p90": 224106
+    },
+    {
+     "n": 27,
+     "name": "NVIDIA",
+     "p10": 148800,
+     "p25": 188760,
+     "p50": 208000,
+     "p75": 223142,
+     "p90": 241302
+    },
+    {
+     "n": 18,
+     "name": "ADOBE",
+     "p10": 164800,
+     "p25": 169500,
+     "p50": 207500,
+     "p75": 221000,
+     "p90": 241657
+    },
+    {
+     "n": 20,
+     "name": "SALESFORCE",
+     "p10": 171441,
+     "p25": 176650,
+     "p50": 200584,
+     "p75": 220985,
+     "p90": 246239
+    },
+    {
+     "n": 14,
+     "name": "UBER",
+     "p10": 157580,
+     "p25": 169025,
+     "p50": 184900,
+     "p75": 221175,
+     "p90": 225340
+    },
+    {
+     "n": 27,
+     "name": "BYTEDANCE",
+     "p10": 128176,
+     "p25": 139298,
+     "p50": 181293,
+     "p75": 222915,
+     "p90": 242800
+    },
+    {
+     "n": 27,
+     "name": "AMAZON DEVELOPMENT CENTER U S",
+     "p10": 139298,
+     "p25": 151650,
+     "p50": 177900,
+     "p75": 200350,
+     "p90": 236800
+    },
+    {
+     "n": 10,
+     "name": "SNOWFLAKE",
+     "p10": 154840,
+     "p25": 157000,
+     "p50": 172997,
+     "p75": 209250,
+     "p90": 226575
+    },
+    {
+     "n": 94,
+     "name": "WAL MART ASSOCIATES",
+     "p10": 137848,
+     "p25": 143000,
+     "p50": 163322,
+     "p75": 181293,
+     "p90": 189520
+    },
+    {
+     "n": 14,
+     "name": "T MOBILE",
+     "p10": 128752,
+     "p25": 132128,
+     "p50": 163172,
+     "p75": 199125,
+     "p90": 213540
+    },
+    {
+     "n": 11,
+     "name": "VISA U S A",
+     "p10": 143200,
+     "p25": 147618,
+     "p50": 163030,
+     "p75": 173638,
+     "p90": 185994
+    },
+    {
+     "n": 17,
+     "name": "AT T SERVICES",
+     "p10": 149987,
+     "p25": 155000,
+     "p50": 161518,
+     "p75": 177670,
+     "p90": 190817
+    },
+    {
+     "n": 37,
+     "name": "JPMORGAN CHASE CO",
+     "p10": 126060,
+     "p25": 139308,
+     "p50": 160000,
+     "p75": 185000,
+     "p90": 194000
+    },
+    {
+     "n": 16,
+     "name": "EXPEDIA",
+     "p10": 111550,
+     "p25": 132361,
+     "p50": 158715,
+     "p75": 167024,
+     "p90": 182964
+    },
+    {
+     "n": 14,
+     "name": "ORACLE",
+     "p10": 122448,
+     "p25": 143723,
+     "p50": 155834,
+     "p75": 170002,
+     "p90": 197681
+    },
+    {
+     "n": 21,
+     "name": "SERVICENOW",
+     "p10": 140462,
+     "p25": 149261,
+     "p50": 154835,
+     "p75": 198702,
+     "p90": 198702
+    },
+    {
+     "n": 13,
+     "name": "AMERICAN EXPRESS TRAVEL RELATED SERVICES",
+     "p10": 146000,
+     "p25": 151307,
+     "p50": 154196,
+     "p75": 159924,
+     "p90": 166276
+    },
+    {
+     "n": 244,
+     "name": "AMAZON COM SERVICES",
+     "p10": 125944,
+     "p25": 139298,
+     "p50": 154068,
+     "p75": 181293,
+     "p90": 202514
+    },
+    {
+     "n": 38,
+     "name": "AMAZON WEB SERVICES",
+     "p10": 125123,
+     "p25": 139298,
+     "p50": 146509,
+     "p75": 164575,
+     "p90": 185012
+    },
+    {
+     "n": 24,
+     "name": "CISCO SYSTEMS",
+     "p10": 115710,
+     "p25": 130600,
+     "p50": 145228,
+     "p75": 171923,
+     "p90": 188368
+    }
+   ],
+   "family": "Product manager",
+   "levels": [
+    {
+     "n": 135,
+     "name": "Principal",
+     "p10": 146995,
+     "p25": 167024,
+     "p50": 210000,
+     "p75": 231768,
+     "p90": 275000
+    },
+    {
+     "n": 86,
+     "name": "Lead",
+     "p10": 120500,
+     "p25": 152015,
+     "p50": 191639,
+     "p75": 226594,
+     "p90": 250000
+    },
+    {
+     "n": 125,
+     "name": "Staff",
+     "p10": 143000,
+     "p25": 151174,
+     "p50": 182000,
+     "p75": 220000,
+     "p90": 241392
+    },
+    {
+     "n": 613,
+     "name": "Senior",
+     "p10": 129713,
+     "p25": 147338,
+     "p50": 170000,
+     "p75": 199893,
+     "p90": 225000
+    },
+    {
+     "n": 286,
+     "name": "Level III",
+     "p10": 125944,
+     "p25": 139298,
+     "p50": 152200,
+     "p75": 177975,
+     "p90": 200350
+    },
+    {
+     "n": 1028,
+     "name": "Unstated",
+     "p10": 104900,
+     "p25": 124200,
+     "p50": 151805,
+     "p75": 192781,
+     "p90": 232117
+    },
+    {
+     "n": 12,
+     "name": "Level IV",
+     "p10": 110364,
+     "p25": 124014,
+     "p50": 151257,
+     "p75": 181293,
+     "p90": 191289
+    },
+    {
+     "n": 53,
+     "name": "Level II",
+     "p10": 110310,
+     "p25": 121035,
+     "p50": 138485,
+     "p75": 153500,
+     "p90": 181442
+    },
+    {
+     "n": 19,
+     "name": "Level I",
+     "p10": 99871,
+     "p25": 101928,
+     "p50": 117042,
+     "p75": 126776,
+     "p90": 157677
+    }
+   ],
+   "metros": [
+    {
+     "n": 742,
+     "name": "SF Bay Area, CA",
+     "p10": 141574,
+     "p25": 167262,
+     "p50": 195700,
+     "p75": 225538,
+     "p90": 258669
+    },
+    {
+     "n": 236,
+     "name": "New York City metro",
+     "p10": 120400,
+     "p25": 139891,
+     "p50": 167507,
+     "p75": 210000,
+     "p90": 238000
+    },
+    {
+     "n": 372,
+     "name": "Seattle, WA",
+     "p10": 125944,
+     "p25": 139298,
+     "p50": 165000,
+     "p75": 194400,
+     "p90": 221990
+    },
+    {
+     "n": 15,
+     "name": "Portland, OR",
+     "p10": 106679,
+     "p25": 126966,
+     "p50": 159908,
+     "p75": 186502,
+     "p90": 198935
+    },
+    {
+     "n": 38,
+     "name": "Washington DC metro",
+     "p10": 124797,
+     "p25": 140250,
+     "p50": 157804,
+     "p75": 171575,
+     "p90": 192023
+    },
+    {
+     "n": 52,
+     "name": "Los Angeles, CA",
+     "p10": 109782,
+     "p25": 137713,
+     "p50": 154067,
+     "p75": 181236,
+     "p90": 216038
+    },
+    {
+     "n": 53,
+     "name": "Boston, MA",
+     "p10": 115627,
+     "p25": 127308,
+     "p50": 151923,
+     "p75": 188781,
+     "p90": 214000
+    },
+    {
+     "n": 46,
+     "name": "Chicago, IL",
+     "p10": 100000,
+     "p25": 128854,
+     "p50": 151909,
+     "p75": 175000,
+     "p90": 196149
+    },
+    {
+     "n": 73,
+     "name": "Austin, TX",
+     "p10": 113396,
+     "p25": 131133,
+     "p50": 149240,
+     "p75": 178300,
+     "p90": 206104
+    },
+    {
+     "n": 18,
+     "name": "Philadelphia, PA",
+     "p10": 104670,
+     "p25": 129906,
+     "p50": 147500,
+     "p75": 159150,
+     "p90": 176018
+    },
+    {
+     "n": 19,
+     "name": "Charlotte, NC",
+     "p10": 112220,
+     "p25": 113797,
+     "p50": 145321,
+     "p75": 170814,
+     "p90": 193600
+    },
+    {
+     "n": 116,
+     "name": "Dallas-Fort Worth, TX",
+     "p10": 92600,
+     "p25": 113000,
+     "p50": 144655,
+     "p75": 164729,
+     "p90": 183150
+    },
+    {
+     "n": 25,
+     "name": "Detroit / Ann Arbor, MI",
+     "p10": 96728,
+     "p25": 126230,
+     "p50": 142260,
+     "p75": 171976,
+     "p90": 202574
+    },
+    {
+     "n": 28,
+     "name": "Research Triangle, NC",
+     "p10": 113021,
+     "p25": 128452,
+     "p50": 141000,
+     "p75": 151174,
+     "p90": 177092
+    },
+    {
+     "n": 25,
+     "name": "San Diego, CA",
+     "p10": 106645,
+     "p25": 110000,
+     "p50": 138875,
+     "p75": 162400,
+     "p90": 201479
+    },
+    {
+     "n": 12,
+     "name": "Columbus, OH",
+     "p10": 118710,
+     "p25": 126325,
+     "p50": 137000,
+     "p75": 140500,
+     "p90": 144190
+    },
+    {
+     "n": 15,
+     "name": "Houston, TX",
+     "p10": 90368,
+     "p25": 114649,
+     "p50": 135512,
+     "p75": 145000,
+     "p90": 175750
+    },
+    {
+     "n": 10,
+     "name": "Minneapolis-St. Paul, MN",
+     "p10": 114210,
+     "p25": 128936,
+     "p50": 134027,
+     "p75": 153119,
+     "p90": 171500
+    },
+    {
+     "n": 28,
+     "name": "Phoenix, AZ",
+     "p10": 110750,
+     "p25": 118851,
+     "p50": 131719,
+     "p75": 149700,
+     "p90": 154916
+    },
+    {
+     "n": 55,
+     "name": "Atlanta, GA",
+     "p10": 108514,
+     "p25": 114130,
+     "p50": 131000,
+     "p75": 170000,
+     "p90": 188410
+    },
+    {
+     "n": 14,
+     "name": "Nashville, TN",
+     "p10": 99399,
+     "p25": 122294,
+     "p50": 126460,
+     "p75": 139690,
+     "p90": 153630
+    },
+    {
+     "n": 18,
+     "name": "Denver / Boulder, CO",
+     "p10": 95104,
+     "p25": 108494,
+     "p50": 122866,
+     "p75": 137490,
+     "p90": 149400
+    }
+   ],
+   "n": 2360,
+   "p10": 113571,
+   "p25": 137000,
+   "p50": 164403,
+   "p75": 198680,
+   "p90": 230000,
+   "top_titles": [
+    [
+     "PRODUCT MANAGER",
+     423
+    ],
+    [
+     "SENIOR PRODUCT MANAGER",
+     218
+    ],
+    [
+     "PRODUCT MANAGER III",
+     113
+    ],
+    [
+     "PRODUCT MANAGER III - TECHNICAL",
+     85
+    ],
+    [
+     "STAFF PRODUCT MANAGER",
+     68
+    ],
+    [
+     "PRINCIPAL PRODUCT MANAGER",
+     67
+    ],
+    [
+     "TECHNICAL PRODUCT MANAGER",
+     37
+    ],
+    [
+     "LEAD PRODUCT MANAGER",
+     32
+    ],
+    [
+     "SENIOR MANAGER, PRODUCT MANAGEMENT",
+     32
+    ],
+    [
+     "SR. PRODUCT MANAGER",
+     31
+    ],
+    [
+     "VICE PRESIDENT, PRODUCT MANAGER",
+     30
+    ],
+    [
+     "PRODUCT MARKETING MANAGER",
+     29
+    ]
+   ]
+  },
+  {
+   "distinct_titles": 1230,
+   "employers": [
+    {
+     "n": 17,
+     "name": "NVIDIA",
+     "p10": 142080,
+     "p25": 142298,
+     "p50": 201053,
+     "p75": 201053,
+     "p90": 201053
+    },
+    {
+     "n": 17,
+     "name": "META PLATFORMS",
+     "p10": 178400,
+     "p25": 188033,
+     "p50": 200000,
+     "p75": 215273,
+     "p90": 225204
+    },
+    {
+     "n": 28,
+     "name": "GOOGLE",
+     "p10": 164800,
+     "p25": 172000,
+     "p50": 197000,
+     "p75": 199785,
+     "p90": 204700
+    },
+    {
+     "n": 115,
+     "name": "APPLE",
+     "p10": 153058,
+     "p25": 159774,
+     "p50": 177233,
+     "p75": 189558,
+     "p90": 212000
+    },
+    {
+     "n": 11,
+     "name": "FORTINET",
+     "p10": 145000,
+     "p25": 154177,
+     "p50": 155000,
+     "p75": 185298,
+     "p90": 201053
+    },
+    {
+     "n": 106,
+     "name": "AMAZON COM SERVICES",
+     "p10": 113589,
+     "p25": 122125,
+     "p50": 153350,
+     "p75": 175600,
+     "p90": 194400
+    },
+    {
+     "n": 17,
+     "name": "CISCO SYSTEMS",
+     "p10": 119860,
+     "p25": 130400,
+     "p50": 152500,
+     "p75": 165422,
+     "p90": 165422
+    },
+    {
+     "n": 40,
+     "name": "TESLA",
+     "p10": 120900,
+     "p25": 124883,
+     "p50": 140000,
+     "p75": 154389,
+     "p90": 172811
+    },
+    {
+     "n": 11,
+     "name": "VISA U S A",
+     "p10": 121729,
+     "p25": 130874,
+     "p50": 138445,
+     "p75": 147329,
+     "p90": 161637
+    },
+    {
+     "n": 28,
+     "name": "LUCID",
+     "p10": 109920,
+     "p25": 120411,
+     "p50": 133223,
+     "p75": 163960,
+     "p90": 175157
+    },
+    {
+     "n": 45,
+     "name": "QUALCOMM",
+     "p10": 103864,
+     "p25": 123600,
+     "p50": 130187,
+     "p75": 154860,
+     "p90": 157581
+    },
+    {
+     "n": 22,
+     "name": "DIGIPULSE",
+     "p10": 120500,
+     "p25": 128500,
+     "p50": 130000,
+     "p75": 134250,
+     "p90": 135000
+    },
+    {
+     "n": 12,
+     "name": "ETOUCH SYSTEMS",
+     "p10": 105700,
+     "p25": 130000,
+     "p50": 130000,
+     "p75": 132820,
+     "p90": 162350
+    },
+    {
+     "n": 14,
+     "name": "POPULUS GROUP",
+     "p10": 115837,
+     "p25": 128898,
+     "p50": 129480,
+     "p75": 147935,
+     "p90": 152060
+    },
+    {
+     "n": 12,
+     "name": "GENERAL MOTORS",
+     "p10": 111987,
+     "p25": 118613,
+     "p50": 125000,
+     "p75": 150000,
+     "p90": 150135
+    },
+    {
+     "n": 10,
+     "name": "WOLTERS KLUWER DXG U S",
+     "p10": 98708,
+     "p25": 104175,
+     "p50": 121955,
+     "p75": 127466,
+     "p90": 137459
+    },
+    {
+     "n": 166,
+     "name": "CAPGEMINI",
+     "p10": 95312,
+     "p25": 107162,
+     "p50": 120000,
+     "p75": 130000,
+     "p90": 140000
+    },
+    {
+     "n": 12,
+     "name": "THE MATHWORKS",
+     "p10": 99299,
+     "p25": 99299,
+     "p50": 119912,
+     "p75": 124998,
+     "p90": 131082
+    },
+    {
+     "n": 10,
+     "name": "COMCAST CABLE COMMUNICATIONS",
+     "p10": 69098,
+     "p25": 73846,
+     "p50": 118547,
+     "p75": 129730,
+     "p90": 134957
+    },
+    {
+     "n": 16,
+     "name": "PERSISTENT SYSTEMS",
+     "p10": 99416,
+     "p25": 106344,
+     "p50": 117352,
+     "p75": 123246,
+     "p90": 133992
+    },
+    {
+     "n": 23,
+     "name": "FIDELITY TECHNOLOGY GROUP LLC D B A FIDELITY INVESTMENTS",
+     "p10": 92310,
+     "p25": 107755,
+     "p50": 116709,
+     "p75": 129229,
+     "p90": 134576
+    },
+    {
+     "n": 13,
+     "name": "CHARTER COMMUNICATIONS",
+     "p10": 96766,
+     "p25": 99362,
+     "p50": 116126,
+     "p75": 130686,
+     "p90": 136115
+    },
+    {
+     "n": 16,
+     "name": "RANDSTAD DIGITAL",
+     "p10": 111000,
+     "p25": 114500,
+     "p50": 115000,
+     "p75": 125990,
+     "p90": 142880
+    },
+    {
+     "n": 10,
+     "name": "FIS MANAGEMENT SERVICES",
+     "p10": 95276,
+     "p25": 95696,
+     "p50": 114845,
+     "p75": 117500,
+     "p90": 152067
+    },
+    {
+     "n": 10,
+     "name": "ADP TECHNOLOGY SERVICES",
+     "p10": 97365,
+     "p25": 99990,
+     "p50": 114692,
+     "p75": 125528,
+     "p90": 133349
+    }
+   ],
+   "family": "QA / test engineer",
+   "levels": [
+    {
+     "n": 125,
+     "name": "Staff",
+     "p10": 119496,
+     "p25": 135004,
+     "p50": 157581,
+     "p75": 175157,
+     "p90": 201053
+    },
+    {
+     "n": 78,
+     "name": "Principal",
+     "p10": 120799,
+     "p25": 131212,
+     "p50": 141906,
+     "p75": 175000,
+     "p90": 186750
+    },
+    {
+     "n": 32,
+     "name": "Level IV",
+     "p10": 117289,
+     "p25": 125190,
+     "p50": 128898,
+     "p75": 141136,
+     "p90": 149900
+    },
+    {
+     "n": 213,
+     "name": "Level III",
+     "p10": 101004,
+     "p25": 109957,
+     "p50": 125373,
+     "p75": 142384,
+     "p90": 175600
+    },
+    {
+     "n": 751,
+     "name": "Senior",
+     "p10": 92000,
+     "p25": 105300,
+     "p50": 120783,
+     "p75": 140000,
+     "p90": 161637
+    },
+    {
+     "n": 241,
+     "name": "Level II",
+     "p10": 90260,
+     "p25": 98000,
+     "p50": 115260,
+     "p75": 132427,
+     "p90": 150000
+    },
+    {
+     "n": 428,
+     "name": "Lead",
+     "p10": 85079,
+     "p25": 97365,
+     "p50": 112575,
+     "p75": 133468,
+     "p90": 161924
+    },
+    {
+     "n": 49,
+     "name": "Level I",
+     "p10": 82775,
+     "p25": 92560,
+     "p50": 106662,
+     "p75": 122000,
+     "p90": 126422
+    },
+    {
+     "n": 2582,
+     "name": "Unstated",
+     "p10": 80000,
+     "p25": 86923,
+     "p50": 99299,
+     "p75": 116341,
+     "p90": 151047
+    }
+   ],
+   "metros": [
+    {
+     "n": 645,
+     "name": "SF Bay Area, CA",
+     "p10": 113277,
+     "p25": 129792,
+     "p50": 156128,
+     "p75": 185224,
+     "p90": 206138
+    },
+    {
+     "n": 94,
+     "name": "San Diego, CA",
+     "p10": 100464,
+     "p25": 120500,
+     "p50": 132984,
+     "p75": 157581,
+     "p90": 176848
+    },
+    {
+     "n": 152,
+     "name": "Seattle, WA",
+     "p10": 108680,
+     "p25": 108680,
+     "p50": 125795,
+     "p75": 154250,
+     "p90": 174860
+    },
+    {
+     "n": 89,
+     "name": "Boston, MA",
+     "p10": 99299,
+     "p25": 99300,
+     "p50": 119912,
+     "p75": 131082,
+     "p90": 145374
+    },
+    {
+     "n": 96,
+     "name": "Research Triangle, NC",
+     "p10": 92310,
+     "p25": 92310,
+     "p50": 112216,
+     "p75": 117931,
+     "p90": 133380
+    },
+    {
+     "n": 18,
+     "name": "Salt Lake City, UT",
+     "p10": 90025,
+     "p25": 95950,
+     "p50": 112139,
+     "p75": 144486,
+     "p90": 175412
+    },
+    {
+     "n": 90,
+     "name": "Los Angeles, CA",
+     "p10": 85051,
+     "p25": 85280,
+     "p50": 108986,
+     "p75": 135000,
+     "p90": 160474
+    },
+    {
+     "n": 162,
+     "name": "Austin, TX",
+     "p10": 87672,
+     "p25": 87680,
+     "p50": 108870,
+     "p75": 127495,
+     "p90": 157738
+    },
+    {
+     "n": 32,
+     "name": "Minneapolis-St. Paul, MN",
+     "p10": 90463,
+     "p25": 94702,
+     "p50": 108039,
+     "p75": 125808,
+     "p90": 150667
+    },
+    {
+     "n": 95,
+     "name": "Washington DC metro",
+     "p10": 98401,
+     "p25": 106454,
+     "p50": 106500,
+     "p75": 128461,
+     "p90": 143402
+    },
+    {
+     "n": 194,
+     "name": "New York City metro",
+     "p10": 94831,
+     "p25": 102086,
+     "p50": 105385,
+     "p75": 128830,
+     "p90": 156497
+    },
+    {
+     "n": 96,
+     "name": "Detroit / Ann Arbor, MI",
+     "p10": 85571,
+     "p25": 90378,
+     "p50": 103032,
+     "p75": 125000,
+     "p90": 140000
+    },
+    {
+     "n": 73,
+     "name": "Phoenix, AZ",
+     "p10": 86611,
+     "p25": 86611,
+     "p50": 102627,
+     "p75": 122304,
+     "p90": 134243
+    },
+    {
+     "n": 512,
+     "name": "Dallas-Fort Worth, TX",
+     "p10": 90896,
+     "p25": 91374,
+     "p50": 102500,
+     "p75": 115001,
+     "p90": 131920
+    },
+    {
+     "n": 67,
+     "name": "Denver / Boulder, CO",
+     "p10": 83799,
+     "p25": 96117,
+     "p50": 101920,
+     "p75": 118000,
+     "p90": 133433
+    },
+    {
+     "n": 14,
+     "name": "Portland, OR",
+     "p10": 86466,
+     "p25": 86466,
+     "p50": 100038,
+     "p75": 125925,
+     "p90": 141048
+    },
+    {
+     "n": 81,
+     "name": "Philadelphia, PA",
+     "p10": 85000,
+     "p25": 87360,
+     "p50": 99840,
+     "p75": 123864,
+     "p90": 133000
+    },
+    {
+     "n": 224,
+     "name": "Atlanta, GA",
+     "p10": 82347,
+     "p25": 82347,
+     "p50": 97365,
+     "p75": 112400,
+     "p90": 129015
+    },
+    {
+     "n": 107,
+     "name": "Charlotte, NC",
+     "p10": 85030,
+     "p25": 85030,
+     "p50": 95696,
+     "p75": 114750,
+     "p90": 126192
+    },
+    {
+     "n": 100,
+     "name": "Chicago, IL",
+     "p10": 87879,
+     "p25": 88088,
+     "p50": 94508,
+     "p75": 120554,
+     "p90": 136494
+    },
+    {
+     "n": 25,
+     "name": "Nashville, TN",
+     "p10": 87567,
+     "p25": 93454,
+     "p50": 94050,
+     "p75": 104998,
+     "p90": 114710
+    },
+    {
+     "n": 17,
+     "name": "Austin-adjacent San Antonio, TX",
+     "p10": 81544,
+     "p25": 81827,
+     "p50": 91000,
+     "p75": 105000,
+     "p90": 130514
+    },
+    {
+     "n": 40,
+     "name": "Houston, TX",
+     "p10": 84906,
+     "p25": 84906,
+     "p50": 90000,
+     "p75": 110500,
+     "p90": 125871
+    },
+    {
+     "n": 24,
+     "name": "Pittsburgh, PA",
+     "p10": 72696,
+     "p25": 72696,
+     "p50": 90000,
+     "p75": 100000,
+     "p90": 106512
+    },
+    {
+     "n": 52,
+     "name": "Columbus, OH",
+     "p10": 78624,
+     "p25": 79750,
+     "p50": 87920,
+     "p75": 104958,
+     "p90": 126791
+    },
+    {
+     "n": 22,
+     "name": "Tampa, FL",
+     "p10": 72111,
+     "p25": 82950,
+     "p50": 82951,
+     "p75": 92500,
+     "p90": 124934
+    },
+    {
+     "n": 22,
+     "name": "Miami-Fort Lauderdale, FL",
+     "p10": 82389,
+     "p25": 82389,
+     "p50": 82750,
+     "p75": 104277,
+     "p90": 141822
+    }
+   ],
+   "n": 4505,
+   "p10": 82389,
+   "p25": 91374,
+   "p50": 108680,
+   "p75": 130412,
+   "p90": 161460,
+   "top_titles": [
+    [
+     "SA JC60 - SOFTWARE QUALITY ASSURANCE ANALYSTS AND TESTERS",
+     250
+    ],
+    [
+     "QA ENGINEER",
+     151
+    ],
+    [
+     "TEST ENGINEER",
+     149
+    ],
+    [
+     "SOFTWARE TEST ENGINEER",
+     124
+    ],
+    [
+     "SOFTWARE DEVELOPMENT ENGINEER IN TEST",
+     123
+    ],
+    [
+     "QA ANALYST",
+     104
+    ],
+    [
+     "TEST CONSULTANT 3",
+     97
+    ],
+    [
+     "SOFTWARE QUALITY ASSURANCE ENGINEER",
+     94
+    ],
+    [
+     "SOFTWARE QUALITY ASSURANCE ANALYST AND TESTER",
+     82
+    ],
+    [
+     "SOFTWARE DEVELOPMENT ENGINEER - TEST",
+     81
+    ],
+    [
+     "QA AUTOMATION ENGINEER",
+     72
+    ],
+    [
+     "TEST CONSULTANT 2",
+     63
+    ]
+   ]
+  },
+  {
+   "distinct_titles": 3612,
+   "employers": [
+    {
+     "n": 153,
+     "name": "META PLATFORMS",
+     "p10": 219000,
+     "p25": 245713,
+     "p50": 266000,
+     "p75": 280000,
+     "p90": 302713
+    },
+    {
+     "n": 48,
+     "name": "SALESFORCE",
+     "p10": 185136,
+     "p25": 223525,
+     "p50": 250037,
+     "p75": 288048,
+     "p90": 315478
+    },
+    {
+     "n": 13,
+     "name": "SOCIAL FINANCE",
+     "p10": 226616,
+     "p25": 240000,
+     "p50": 250000,
+     "p75": 270000,
+     "p90": 279160
+    },
+    {
+     "n": 24,
+     "name": "EBAY",
+     "p10": 204725,
+     "p25": 227089,
+     "p50": 241005,
+     "p75": 258623,
+     "p90": 265162
+    },
+    {
+     "n": 20,
+     "name": "UBER",
+     "p10": 191450,
+     "p25": 223950,
+     "p50": 240850,
+     "p75": 267750,
+     "p90": 320000
+    },
+    {
+     "n": 25,
+     "name": "SERVICENOW",
+     "p10": 197841,
+     "p25": 217568,
+     "p50": 236101,
+     "p75": 255213,
+     "p90": 309554
+    },
+    {
+     "n": 10,
+     "name": "PINTEREST",
+     "p10": 181389,
+     "p25": 205072,
+     "p50": 233699,
+     "p75": 248643,
+     "p90": 248643
+    },
+    {
+     "n": 18,
+     "name": "INTUIT",
+     "p10": 185477,
+     "p25": 214030,
+     "p50": 231824,
+     "p75": 251749,
+     "p90": 264527
+    },
+    {
+     "n": 11,
+     "name": "ALIXPARTNERS",
+     "p10": 190000,
+     "p25": 200000,
+     "p50": 230000,
+     "p75": 260000,
+     "p90": 304000
+    },
+    {
+     "n": 12,
+     "name": "ATLASSIAN",
+     "p10": 190000,
+     "p25": 197500,
+     "p50": 230000,
+     "p75": 242500,
+     "p90": 250000
+    },
+    {
+     "n": 14,
+     "name": "PAYCOM PAYROLL",
+     "p10": 221938,
+     "p25": 230000,
+     "p50": 230000,
+     "p75": 247500,
+     "p90": 250000
+    },
+    {
+     "n": 28,
+     "name": "ADOBE",
+     "p10": 185000,
+     "p25": 203445,
+     "p50": 225536,
+     "p75": 253139,
+     "p90": 267178
+    },
+    {
+     "n": 15,
+     "name": "NORDSTROM",
+     "p10": 162000,
+     "p25": 180453,
+     "p50": 225491,
+     "p75": 242694,
+     "p90": 253915
+    },
+    {
+     "n": 57,
+     "name": "NVIDIA",
+     "p10": 184000,
+     "p25": 201102,
+     "p50": 224000,
+     "p75": 248186,
+     "p90": 272982
+    },
+    {
+     "n": 10,
+     "name": "ERNST YOUNG U S",
+     "p10": 142561,
+     "p25": 207148,
+     "p50": 221037,
+     "p75": 251760,
+     "p90": 262000
+    },
+    {
+     "n": 31,
+     "name": "LINKEDIN",
+     "p10": 168000,
+     "p25": 202283,
+     "p50": 219819,
+     "p75": 242900,
+     "p90": 258655
+    },
+    {
+     "n": 10,
+     "name": "WELLS FARGO BANK N A",
+     "p10": 175748,
+     "p25": 193194,
+     "p50": 217776,
+     "p75": 217776,
+     "p90": 223642
+    },
+    {
+     "n": 10,
+     "name": "ROBINHOOD MARKETS",
+     "p10": 191400,
+     "p25": 217000,
+     "p50": 217000,
+     "p75": 257525,
+     "p90": 265940
+    },
+    {
+     "n": 50,
+     "name": "PAYPAL",
+     "p10": 157888,
+     "p25": 189000,
+     "p50": 215739,
+     "p75": 238750,
+     "p90": 257577
+    },
+    {
+     "n": 11,
+     "name": "APPLIED INTUITION",
+     "p10": 160225,
+     "p25": 197000,
+     "p50": 214000,
+     "p75": 245900,
+     "p90": 280000
+    },
+    {
+     "n": 114,
+     "name": "GOOGLE",
+     "p10": 162000,
+     "p25": 180250,
+     "p50": 212000,
+     "p75": 266500,
+     "p90": 290700
+    },
+    {
+     "n": 199,
+     "name": "APPLE",
+     "p10": 165588,
+     "p25": 187350,
+     "p50": 211107,
+     "p75": 235008,
+     "p90": 248643
+    },
+    {
+     "n": 12,
+     "name": "RELX",
+     "p10": 175016,
+     "p25": 175164,
+     "p50": 205025,
+     "p75": 235000,
+     "p90": 293500
+    },
+    {
+     "n": 101,
+     "name": "CAPITAL ONE SERVICES",
+     "p10": 158400,
+     "p25": 177100,
+     "p50": 204900,
+     "p75": 225400,
+     "p90": 245900
+    },
+    {
+     "n": 32,
+     "name": "BARCLAYS SERVICES",
+     "p10": 170880,
+     "p25": 193875,
+     "p50": 204700,
+     "p75": 228000,
+     "p90": 235870
+    }
+   ],
+   "family": "Engineering management",
+   "levels": [
+    {
+     "n": 695,
+     "name": "Level III",
+     "p10": 148700,
+     "p25": 169574,
+     "p50": 198000,
+     "p75": 216300,
+     "p90": 240365
+    },
+    {
+     "n": 81,
+     "name": "Principal",
+     "p10": 128601,
+     "p25": 160000,
+     "p50": 193500,
+     "p75": 218300,
+     "p90": 250000
+    },
+    {
+     "n": 120,
+     "name": "Staff",
+     "p10": 152090,
+     "p25": 169769,
+     "p50": 184687,
+     "p75": 205250,
+     "p90": 236836
+    },
+    {
+     "n": 12,
+     "name": "Level IV",
+     "p10": 120522,
+     "p25": 152625,
+     "p50": 180526,
+     "p75": 207148,
+     "p90": 217313
+    },
+    {
+     "n": 633,
+     "name": "Lead",
+     "p10": 141420,
+     "p25": 153358,
+     "p50": 166400,
+     "p75": 183000,
+     "p90": 200292
+    },
+    {
+     "n": 2788,
+     "name": "Senior",
+     "p10": 126339,
+     "p25": 142691,
+     "p50": 162376,
+     "p75": 198390,
+     "p90": 240000
+    },
+    {
+     "n": 240,
+     "name": "Level II",
+     "p10": 119101,
+     "p25": 134381,
+     "p50": 155409,
+     "p75": 183725,
+     "p90": 225824
+    },
+    {
+     "n": 7845,
+     "name": "Unstated",
+     "p10": 104062,
+     "p25": 118350,
+     "p50": 147250,
+     "p75": 186056,
+     "p90": 231627
+    },
+    {
+     "n": 10,
+     "name": "Level V",
+     "p10": 101801,
+     "p25": 110000,
+     "p50": 141643,
+     "p75": 208649,
+     "p90": 217482
+    },
+    {
+     "n": 88,
+     "name": "Level I",
+     "p10": 106247,
+     "p25": 125424,
+     "p50": 141128,
+     "p75": 163451,
+     "p90": 192335
+    }
+   ],
+   "metros": [
+    {
+     "n": 1812,
+     "name": "SF Bay Area, CA",
+     "p10": 150405,
+     "p25": 181000,
+     "p50": 215000,
+     "p75": 250000,
+     "p90": 283530
+    },
+    {
+     "n": 819,
+     "name": "Seattle, WA",
+     "p10": 139298,
+     "p25": 167024,
+     "p50": 198390,
+     "p75": 223524,
+     "p90": 250682
+    },
+    {
+     "n": 125,
+     "name": "San Diego, CA",
+     "p10": 128600,
+     "p25": 148750,
+     "p50": 176134,
+     "p75": 190000,
+     "p90": 218300
+    },
+    {
+     "n": 1202,
+     "name": "New York City metro",
+     "p10": 126818,
+     "p25": 143097,
+     "p50": 171100,
+     "p75": 201625,
+     "p90": 240000
+    },
+    {
+     "n": 263,
+     "name": "Washington DC metro",
+     "p10": 126620,
+     "p25": 140837,
+     "p50": 162000,
+     "p75": 186222,
+     "p90": 225400
+    },
+    {
+     "n": 398,
+     "name": "Austin, TX",
+     "p10": 119933,
+     "p25": 148125,
+     "p50": 161599,
+     "p75": 192068,
+     "p90": 219787
+    },
+    {
+     "n": 242,
+     "name": "Los Angeles, CA",
+     "p10": 111816,
+     "p25": 131125,
+     "p50": 160750,
+     "p75": 194434,
+     "p90": 233436
+    },
+    {
+     "n": 235,
+     "name": "Boston, MA",
+     "p10": 115627,
+     "p25": 139604,
+     "p50": 160000,
+     "p75": 184000,
+     "p90": 213787
+    },
+    {
+     "n": 44,
+     "name": "Salt Lake City, UT",
+     "p10": 115100,
+     "p25": 144250,
+     "p50": 160000,
+     "p75": 176250,
+     "p90": 201406
+    },
+    {
+     "n": 245,
+     "name": "Philadelphia, PA",
+     "p10": 118549,
+     "p25": 133951,
+     "p50": 156441,
+     "p75": 175800,
+     "p90": 195901
+    },
+    {
+     "n": 90,
+     "name": "Tampa, FL",
+     "p10": 94270,
+     "p25": 124914,
+     "p50": 149800,
+     "p75": 169175,
+     "p90": 183740
+    },
+    {
+     "n": 1205,
+     "name": "Dallas-Fort Worth, TX",
+     "p10": 112923,
+     "p25": 122574,
+     "p50": 147901,
+     "p75": 170000,
+     "p90": 191705
+    },
+    {
+     "n": 308,
+     "name": "Research Triangle, NC",
+     "p10": 112216,
+     "p25": 126256,
+     "p50": 147522,
+     "p75": 161741,
+     "p90": 178090
+    },
+    {
+     "n": 169,
+     "name": "Columbus, OH",
+     "p10": 115336,
+     "p25": 133000,
+     "p50": 146162,
+     "p75": 160500,
+     "p90": 180000
+    },
+    {
+     "n": 101,
+     "name": "Denver / Boulder, CO",
+     "p10": 116418,
+     "p25": 122866,
+     "p50": 145995,
+     "p75": 168613,
+     "p90": 190627
+    },
+    {
+     "n": 150,
+     "name": "Houston, TX",
+     "p10": 103002,
+     "p25": 114842,
+     "p50": 145990,
+     "p75": 180078,
+     "p90": 216984
+    },
+    {
+     "n": 58,
+     "name": "Miami-Fort Lauderdale, FL",
+     "p10": 101340,
+     "p25": 110307,
+     "p50": 145000,
+     "p75": 200914,
+     "p90": 217287
+    },
+    {
+     "n": 176,
+     "name": "Detroit / Ann Arbor, MI",
+     "p10": 106538,
+     "p25": 122499,
+     "p50": 144978,
+     "p75": 167100,
+     "p90": 187810
+    },
+    {
+     "n": 62,
+     "name": "Portland, OR",
+     "p10": 114889,
+     "p25": 122637,
+     "p50": 144227,
+     "p75": 175810,
+     "p90": 204403
+    },
+    {
+     "n": 246,
+     "name": "Phoenix, AZ",
+     "p10": 112642,
+     "p25": 119325,
+     "p50": 144144,
+     "p75": 173446,
+     "p90": 203331
+    },
+    {
+     "n": 347,
+     "name": "Chicago, IL",
+     "p10": 104728,
+     "p25": 107640,
+     "p50": 143874,
+     "p75": 170000,
+     "p90": 195449
+    },
+    {
+     "n": 354,
+     "name": "Charlotte, NC",
+     "p10": 103131,
+     "p25": 113797,
+     "p50": 140795,
+     "p75": 155000,
+     "p90": 186215
+    },
+    {
+     "n": 58,
+     "name": "Nashville, TN",
+     "p10": 94655,
+     "p25": 115375,
+     "p50": 139390,
+     "p75": 148700,
+     "p90": 201500
+    },
+    {
+     "n": 28,
+     "name": "Austin-adjacent San Antonio, TX",
+     "p10": 111862,
+     "p25": 111862,
+     "p50": 135000,
+     "p75": 152700,
+     "p90": 258800
+    },
+    {
+     "n": 401,
+     "name": "Atlanta, GA",
+     "p10": 108514,
+     "p25": 108514,
+     "p50": 130707,
+     "p75": 168863,
+     "p90": 200000
+    },
+    {
+     "n": 33,
+     "name": "Pittsburgh, PA",
+     "p10": 105373,
+     "p25": 121132,
+     "p50": 130395,
+     "p75": 173060,
+     "p90": 185098
+    },
+    {
+     "n": 101,
+     "name": "Minneapolis-St. Paul, MN",
+     "p10": 110157,
+     "p25": 111384,
+     "p50": 130083,
+     "p75": 156291,
+     "p90": 193844
+    }
+   ],
+   "n": 12517,
+   "p10": 108514,
+   "p25": 126818,
+   "p50": 156550,
+   "p75": 193440,
+   "p90": 234000,
+   "top_titles": [
+    [
+     "MANAGER JC50 - COMPUTER SYSTEMS ENGINEERS/ARCHITECTS",
+     1406
+    ],
+    [
+     "SENIOR MANAGER JC45 - COMPUTER SYSTEMS ENGINEERS/ARCHITECTS",
+     550
+    ],
+    [
+     "MGR. JC50 - SOFTWARE QUALITY ASSURANCE ANALYSTS AND TESTERS",
+     333
+    ],
+    [
+     "VICE PRESIDENT, LEAD SOFTWARE ENGINEER",
+     291
+    ],
+    [
+     "TECHNICAL PROGRAM MANAGER",
+     201
+    ],
+    [
+     "MANAGER III, SOFTWARE DEV",
+     194
+    ],
+    [
+     "ENGINEERING MANAGER",
+     176
+    ],
+    [
+     "SENIOR MANAGER, SOFTWARE ENGINEERING",
+     169
+    ],
+    [
+     "MANAGER, SOFTWARE ENGINEERING",
+     169
+    ],
+    [
+     "PACKAGED APP DEVELOPMENT ASSOC MANAGER",
+     162
+    ],
+    [
+     "MANAGER III, SOFTWARE DEVELOPMENT",
+     159
+    ],
+    [
+     "TECHNICAL PROJECT MANAGER",
+     157
+    ]
+   ]
+  },
+  {
+   "distinct_titles": 32696,
+   "employers": [
+    {
+     "n": 10,
+     "name": "ELLIS BANDT BIRKIN KOLLINS AND WONG PLLC",
+     "p10": 450000,
+     "p25": 450000,
+     "p50": 450000,
+     "p75": 450000,
+     "p90": 450000
+    },
+    {
+     "n": 10,
+     "name": "CARLE HEALTH MEDICAL GROUP",
+     "p10": 322500,
+     "p25": 356500,
+     "p50": 408250,
+     "p75": 503000,
+     "p90": 655000
+    },
+    {
+     "n": 10,
+     "name": "GUTHRIE MEDICAL GROUP P C",
+     "p10": 253811,
+     "p25": 294125,
+     "p50": 395750,
+     "p75": 495000,
+     "p90": 500000
+    },
+    {
+     "n": 20,
+     "name": "CLEVELAND CLINIC",
+     "p10": 167625,
+     "p25": 299636,
+     "p50": 390000,
+     "p75": 470500,
+     "p90": 548750
+    },
+    {
+     "n": 11,
+     "name": "HARVARD MEDICAL FACULTY PHYSICIANS AT BETH ISRAEL DEACONESS MEDICAL CENTER",
+     "p10": 264180,
+     "p25": 359700,
+     "p50": 380000,
+     "p75": 445250,
+     "p90": 465000
+    },
+    {
+     "n": 14,
+     "name": "CHARLESTON AREA MEDICAL CENTER",
+     "p10": 119696,
+     "p25": 260650,
+     "p50": 347003,
+     "p75": 500000,
+     "p90": 704700
+    },
+    {
+     "n": 20,
+     "name": "UNIVERSITY OF VERMONT HEALTH NETWORK MEDICAL GROUP",
+     "p10": 205432,
+     "p25": 301015,
+     "p50": 336790,
+     "p75": 392616,
+     "p90": 634000
+    },
+    {
+     "n": 28,
+     "name": "X AI",
+     "p10": 208875,
+     "p25": 272500,
+     "p50": 319391,
+     "p75": 360000,
+     "p90": 400000
+    },
+    {
+     "n": 14,
+     "name": "LATHAM WATKINS",
+     "p10": 194900,
+     "p25": 225000,
+     "p50": 310000,
+     "p75": 365000,
+     "p90": 430500
+    },
+    {
+     "n": 57,
+     "name": "OPENAI OPCO",
+     "p10": 236160,
+     "p25": 255000,
+     "p50": 310000,
+     "p75": 380000,
+     "p90": 460000
+    },
+    {
+     "n": 11,
+     "name": "FAYETTE PHYSICIAN NETWORK",
+     "p10": 225000,
+     "p25": 230000,
+     "p50": 301320,
+     "p75": 334800,
+     "p90": 432000
+    },
+    {
+     "n": 19,
+     "name": "FLORIDA HOSPITAL MEDICAL GROUP",
+     "p10": 90480,
+     "p25": 183353,
+     "p50": 300000,
+     "p75": 519398,
+     "p90": 580000
+    },
+    {
+     "n": 20,
+     "name": "OSF MULTI SPECIALTY GROUP",
+     "p10": 249000,
+     "p25": 290286,
+     "p50": 300000,
+     "p75": 336729,
+     "p90": 552500
+    },
+    {
+     "n": 37,
+     "name": "CLEVELAND CLINIC FOUNDATION",
+     "p10": 73989,
+     "p25": 115128,
+     "p50": 297000,
+     "p75": 471194,
+     "p90": 610000
+    },
+    {
+     "n": 12,
+     "name": "MASSACHUSETTS GENERAL PHYSICIANS ORGANIZATION",
+     "p10": 183500,
+     "p25": 226250,
+     "p50": 292500,
+     "p75": 300000,
+     "p90": 300000
+    },
+    {
+     "n": 11,
+     "name": "SOUTH SOUND INPATIENT PHYSICIANS PLLC",
+     "p10": 260000,
+     "p25": 268663,
+     "p50": 286000,
+     "p75": 290326,
+     "p90": 303326
+    },
+    {
+     "n": 11,
+     "name": "THE MARY IMOGENE BASSETT HOSPITAL",
+     "p10": 77049,
+     "p25": 80454,
+     "p50": 285000,
+     "p75": 538095,
+     "p90": 660000
+    },
+    {
+     "n": 27,
+     "name": "UNIVERSITY OF PITTSBURGH PHYSICIANS",
+     "p10": 101483,
+     "p25": 166136,
+     "p50": 285000,
+     "p75": 342000,
+     "p90": 398000
+    },
+    {
+     "n": 10,
+     "name": "POINT72 L P",
+     "p10": 200000,
+     "p25": 202500,
+     "p50": 280000,
+     "p75": 300000,
+     "p90": 302500
+    },
+    {
+     "n": 22,
+     "name": "USACS MEDICAL GROUP",
+     "p10": 260000,
+     "p25": 266240,
+     "p50": 278720,
+     "p75": 280800,
+     "p90": 309920
+    },
+    {
+     "n": 20,
+     "name": "VCU HEALTH SYSTEM AUTHORITY",
+     "p10": 128502,
+     "p25": 186585,
+     "p50": 275295,
+     "p75": 314729,
+     "p90": 372500
+    },
+    {
+     "n": 33,
+     "name": "NETFLIX",
+     "p10": 152152,
+     "p25": 188406,
+     "p50": 264514,
+     "p75": 275850,
+     "p90": 275850
+    },
+    {
+     "n": 12,
+     "name": "PIEDMONT MEDICAL CARE",
+     "p10": 255000,
+     "p25": 255000,
+     "p50": 262500,
+     "p75": 285000,
+     "p90": 300000
+    },
+    {
+     "n": 17,
+     "name": "UNIVERSITY OF ALABAMA HEALTH SERVICES FOUNDATION",
+     "p10": 95481,
+     "p25": 213000,
+     "p50": 260095,
+     "p75": 320000,
+     "p90": 512961
+    },
+    {
+     "n": 12,
+     "name": "VIDANT MEDICAL GROUP",
+     "p10": 251000,
+     "p25": 251000,
+     "p50": 259634,
+     "p75": 291750,
+     "p90": 375964
+    }
+   ],
+   "family": "unmatched",
+   "levels": [
+    {
+     "n": 29,
+     "name": "Distinguished",
+     "p10": 181882,
+     "p25": 233826,
+     "p50": 263900,
+     "p75": 287800,
+     "p90": 300000
+    },
+    {
+     "n": 2502,
+     "name": "Staff",
+     "p10": 80000,
+     "p25": 127270,
+     "p50": 163209,
+     "p75": 200000,
+     "p90": 243975
+    },
+    {
+     "n": 2734,
+     "name": "Principal",
+     "p10": 117584,
+     "p25": 134139,
+     "p50": 155553,
+     "p75": 183472,
+     "p90": 219955
+    },
+    {
+     "n": 3106,
+     "name": "Level III",
+     "p10": 90000,
+     "p25": 110302,
+     "p50": 131500,
+     "p75": 155000,
+     "p90": 180710
+    },
+    {
+     "n": 632,
+     "name": "Level IV",
+     "p10": 85222,
+     "p25": 105466,
+     "p50": 131300,
+     "p75": 157232,
+     "p90": 184484
+    },
+    {
+     "n": 15676,
+     "name": "Senior",
+     "p10": 92352,
+     "p25": 110000,
+     "p50": 131186,
+     "p75": 156998,
+     "p90": 190000
+    },
+    {
+     "n": 5218,
+     "name": "Lead",
+     "p10": 86798,
+     "p25": 104097,
+     "p50": 131000,
+     "p75": 156848,
+     "p90": 181225
+    },
+    {
+     "n": 335,
+     "name": "Level V",
+     "p10": 85138,
+     "p25": 106708,
+     "p50": 130707,
+     "p75": 175000,
+     "p90": 195000
+    },
+    {
+     "n": 65675,
+     "name": "Unstated",
+     "p10": 68225,
+     "p25": 86400,
+     "p50": 112500,
+     "p75": 153908,
+     "p90": 205429
+    },
+    {
+     "n": 5033,
+     "name": "Level II",
+     "p10": 76565,
+     "p25": 86798,
+     "p50": 100000,
+     "p75": 128544,
+     "p90": 151226
+    },
+    {
+     "n": 1293,
+     "name": "Level I",
+     "p10": 66260,
+     "p25": 78853,
+     "p50": 95000,
+     "p75": 126000,
+     "p90": 150928
+    },
+    {
+     "n": 179,
+     "name": "Junior/entry",
+     "p10": 60858,
+     "p25": 72450,
+     "p50": 83796,
+     "p75": 96333,
+     "p90": 125254
+    },
+    {
+     "n": 1159,
+     "name": "Fellow",
+     "p10": 61008,
+     "p25": 64356,
+     "p50": 70749,
+     "p75": 77267,
+     "p90": 91000
+    }
+   ],
+   "metros": [
+    {
+     "n": 10458,
+     "name": "SF Bay Area, CA",
+     "p10": 107203,
+     "p25": 134000,
+     "p50": 166000,
+     "p75": 200000,
+     "p90": 230000
+    },
+    {
+     "n": 3837,
+     "name": "Seattle, WA",
+     "p10": 94372,
+     "p25": 114478,
+     "p50": 146952,
+     "p75": 178948,
+     "p90": 208882
+    },
+    {
+     "n": 10018,
+     "name": "New York City metro",
+     "p10": 82861,
+     "p25": 102534,
+     "p50": 140000,
+     "p75": 184021,
+     "p90": 225000
+    },
+    {
+     "n": 928,
+     "name": "San Diego, CA",
+     "p10": 82381,
+     "p25": 102710,
+     "p50": 130291,
+     "p75": 160000,
+     "p90": 193240
+    },
+    {
+     "n": 2997,
+     "name": "Austin, TX",
+     "p10": 86029,
+     "p25": 104600,
+     "p50": 130000,
+     "p75": 161179,
+     "p90": 187857
+    },
+    {
+     "n": 572,
+     "name": "Portland, OR",
+     "p10": 88413,
+     "p25": 101233,
+     "p50": 128528,
+     "p75": 150000,
+     "p90": 177861
+    },
+    {
+     "n": 2619,
+     "name": "Boston, MA",
+     "p10": 75000,
+     "p25": 90800,
+     "p50": 122970,
+     "p75": 158500,
+     "p90": 195139
+    },
+    {
+     "n": 2474,
+     "name": "Washington DC metro",
+     "p10": 78000,
+     "p25": 98000,
+     "p50": 122566,
+     "p75": 150758,
+     "p90": 180017
+    },
+    {
+     "n": 3066,
+     "name": "Chicago, IL",
+     "p10": 75619,
+     "p25": 90000,
+     "p50": 120000,
+     "p75": 153315,
+     "p90": 192000
+    },
+    {
+     "n": 2390,
+     "name": "Los Angeles, CA",
+     "p10": 72879,
+     "p25": 87000,
+     "p50": 120000,
+     "p75": 156000,
+     "p90": 190000
+    },
+    {
+     "n": 3211,
+     "name": "Atlanta, GA",
+     "p10": 84838,
+     "p25": 92539,
+     "p50": 118414,
+     "p75": 149760,
+     "p90": 179712
+    },
+    {
+     "n": 1899,
+     "name": "Research Triangle, NC",
+     "p10": 79560,
+     "p25": 94952,
+     "p50": 116709,
+     "p75": 140372,
+     "p90": 165000
+    },
+    {
+     "n": 842,
+     "name": "Tampa, FL",
+     "p10": 68125,
+     "p25": 85002,
+     "p50": 114773,
+     "p75": 145642,
+     "p90": 160000
+    },
+    {
+     "n": 1527,
+     "name": "Charlotte, NC",
+     "p10": 85000,
+     "p25": 92000,
+     "p50": 113797,
+     "p75": 140000,
+     "p90": 166008
+    },
+    {
+     "n": 803,
+     "name": "Denver / Boulder, CO",
+     "p10": 68884,
+     "p25": 90355,
+     "p50": 113173,
+     "p75": 142314,
+     "p90": 173680
+    },
+    {
+     "n": 8326,
+     "name": "Dallas-Fort Worth, TX",
+     "p10": 80000,
+     "p25": 92581,
+     "p50": 113000,
+     "p75": 142800,
+     "p90": 167700
+    },
+    {
+     "n": 1474,
+     "name": "Phoenix, AZ",
+     "p10": 74678,
+     "p25": 92925,
+     "p50": 112260,
+     "p75": 140533,
+     "p90": 169880
+    },
+    {
+     "n": 754,
+     "name": "Miami-Fort Lauderdale, FL",
+     "p10": 65000,
+     "p25": 84469,
+     "p50": 111000,
+     "p75": 161395,
+     "p90": 238085
+    },
+    {
+     "n": 1957,
+     "name": "Detroit / Ann Arbor, MI",
+     "p10": 74143,
+     "p25": 92000,
+     "p50": 110000,
+     "p75": 130200,
+     "p90": 152852
+    },
+    {
+     "n": 1563,
+     "name": "Philadelphia, PA",
+     "p10": 72555,
+     "p25": 90000,
+     "p50": 109845,
+     "p75": 143309,
+     "p90": 176750
+    },
+    {
+     "n": 580,
+     "name": "Nashville, TN",
+     "p10": 70470,
+     "p25": 85008,
+     "p50": 107432,
+     "p75": 128690,
+     "p90": 155000
+    },
+    {
+     "n": 705,
+     "name": "Minneapolis-St. Paul, MN",
+     "p10": 68961,
+     "p25": 90210,
+     "p50": 106579,
+     "p75": 130000,
+     "p90": 154788
+    },
+    {
+     "n": 2285,
+     "name": "Houston, TX",
+     "p10": 67090,
+     "p25": 80975,
+     "p50": 106558,
+     "p75": 143603,
+     "p90": 179715
+    },
+    {
+     "n": 505,
+     "name": "Austin-adjacent San Antonio, TX",
+     "p10": 75878,
+     "p25": 88084,
+     "p50": 103680,
+     "p75": 124200,
+     "p90": 150000
+    },
+    {
+     "n": 703,
+     "name": "Columbus, OH",
+     "p10": 73112,
+     "p25": 85942,
+     "p50": 103000,
+     "p75": 130697,
+     "p90": 155209
+    },
+    {
+     "n": 474,
+     "name": "Pittsburgh, PA",
+     "p10": 65000,
+     "p25": 79169,
+     "p50": 101325,
+     "p75": 131613,
+     "p90": 157997
+    },
+    {
+     "n": 425,
+     "name": "Salt Lake City, UT",
+     "p10": 68642,
+     "p25": 76397,
+     "p50": 93107,
+     "p75": 119600,
+     "p90": 149080
+    }
+   ],
+   "n": 103571,
+   "p10": 72000,
+   "p25": 91000,
+   "p50": 118860,
+   "p75": 155250,
+   "p90": 200000,
+   "top_titles": [
+    [
+     "ASSISTANT PROFESSOR",
+     1775
+    ],
+    [
+     "ARCHITECT",
+     1081
+    ],
+    [
+     "TECHNOLOGY CONSULTANT 2",
+     840
+    ],
+    [
+     "MANAGER",
+     810
+    ],
+    [
+     "JAVA DEVELOPER",
+     732
+    ],
+    [
+     "COMPUTER PROGRAMMER",
+     691
+    ],
+    [
+     "PROJECT MANAGER",
+     649
+    ],
+    [
+     "SENIOR ASSOCIATE JC60 -COMPUTER SYSTEMS ENGINEERS/ARCHITECTS",
+     524
+    ],
+    [
+     "BUSINESS ANALYST",
+     522
+    ],
+    [
+     "DEVELOPER",
+     475
+    ],
+    [
+     "RESEARCH ASSOCIATE",
+     442
+    ],
+    [
+     "PHYSICAL THERAPIST",
+     432
+    ]
+   ]
+  }
+ ],
+ "meta": {
+  "case_status_of_h1b_rows": {
+   "Certified": 175067,
+   "Certified - Withdrawn": 15284,
+   "Denied": 1221,
+   "Withdrawn": 3106
+  },
+  "decision_date_max": "2025-12-30",
+  "decision_date_min": "2025-07-01",
+  "filters": {
+   "not_certified": 19611,
+   "not_full_time": 3277,
+   "not_h1b": 7022,
+   "wage_unconvertible": 173
+  },
+  "floor_annual": 15080.0,
+  "hours_per_year": 2080,
+  "metro_mapped_rows": 119801,
+  "metro_mapped_share": 0.6981,
+  "min_n": {
+   "cell": 10,
+   "employer": 25,
+   "metro": 40
+  },
+  "offered_range": {
+   "median_top_over_bottom": 1.218,
+   "note": "WAGE_RATE_OF_PAY_FROM is the bottom of the offered range and is what the employer is legally committed to. Every figure here is that bottom, so every figure is a LOWER BOUND on what the job actually paid.",
+   "rows_with_top_of_range_above_bottom": 56073,
+   "share_of_kept_rows": 0.3267
+  },
+  "percentile_method": "linear interpolation at index p*(n-1) over sorted values",
+  "rounding": "floor(x + 0.5)",
+  "rows_kept": 171617,
+  "rows_read": 201700,
+  "sources": [
+   {
+    "bytes": 79134156,
+    "file": "LCA_Disclosure_Data_FY2025_Q4.xlsx",
+    "sha256": "81ebf97d471014b91ae685cb7eb505369d7c80af2de67944ddd7531814976370"
+   },
+   {
+    "bytes": 75609372,
+    "file": "LCA_Disclosure_Data_FY2026_Q1.xlsx",
+    "sha256": "b81ef0197a395be685549442b996abef08210eb3495079a72b891f1e05048491"
+   }
+  ],
+  "total_worker_positions_histogram": {
+   "1": 162282,
+   "10": 5585,
+   "2": 286,
+   "3": 1586,
+   "4": 108,
+   "5": 1578,
+   "6": 168,
+   "7": 3,
+   "8": 15,
+   "9": 6
+  },
+  "visa_class_of_all_rows": {
+   "E-3 Australian": 5261,
+   "H-1B": 194678,
+   "H-1B1 Chile": 974,
+   "H-1B1 Singapore": 787
+  },
+  "wage_conversion_outcomes": {
+   "above_ceiling": 173,
+   "ok": 171617
+  },
+  "wage_field": "WAGE_RATE_OF_PAY_FROM",
+  "wage_unit_counts_after_status_filters": {
+   "BI-WEEKLY": 80,
+   "HOUR": 9356,
+   "MONTH": 265,
+   "WEEK": 108,
+   "YEAR": 161981
+  }
+ },
+ "metros_all_families": [
+  {
+   "n": 22355,
+   "name": "SF Bay Area, CA",
+   "p10": 123531,
+   "p25": 150405,
+   "p50": 185000,
+   "p75": 216598,
+   "p90": 250000
+  },
+  {
+   "n": 10957,
+   "name": "Seattle, WA",
+   "p10": 111550,
+   "p25": 139298,
+   "p50": 166966,
+   "p75": 195000,
+   "p90": 218712
+  },
+  {
+   "n": 14752,
+   "name": "New York City metro",
+   "p10": 89348,
+   "p25": 109491,
+   "p50": 145470,
+   "p75": 186056,
+   "p90": 225000
+  },
+  {
+   "n": 1669,
+   "name": "San Diego, CA",
+   "p10": 92614,
+   "p25": 119724,
+   "p50": 142397,
+   "p75": 171600,
+   "p90": 194520
+  },
+  {
+   "n": 5485,
+   "name": "Austin, TX",
+   "p10": 90355,
+   "p25": 113500,
+   "p50": 135907,
+   "p75": 163550,
+   "p90": 190700
+  },
+  {
+   "n": 876,
+   "name": "Portland, OR",
+   "p10": 91291,
+   "p25": 111311,
+   "p50": 133432,
+   "p75": 159054,
+   "p90": 185624
+  },
+  {
+   "n": 3931,
+   "name": "Boston, MA",
+   "p10": 77267,
+   "p25": 100000,
+   "p50": 131085,
+   "p75": 161989,
+   "p90": 195000
+  },
+  {
+   "n": 3412,
+   "name": "Los Angeles, CA",
+   "p10": 77295,
+   "p25": 98987,
+   "p50": 129705,
+   "p75": 164721,
+   "p90": 198444
+  },
+  {
+   "n": 4132,
+   "name": "Washington DC metro",
+   "p10": 88462,
+   "p25": 103671,
+   "p50": 126090,
+   "p75": 154486,
+   "p90": 181526
+  },
+  {
+   "n": 4510,
+   "name": "Chicago, IL",
+   "p10": 79019,
+   "p25": 96360,
+   "p50": 122000,
+   "p75": 153317,
+   "p90": 186220
+  },
+  {
+   "n": 1324,
+   "name": "Denver / Boulder, CO",
+   "p10": 76435,
+   "p25": 97864,
+   "p50": 120536,
+   "p75": 145005,
+   "p90": 174246
+  },
+  {
+   "n": 3214,
+   "name": "Research Triangle, NC",
+   "p10": 88008,
+   "p25": 101441,
+   "p50": 120000,
+   "p75": 143709,
+   "p90": 163517
+  },
+  {
+   "n": 2541,
+   "name": "Phoenix, AZ",
+   "p10": 82940,
+   "p25": 95000,
+   "p50": 118851,
+   "p75": 144501,
+   "p90": 172391
+  },
+  {
+   "n": 5536,
+   "name": "Atlanta, GA",
+   "p10": 85800,
+   "p25": 99037,
+   "p50": 118389,
+   "p75": 147575,
+   "p90": 173727
+  },
+  {
+   "n": 3150,
+   "name": "Charlotte, NC",
+   "p10": 86798,
+   "p25": 103780,
+   "p50": 117425,
+   "p75": 140795,
+   "p90": 162001
+  },
+  {
+   "n": 1243,
+   "name": "Tampa, FL",
+   "p10": 72592,
+   "p25": 91874,
+   "p50": 116126,
+   "p75": 145642,
+   "p90": 164580
+  },
+  {
+   "n": 15513,
+   "name": "Dallas-Fort Worth, TX",
+   "p10": 87317,
+   "p25": 98925,
+   "p50": 115000,
+   "p75": 143666,
+   "p90": 167000
+  },
+  {
+   "n": 2961,
+   "name": "Detroit / Ann Arbor, MI",
+   "p10": 78600,
+   "p25": 94800,
+   "p50": 115000,
+   "p75": 136700,
+   "p90": 157307
+  },
+  {
+   "n": 2556,
+   "name": "Philadelphia, PA",
+   "p10": 78546,
+   "p25": 92394,
+   "p50": 115000,
+   "p75": 146078,
+   "p90": 174150
+  },
+  {
+   "n": 999,
+   "name": "Miami-Fort Lauderdale, FL",
+   "p10": 69849,
+   "p25": 87298,
+   "p50": 113547,
+   "p75": 155478,
+   "p90": 219934
+  },
+  {
+   "n": 1139,
+   "name": "Minneapolis-St. Paul, MN",
+   "p10": 80528,
+   "p25": 93496,
+   "p50": 113000,
+   "p75": 137459,
+   "p90": 160000
+  },
+  {
+   "n": 1270,
+   "name": "Columbus, OH",
+   "p10": 79685,
+   "p25": 94266,
+   "p50": 112923,
+   "p75": 138200,
+   "p90": 160000
+  },
+  {
+   "n": 843,
+   "name": "Nashville, TN",
+   "p10": 75000,
+   "p25": 90000,
+   "p50": 110947,
+   "p75": 134014,
+   "p90": 155976
+  },
+  {
+   "n": 3266,
+   "name": "Houston, TX",
+   "p10": 70244,
+   "p25": 85000,
+   "p50": 106998,
+   "p75": 140000,
+   "p90": 173444
+  },
+  {
+   "n": 751,
+   "name": "Pittsburgh, PA",
+   "p10": 68000,
+   "p25": 84219,
+   "p50": 106668,
+   "p75": 135000,
+   "p90": 164000
+  },
+  {
+   "n": 745,
+   "name": "Austin-adjacent San Antonio, TX",
+   "p10": 77646,
+   "p25": 91312,
+   "p50": 106579,
+   "p75": 128000,
+   "p90": 150000
+  },
+  {
+   "n": 671,
+   "name": "Salt Lake City, UT",
+   "p10": 70886,
+   "p25": 82175,
+   "p50": 105000,
+   "p75": 136000,
+   "p90": 169208
+  }
+ ],
+ "unmatched_top_titles": [
+  [
+   "ASSISTANT PROFESSOR",
+   1775
+  ],
+  [
+   "ARCHITECT",
+   1081
+  ],
+  [
+   "TECHNOLOGY CONSULTANT 2",
+   840
+  ],
+  [
+   "MANAGER",
+   810
+  ],
+  [
+   "JAVA DEVELOPER",
+   732
+  ],
+  [
+   "COMPUTER PROGRAMMER",
+   691
+  ],
+  [
+   "PROJECT MANAGER",
+   649
+  ],
+  [
+   "SENIOR ASSOCIATE JC60 -COMPUTER SYSTEMS ENGINEERS/ARCHITECTS",
+   524
+  ],
+  [
+   "BUSINESS ANALYST",
+   522
+  ],
+  [
+   "DEVELOPER",
+   475
+  ],
+  [
+   "RESEARCH ASSOCIATE",
+   442
+  ],
+  [
+   "PHYSICAL THERAPIST",
+   432
+  ],
+  [
+   "ASSOCIATE",
+   410
+  ],
+  [
+   "PROGRAMMER ANALYST",
+   404
+  ],
+  [
+   "MECHANICAL ENGINEER",
+   374
+  ],
+  [
+   "SENIOR MANAGER",
+   373
+  ],
+  [
+   "SENIOR CONSULTANT",
+   373
+  ],
+  [
+   "VICE PRESIDENT",
+   356
+  ],
+  [
+   "SYSTEMS ENGINEER",
+   344
+  ],
+  [
+   "POSTDOCTORAL FELLOW",
+   341
+  ],
+  [
+   "SYSTEMS ANALYST",
+   332
+  ],
+  [
+   "TECHNICAL LEAD",
+   327
+  ],
+  [
+   "COMPUTER SYSTEMS ANALYST",
+   314
+  ],
+  [
+   "POSTDOCTORAL ASSOCIATE",
+   313
+  ],
+  [
+   "APPLICATION DEVELOPER",
+   309
+  ]
+ ]
+}
