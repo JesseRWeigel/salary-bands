@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>What US employers actually filed they would pay</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Ctext y='13' font-size='14'%3E%F0%9F%92%B5%3C/text%3E%3C/svg%3E">
+<meta name="description" content="Salary bands built from US Department of Labor H-1B disclosure
+filings: real per-employer wages an employer legally committed to, not self-reported survey data.">
+<style>
+:root{
+  color-scheme:light;
+  --bg:#fcfbf8; --panel:#f2efe7; --ink:#15130e; --ink2:#544f45; --ink3:#8a857a;
+  --rule:#e2ded2; --bar:#1f6f4a; --bar2:#8fbfa6; --accent:#a8541e;
+  --mono:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){:root:where(:not([data-theme=light])){
+  color-scheme:dark;
+  --bg:#12140f; --panel:#1c1f18; --ink:#f2f2e8; --ink2:#bfbfae; --ink3:#87877a;
+  --rule:#2e3227; --bar:#4cb083; --bar2:#2c5c46; --accent:#e0925c;}}
+:root[data-theme=dark]{
+  color-scheme:dark;
+  --bg:#12140f; --panel:#1c1f18; --ink:#f2f2e8; --ink2:#bfbfae; --ink3:#87877a;
+  --rule:#2e3227; --bar:#4cb083; --bar2:#2c5c46; --accent:#e0925c;}
+:root[data-theme=light]{
+  color-scheme:light;
+  --bg:#fcfbf8; --panel:#f2efe7; --ink:#15130e; --ink2:#544f45; --ink3:#8a857a;
+  --rule:#e2ded2; --bar:#1f6f4a; --bar2:#8fbfa6; --accent:#a8541e;}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font:16px/1.62 ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  -webkit-font-smoothing:antialiased}
+.wrap{max-width:900px;margin:0 auto;padding:0 1.25rem}
+header{padding:3.4rem 0 2rem}
+.eyebrow{font:700 .7rem/1 var(--mono);letter-spacing:.15em;text-transform:uppercase;
+  color:var(--accent);margin:0 0 .9rem}
+h1{font-size:clamp(1.85rem,5vw,2.9rem);line-height:1.04;letter-spacing:-.026em;margin:0 0 1rem;
+  font-weight:760;text-wrap:balance;max-width:18ch}
+.lede{font-size:1.05rem;color:var(--ink2);max-width:64ch;margin:0 0 1.3rem}
+section{padding:2.5rem 0;border-top:1px solid var(--rule)}
+h2{font-size:1.3rem;margin:0 0 .5rem;letter-spacing:-.014em;text-wrap:balance}
+h3{font-size:1rem;margin:1.6rem 0 .5rem}
+p,li{color:var(--ink2);max-width:68ch}
+strong{color:var(--ink)}
+a{color:var(--bar)}
+code{font-family:var(--mono);font-size:.87em}
+p code,li code,td code{background:var(--panel);border:1px solid var(--rule);border-radius:3px;
+  padding:.05em .3em}
+.rows{margin:1rem 0}
+.r{display:grid;grid-template-columns:minmax(9rem,15rem) 1fr 4.5rem;gap:.7rem;align-items:center;
+  padding:.26rem 0}
+.r .lbl{font-size:.85rem;color:var(--ink);overflow:hidden;text-overflow:ellipsis;
+  white-space:nowrap}
+.r .band{position:relative;display:block;height:1.25rem;background:var(--panel);
+  border:1px solid var(--rule);border-radius:3px;overflow:hidden}
+.r .whisk{position:absolute;top:50%;transform:translateY(-50%);height:2px;background:var(--bar2)}
+.r .box{position:absolute;top:2px;bottom:2px;background:var(--bar2);border-radius:2px}
+.r .med{position:absolute;top:0;bottom:0;width:2px;background:var(--bar)}
+.r .n{font:.74rem/1 var(--mono);color:var(--ink3);text-align:right;
+  font-variant-numeric:tabular-nums}
+.scale{display:grid;grid-template-columns:minmax(9rem,15rem) 1fr 4.5rem;gap:.7rem;
+  font:.7rem/1 var(--mono);color:var(--ink3);margin-top:.3rem}
+.scale .ticks{display:flex;justify-content:space-between}
+.scroll{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:.85rem;min-width:520px}
+th,td{text-align:left;padding:.4rem .55rem;border-bottom:1px solid var(--rule)}
+th{color:var(--ink);font-weight:650}
+td{color:var(--ink2);font-variant-numeric:tabular-nums}
+td.name{font-variant-numeric:normal}
+.note{background:var(--panel);border:1px solid var(--rule);border-left:3px solid var(--accent);
+  border-radius:0 6px 6px 0;padding:.75rem .9rem;margin:1rem 0}
+.note p{margin:.3rem 0}
+footer{padding:2.3rem 0 4rem;color:var(--ink3);font-size:.84rem;border-top:1px solid var(--rule)}
+#theme{font:inherit;font-size:.8rem;padding:.35rem .7rem;border:1px solid var(--rule);
+  background:var(--panel);color:var(--ink2);border-radius:4px;cursor:pointer}
+#theme:focus-visible{outline:2px solid var(--bar);outline-offset:2px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <p class="eyebrow">Catalog task CAREER-010</p>
+  <h1>What employers actually filed they would pay</h1>
+  <p class="lede">A US employer sponsoring an H-1B must file the wage it is offering, by job
+  title and worksite, and the Department of Labor publishes every filing. It is a large sample of
+  real compensation with none of the self-report bias of a salary aggregator, because a company
+  that files a number is legally committing to it.</p>
+  <p class="lede"><strong>171,617</strong> filings kept from
+  <strong>201,700</strong> read, decided between 2025-07-01 and
+  2025-12-30.</p>
+  <button type="button" id="theme">Theme: auto</button>
+</header>
+
+<section>
+  <h2>By role family</h2>
+  <p>Each bar is a distribution, not a number: the thin line spans p10 to p90, the block is p25 to
+  p75, and the dark mark is the median. <code>n</code> is printed on every row without exception,
+  because a median over 13 filings and one over 22,000 should never look alike.</p>
+  <div class='rows'><div class='r'><span class='lbl' title='Software engineer'>Software engineer</span><span class='band' role='img' aria-label='p10 $100,000, median $140,000, p90 $213,512, n 35071'><span class='whisk' style='left:13.94%;width:49.72%'></span><span class='box' style='left:19.63%;width:28.78%'></span><span class='med' style='left:31.46%'></span></span><span class='n'>n=35,071</span></div><div class='r'><span class='lbl' title='Engineering management'>Engineering management</span><span class='band' role='img' aria-label='p10 $108,514, median $156,550, p90 $234,000, n 12517'><span class='whisk' style='left:17.67%;width:54.97%'></span><span class='box' style='left:25.69%;width:29.18%'></span><span class='med' style='left:38.71%'></span></span><span class='n'>n=12,517</span></div><div class='r'><span class='lbl' title='QA / test engineer'>QA / test engineer</span><span class='band' role='img' aria-label='p10 $82,389, median $108,680, p90 $161,460, n 4505'><span class='whisk' style='left:6.22%;width:34.64%'></span><span class='box' style='left:10.16%;width:17.10%'></span><span class='med' style='left:17.74%'></span></span><span class='n'>n=4,505</span></div><div class='r'><span class='lbl' title='Data engineer'>Data engineer</span><span class='band' role='img' aria-label='p10 $93,000, median $130,000, p90 $189,592, n 3833'><span class='whisk' style='left:10.87%;width:42.31%'></span><span class='box' style='left:18.10%;width:20.77%'></span><span class='med' style='left:27.08%'></span></span><span class='n'>n=3,833</span></div><div class='r'><span class='lbl' title='DevOps / SRE / platform engineer'>DevOps / SRE / platform engineer</span><span class='band' role='img' aria-label='p10 $93,538, median $131,997, p90 $200,000, n 2751'><span class='whisk' style='left:11.11%;width:46.64%'></span><span class='box' style='left:18.72%;width:22.38%'></span><span class='med' style='left:27.95%'></span></span><span class='n'>n=2,751</span></div><div class='r'><span class='lbl' title='Product manager'>Product manager</span><span class='band' role='img' aria-label='p10 $113,571, median $164,403, p90 $230,000, n 2360'><span class='whisk' style='left:19.88%;width:51.00%'></span><span class='box' style='left:30.15%;width:27.02%'></span><span class='med' style='left:42.15%'></span></span><span class='n'>n=2,360</span></div><div class='r'><span class='lbl' title='Data scientist'>Data scientist</span><span class='band' role='img' aria-label='p10 $96,013, median $148,000, p90 $215,000, n 1909'><span class='whisk' style='left:12.19%;width:52.12%'></span><span class='box' style='left:21.22%;width:27.88%'></span><span class='med' style='left:34.96%'></span></span><span class='n'>n=1,909</span></div><div class='r'><span class='lbl' title='Research / applied scientist (unspecified)'>Research / applied scientist (unspecified)</span><span class='band' role='img' aria-label='p10 $68,182, median $98,925, p90 $210,000, n 1683'><span class='whisk' style='left:0.00%;width:62.12%'></span><span class='box' style='left:3.23%;width:42.07%'></span><span class='med' style='left:13.47%'></span></span><span class='n'>n=1,683</span></div><div class='r'><span class='lbl' title='Data analyst'>Data analyst</span><span class='band' role='img' aria-label='p10 $74,277, median $105,500, p90 $156,000, n 1603'><span class='whisk' style='left:2.67%;width:35.80%'></span><span class='box' style='left:8.87%;width:18.21%'></span><span class='med' style='left:16.35%'></span></span><span class='n'>n=1,603</span></div><div class='r'><span class='lbl' title='Machine learning engineer'>Machine learning engineer</span><span class='band' role='img' aria-label='p10 $125,583, median $191,000, p90 $264,514, n 949'><span class='whisk' style='left:25.14%;width:60.86%'></span><span class='box' style='left:40.22%;width:28.97%'></span><span class='med' style='left:53.80%'></span></span><span class='n'>n=949</span></div><div class='r'><span class='lbl' title='Security engineer'>Security engineer</span><span class='band' role='img' aria-label='p10 $94,966, median $148,150, p90 $212,202, n 714'><span class='whisk' style='left:11.73%;width:51.36%'></span><span class='box' style='left:21.73%;width:26.55%'></span><span class='med' style='left:35.03%'></span></span><span class='n'>n=714</span></div><div class='r'><span class='lbl' title='Applied / research scientist (ML, AI)'>Applied / research scientist (ML, AI)</span><span class='band' role='img' aria-label='p10 $120,000, median $180,600, p90 $296,464, n 151'><span class='whisk' style='left:22.70%;width:77.30%'></span><span class='box' style='left:35.84%;width:35.48%'></span><span class='med' style='left:49.25%'></span></span><span class='n'>n=151</span></div></div><div class='scale'><span></span><span class='ticks'><span>$68,182</span><span>$182,323</span><span>$296,464</span></span><span></span></div>
+  <div class='scroll'><table><thead><tr><th>role family</th><th>n</th><th>p10</th><th>p25</th><th>median</th><th>p75</th><th>p90</th></tr></thead><tbody><tr><td class='name'>Software engineer</td><td>35,071</td><td>$100,000</td><td>$113,000</td><td><strong>$140,000</strong></td><td>$178,700</td><td>$213,512</td></tr><tr><td class='name'>Engineering management</td><td>12,517</td><td>$108,514</td><td>$126,818</td><td><strong>$156,550</strong></td><td>$193,440</td><td>$234,000</td></tr><tr><td class='name'>QA / test engineer</td><td>4,505</td><td>$82,389</td><td>$91,374</td><td><strong>$108,680</strong></td><td>$130,412</td><td>$161,460</td></tr><tr><td class='name'>Data engineer</td><td>3,833</td><td>$93,000</td><td>$109,491</td><td><strong>$130,000</strong></td><td>$156,911</td><td>$189,592</td></tr><tr><td class='name'>DevOps / SRE / platform engineer</td><td>2,751</td><td>$93,538</td><td>$110,906</td><td><strong>$131,997</strong></td><td>$162,000</td><td>$200,000</td></tr><tr><td class='name'>Product manager</td><td>2,360</td><td>$113,571</td><td>$137,000</td><td><strong>$164,403</strong></td><td>$198,680</td><td>$230,000</td></tr><tr><td class='name'>Data scientist</td><td>1,909</td><td>$96,013</td><td>$116,616</td><td><strong>$148,000</strong></td><td>$180,272</td><td>$215,000</td></tr><tr><td class='name'>Research / applied scientist (unspecified)</td><td>1,683</td><td>$68,182</td><td>$75,554</td><td><strong>$98,925</strong></td><td>$171,600</td><td>$210,000</td></tr><tr><td class='name'>Data analyst</td><td>1,603</td><td>$74,277</td><td>$88,435</td><td><strong>$105,500</strong></td><td>$130,000</td><td>$156,000</td></tr><tr><td class='name'>Machine learning engineer</td><td>949</td><td>$125,583</td><td>$160,000</td><td><strong>$191,000</strong></td><td>$226,138</td><td>$264,514</td></tr><tr><td class='name'>Security engineer</td><td>714</td><td>$94,966</td><td>$117,796</td><td><strong>$148,150</strong></td><td>$178,400</td><td>$212,202</td></tr><tr><td class='name'>Applied / research scientist (ML, AI)</td><td>151</td><td>$120,000</td><td>$150,000</td><td><strong>$180,600</strong></td><td>$231,000</td><td>$296,464</td></tr></tbody></table></div>
+</section>
+
+<section>
+  <h2>Seniority inside one family</h2>
+  <p>Levels parsed out of the free-text job title for <strong>Software engineer</strong>
+  (35,071 filings across 2,770 distinct title strings). A level is only
+  shown where at least 50 filings carry it.</p>
+  <div class='scroll'><table><thead><tr><th>level</th><th>n</th><th>p10</th><th>p25</th><th>median</th><th>p75</th><th>p90</th></tr></thead><tbody><tr><td class='name'>Staff</td><td>1,459</td><td>$141,741</td><td>$154,090</td><td><strong>$182,994</strong></td><td>$216,323</td><td>$250,059</td></tr><tr><td class='name'>Principal</td><td>1,023</td><td>$129,042</td><td>$142,537</td><td><strong>$165,000</strong></td><td>$200,000</td><td>$235,080</td></tr><tr><td class='name'>Level III</td><td>1,553</td><td>$115,170</td><td>$130,000</td><td><strong>$160,805</strong></td><td>$204,500</td><td>$220,684</td></tr><tr><td class='name'>Level II</td><td>2,392</td><td>$110,452</td><td>$132,703</td><td><strong>$158,100</strong></td><td>$177,225</td><td>$190,000</td></tr><tr><td class='name'>Level V</td><td>95</td><td>$112,424</td><td>$128,966</td><td><strong>$153,358</strong></td><td>$187,283</td><td>$212,202</td></tr><tr><td class='name'>Level IV</td><td>232</td><td>$112,923</td><td>$125,981</td><td><strong>$153,323</strong></td><td>$165,115</td><td>$180,710</td></tr><tr><td class='name'>Lead</td><td>1,268</td><td>$115,000</td><td>$131,999</td><td><strong>$149,897</strong></td><td>$165,848</td><td>$190,003</td></tr><tr><td class='name'>Senior</td><td>6,460</td><td>$112,923</td><td>$126,090</td><td><strong>$144,000</strong></td><td>$171,602</td><td>$204,546</td></tr><tr><td class='name'>Unstated</td><td>19,893</td><td>$91,374</td><td>$108,077</td><td><strong>$130,000</strong></td><td>$174,000</td><td>$214,907</td></tr><tr><td class='name'>Level I</td><td>673</td><td>$101,546</td><td>$117,749</td><td><strong>$129,000</strong></td><td>$138,700</td><td>$160,805</td></tr></tbody></table></div>
+  <p>The <code>Unstated</code> row is the largest by far, which is the honest shape of this data:
+  most filed titles carry no level at all, so the level bands describe the minority that do.</p>
+</section>
+
+<section>
+  <h2>By metro</h2>
+  <div class='scroll'><table><thead><tr><th>metro</th><th>n</th><th>p10</th><th>p25</th><th>median</th><th>p75</th><th>p90</th></tr></thead><tbody><tr><td class='name'>SF Bay Area, CA</td><td>22,355</td><td>$123,531</td><td>$150,405</td><td><strong>$185,000</strong></td><td>$216,598</td><td>$250,000</td></tr><tr><td class='name'>Seattle, WA</td><td>10,957</td><td>$111,550</td><td>$139,298</td><td><strong>$166,966</strong></td><td>$195,000</td><td>$218,712</td></tr><tr><td class='name'>New York City metro</td><td>14,752</td><td>$89,348</td><td>$109,491</td><td><strong>$145,470</strong></td><td>$186,056</td><td>$225,000</td></tr><tr><td class='name'>San Diego, CA</td><td>1,669</td><td>$92,614</td><td>$119,724</td><td><strong>$142,397</strong></td><td>$171,600</td><td>$194,520</td></tr><tr><td class='name'>Austin, TX</td><td>5,485</td><td>$90,355</td><td>$113,500</td><td><strong>$135,907</strong></td><td>$163,550</td><td>$190,700</td></tr><tr><td class='name'>Portland, OR</td><td>876</td><td>$91,291</td><td>$111,311</td><td><strong>$133,432</strong></td><td>$159,054</td><td>$185,624</td></tr><tr><td class='name'>Boston, MA</td><td>3,931</td><td>$77,267</td><td>$100,000</td><td><strong>$131,085</strong></td><td>$161,989</td><td>$195,000</td></tr><tr><td class='name'>Los Angeles, CA</td><td>3,412</td><td>$77,295</td><td>$98,987</td><td><strong>$129,705</strong></td><td>$164,721</td><td>$198,444</td></tr><tr><td class='name'>Washington DC metro</td><td>4,132</td><td>$88,462</td><td>$103,671</td><td><strong>$126,090</strong></td><td>$154,486</td><td>$181,526</td></tr><tr><td class='name'>Chicago, IL</td><td>4,510</td><td>$79,019</td><td>$96,360</td><td><strong>$122,000</strong></td><td>$153,317</td><td>$186,220</td></tr><tr><td class='name'>Denver / Boulder, CO</td><td>1,324</td><td>$76,435</td><td>$97,864</td><td><strong>$120,536</strong></td><td>$145,005</td><td>$174,246</td></tr><tr><td class='name'>Research Triangle, NC</td><td>3,214</td><td>$88,008</td><td>$101,441</td><td><strong>$120,000</strong></td><td>$143,709</td><td>$163,517</td></tr><tr><td class='name'>Phoenix, AZ</td><td>2,541</td><td>$82,940</td><td>$95,000</td><td><strong>$118,851</strong></td><td>$144,501</td><td>$172,391</td></tr><tr><td class='name'>Atlanta, GA</td><td>5,536</td><td>$85,800</td><td>$99,037</td><td><strong>$118,389</strong></td><td>$147,575</td><td>$173,727</td></tr></tbody></table></div>
+  <p>70% of filings mapped to a metro
+  (119,801 rows). The rest name a worksite this build could not resolve and are
+  excluded from this table only, not from the role or employer figures.</p>
+</section>
+
+<section>
+  <h2>By employer</h2>
+  <p>Every employer with at least 100 filings, sorted by median. Name variants are merged, and the
+  variants that were merged are recorded in the data.</p>
+  <div class='scroll'><table><thead><tr><th>employer</th><th>n</th><th>p10</th><th>p25</th><th>median</th><th>p75</th><th>p90</th></tr></thead><tbody><tr><td class='name'>META PLATFORMS</td><td>1,662</td><td>$173,000</td><td>$193,000</td><td><strong>$220,471</strong></td><td>$245,713</td><td>$270,000</td></tr><tr><td class='name'>SALESFORCE</td><td>694</td><td>$153,294</td><td>$180,000</td><td><strong>$215,000</strong></td><td>$245,843</td><td>$283,433</td></tr><tr><td class='name'>ADOBE</td><td>261</td><td>$157,636</td><td>$181,922</td><td><strong>$205,000</strong></td><td>$227,000</td><td>$262,000</td></tr><tr><td class='name'>BYTEDANCE</td><td>255</td><td>$130,500</td><td>$162,411</td><td><strong>$200,000</strong></td><td>$253,650</td><td>$311,200</td></tr><tr><td class='name'>UBER</td><td>257</td><td>$150,000</td><td>$172,700</td><td><strong>$198,500</strong></td><td>$228,000</td><td>$241,820</td></tr><tr><td class='name'>GOOGLE</td><td>1,649</td><td>$158,000</td><td>$175,000</td><td><strong>$197,000</strong></td><td>$228,000</td><td>$256,400</td></tr><tr><td class='name'>NVIDIA</td><td>880</td><td>$148,049</td><td>$173,229</td><td><strong>$196,679</strong></td><td>$216,091</td><td>$248,186</td></tr><tr><td class='name'>PAYPAL</td><td>377</td><td>$140,937</td><td>$168,832</td><td><strong>$194,226</strong></td><td>$214,580</td><td>$242,597</td></tr><tr><td class='name'>PRICEWATERHOUSECOOPERS ADVISORY SERVICES</td><td>279</td><td>$147,000</td><td>$171,500</td><td><strong>$189,000</strong></td><td>$209,000</td><td>$238,000</td></tr><tr><td class='name'>TIKTOK</td><td>235</td><td>$120,000</td><td>$144,000</td><td><strong>$185,000</strong></td><td>$250,650</td><td>$303,325</td></tr><tr><td class='name'>APPLE</td><td>2,621</td><td>$147,400</td><td>$162,500</td><td><strong>$183,783</strong></td><td>$206,138</td><td>$223,142</td></tr><tr><td class='name'>INTUIT</td><td>238</td><td>$141,847</td><td>$153,158</td><td><strong>$183,108</strong></td><td>$217,579</td><td>$242,709</td></tr><tr><td class='name'>LINKEDIN</td><td>404</td><td>$139,000</td><td>$154,000</td><td><strong>$180,710</strong></td><td>$207,000</td><td>$232,846</td></tr><tr><td class='name'>MICROSOFT</td><td>3,084</td><td>$145,742</td><td>$161,166</td><td><strong>$179,000</strong></td><td>$197,995</td><td>$217,078</td></tr><tr><td class='name'>CAPITAL ONE SERVICES</td><td>293</td><td>$109,000</td><td>$150,197</td><td><strong>$175,800</strong></td><td>$204,900</td><td>$225,400</td></tr><tr><td class='name'>ERNST YOUNG U S</td><td>2,924</td><td>$101,125</td><td>$128,993</td><td><strong>$168,998</strong></td><td>$210,264</td><td>$251,016</td></tr><tr><td class='name'>SERVICENOW</td><td>257</td><td>$118,550</td><td>$139,152</td><td><strong>$168,958</strong></td><td>$198,702</td><td>$234,377</td></tr><tr><td class='name'>AT T SERVICES</td><td>249</td><td>$145,185</td><td>$155,150</td><td><strong>$166,673</strong></td><td>$182,695</td><td>$200,000</td></tr><tr><td class='name'>MORGAN STANLEY SERVICES GROUP</td><td>329</td><td>$135,000</td><td>$150,000</td><td><strong>$165,517</strong></td><td>$185,000</td><td>$205,600</td></tr><tr><td class='name'>AMAZON COM SERVICES</td><td>4,998</td><td>$114,000</td><td>$137,400</td><td><strong>$164,656</strong></td><td>$190,500</td><td>$213,700</td></tr></tbody></table></div>
+</section>
+
+<section>
+  <h2>The control that makes the employer table meaningful</h2>
+  <p>Employer medians differ. The question is whether they differ because employers pay
+  differently, or because a table of 836 groups with uneven sample sizes
+  will always show a spread.</p>
+  <p>So the employer labels were shuffled at random and the whole table recomputed. If the spread
+  survived the shuffle it would be an artefact of the grouping and nothing else.</p>
+  <div class="note">
+    <p><strong>Real spread of employer medians (p10 to p90):
+    $100,669</strong></p>
+    <p>Shuffled: $23,217,
+    a factor of 4.3 smaller (seed 20260801).</p>
+  </div>
+  <p>The spread collapses, so employer identity is carrying real signal and the table above is
+  about who pays what rather than about how the groups were cut.</p>
+</section>
+
+<section>
+  <h2>What this number is not</h2>
+  <p><strong>It is a floor, not an offer.</strong> The field used is
+  <code>WAGE_RATE_OF_PAY_FROM</code>, the bottom of the filed range and the figure the employer
+  commits to. Actual offers are routinely higher, and the median filed range top is
+  1.22x the bottom. Every figure here understates
+  what was paid.</p>
+  <p><strong>It is not total compensation.</strong> Equity and bonus are not in this data at all,
+  which matters most at exactly the companies whose medians look highest.</p>
+  <p><strong>It is sponsored roles only.</strong> These are filings for foreign workers, which is
+  a particular slice of hiring and not a random sample of a company's engineers.</p>
+
+  <h3>Wage units, the field most likely to be wrong</h3>
+  <p>Filings state a unit, and reading an hourly wage as an annual one is a silent error of
+  2,080x. The units present after filtering:</p>
+  <div class="scroll"><table><thead><tr><th>unit</th><th>filings</th></tr></thead><tbody>
+    <tr><td class='name'>YEAR</td><td>161,981</td></tr><tr><td class='name'>HOUR</td><td>9,356</td></tr><tr><td class='name'>MONTH</td><td>265</td></tr><tr><td class='name'>WEEK</td><td>108</td></tr><tr><td class='name'>BI-WEEKLY</td><td>80</td></tr>
+  </tbody></table></div>
+  <p>An unrecognised unit is refused rather than assumed to be yearly, and
+  173 rows were dropped for converting to an
+  implausible figure. Rows dropped by the filters before that:
+  not certified 19,611, not full time 3,277, not h1b 7,022, wage unconvertible 173.</p>
+</section>
+
+<footer>
+  <p>Source: <code>LCA_Disclosure_Data_FY2025_Q4.xlsx</code>, 79 MB, sha256
+  <code>81ebf97d471014b9…</code>, US Department of Labor OFLC disclosure data. The raw
+  file is not committed; the aggregates are. Every number here is generated from
+  <code>data/aggregates.json</code> at build time. Source at
+  <a href="https://github.com/JesseRWeigel/salary-bands">salary-bands</a>, part of
+  <a href="https://github.com/JesseRWeigel/722-things-to-build">722 things to build</a>.</p>
+</footer>
+</div>
+<script>
+(function () {
+  var modes = ['auto', 'light', 'dark'], i = 0;
+  document.getElementById('theme').addEventListener('click', function () {
+    i = (i + 1) % 3;
+    if (modes[i] === 'auto') document.documentElement.removeAttribute('data-theme');
+    else document.documentElement.setAttribute('data-theme', modes[i]);
+    this.textContent = 'Theme: ' + modes[i];
+  });
+})();
+</script>
+</body>
+</html>
