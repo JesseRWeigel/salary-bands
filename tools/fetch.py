@@ -5,7 +5,7 @@ The files are 75 to 145 MB each. They are public data that anyone can re-downloa
 change when DOL republishes a quarter, and a repository that carries one is a repository
 where the 0.4 MB of actual work is invisible next to it. So the cache lives at
 
-    $SALARY_BANDS_CACHE, or ${XDG_CACHE_HOME:-~/.cache}/thousand-salary-bands
+    $SALARY_BANDS_CACHE, or ${XDG_CACHE_HOME:-~/.cache}/salary-bands
 
 and .gitignore refuses anything ending in .xlsx outside fixtures/.
 
@@ -43,7 +43,7 @@ def cache_dir() -> pathlib.Path:
     if env:
         return pathlib.Path(env)
     base = os.environ.get("XDG_CACHE_HOME") or os.path.join(os.path.expanduser("~"), ".cache")
-    return pathlib.Path(base) / "thousand-salary-bands"
+    return pathlib.Path(base) / "salary-bands"
 
 
 def name_for(quarter: str) -> str:
