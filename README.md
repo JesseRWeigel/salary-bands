@@ -133,7 +133,7 @@ the checker flagged them as binary. Exempting them would have been the easy fix 
 credential pasted into a spreadsheet cell would then never be scanned.
 
 So the checker unzips them and scans the XML parts instead. The first version of that did **not
-work** — it called `scan_bytes`, which only checks for NUL, then filtered that one result away, so
+work**. It called `scan_bytes`, which only checks for NUL, then filtered that one result away, so
 it inspected nothing and reported clean. A github token planted in a cell went undetected.
 
 It was caught by insisting on the negative control: plant a token, prove the plant landed, and
