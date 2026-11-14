@@ -16,6 +16,7 @@ import pathlib
 import sys
 
 from . import aggregate, roles
+from .disclosure import lines
 
 
 def cmd_build(a) -> int:
@@ -48,18 +49,24 @@ def cmd_build(a) -> int:
 def cmd_show(a) -> int:
     import json
     data = json.loads(pathlib.Path(a.data).read_text(encoding="utf-8"))
+    for line in lines(data["meta"]):
+        print(line)
     fams = data["families"]
     if a.family:
         fams = [f for f in fams if f["family"].lower().startswith(a.family.lower())]
         if not fams:
             print(f"no family matching {a.family!r}", file=sys.stderr)
             return 2
+    if not fams:
+        print("No retained families; no wage bands available.")
     for f in fams:
         print(f"\n{f['family']}   n={f['n']}")
         print(f"  p10 {f['p10']:>9,}   p25 {f['p25']:>9,}   median {f['p50']:>9,}"
               f"   p75 {f['p75']:>9,}   p90 {f['p90']:>9,}")
+        if f["n"] < 25:
+            print("  Small cohort: descriptive only; unstable, not a market estimate.")
         if a.family:
-            print("  by employer (n filings):")
+            print("  by employer (n filings; unadjusted, not matched by location/level):")
             for e in f["employers"][:15]:
                 print(f"    {e['name'][:38]:<38} median {e['p50']:>9,}  n={e['n']}")
             print("  by metro:")

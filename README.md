@@ -2,10 +2,11 @@
 
 **[Open the live page](https://jesserweigel.github.io/salary-bands/)**
 
-A US employer sponsoring an H-1B must file the wage it is offering, by job title and worksite, and
-the Department of Labor publishes every filing. It is a large sample of real compensation with none
-of the self-report bias of a salary aggregator, because a company that files a number is legally
-committing to it.
+This report describes annualised lower endpoints of employer-filed H-1B wage ranges.
+[DOL OFLC disclosure data](https://www.dol.gov/agencies/eta/foreign-labor/performance)
+comes from application records, not verified payroll. A filing does not establish that a
+worker started the job or received a particular wage. Employer reporting and selection
+bias remain; these are not a random sample of US compensation.
 
 **171,617 filings kept from 201,700 read**, decided between 2025-07-01 and 2025-12-30.
 
@@ -43,29 +44,29 @@ By metro, all families:
 median over 22,355 must never look alike, and the only reliable way to prevent that is to refuse to
 draw one without its count.
 
-## The control that makes the employer table mean anything
+## An unadjusted employer-label association
 
-Employer medians differ. The question is whether they differ because employers pay differently, or
-because a table of 836 groups with uneven sample sizes will show a spread no matter what.
-
-So the employer labels were shuffled at random and the whole table recomputed:
+The retained employer groups have different role, level, location and date mixes.
+A single seeded shuffle of employer labels changes that composition as well as employer identity:
 
 ```
 real spread of employer medians (p10 to p90)   $100,669
 shuffled                                        $23,217     4.3x smaller
 ```
 
-The spread collapses, so employer identity is carrying real signal and the table is about who pays
-what rather than about how the groups were cut. `verify.sh` re-checks that ratio and fails below
-2x, because below that the per-employer bands should not be published at all.
+This is a descriptive association, **not an isolated employer premium or a causal effect**.
+No matched role/location comparison, p-value or confidence interval is computed. The verifier's
+historical 2x ratio guard is a regression check for this fixed artifact, not statistical proof
+that a table is valid or appropriate for a personal salary decision.
 
 ## What the number is not
 
-**It is a floor, not an offer.** The field is `WAGE_RATE_OF_PAY_FROM`, the bottom of the filed
-range and the figure the employer commits to. The median filed range top is 1.22x the bottom, so
-every figure here understates what was actually paid.
+**It is a filed range endpoint, not observed pay.** `WAGE_RATE_OF_PAY_FROM` is the
+lower endpoint; there is no evidence here that every worker received more than it.
+Only 56,073 of the 171,617 retained filings have a usable range top strictly above the bottom.
+The 1.22x median top/bottom ratio describes that subset, not all filings and not realised raises.
 
-**It is not total compensation.** Equity and bonus are absent entirely, which matters most at
+**It is not total compensation.** The selected wage field does not measure equity and bonus, which matters most at
 exactly the companies whose medians look highest.
 
 **It is sponsored roles only.** These are filings for foreign workers, a particular slice of
@@ -119,7 +120,7 @@ Nine layers:
    aggregates from the raw rows.
 3. That independence checked by inspecting the import graph with `ast`, not by grepping.
 4. Wage-unit conversion checked exactly, in every unit, plus the refusals.
-5. The permutation control above, with a hard floor on the ratio.
+5. The fixed-artifact permutation regression check above, not a causal validity test.
 6. The page rebuilt and compared byte for byte.
 7. Three sabotages, each proved to have applied before its result counts.
 8. This README's numbers regenerated from the aggregates.
@@ -153,9 +154,35 @@ tools/leakcheck.py      12 proven canaries, zip-aware
 scripts/verify.sh       nine layers
 data/aggregates.json    the published figures
 fixtures/               synthetic xlsx with known-correct aggregates
-tests/                  56 tests, each with a negative control
+tests/                  synthetic pipeline, disclosure and CLI regression tests
 ```
 
 Python 3.9+, no dependencies. Source data is public US Department of Labor OFLC disclosure data.
 
 Part of [722 things to build](https://github.com/JesseRWeigel/722-things-to-build).
+
+## Cohort and uncertainty
+
+The committed snapshot combines `LCA_Disclosure_Data_FY2025_Q4.xlsx` and
+`LCA_Disclosure_Data_FY2026_Q1.xlsx`; both source hashes are in the aggregate and on the page.
+Kept-row decision dates span 2025-07-01 through 2025-12-30, not employment dates.
+The snapshot is not refreshed by displaying it. Numeric aggregates were preserved when these
+interpretation notes were corrected; no new payroll or raw-data validation is claimed.
+
+The CLI and HTML disclose source files, decision dates, retained/read counts, sequential
+exclusions and publication thresholds. Selection is H-1B, Certified, full-time Y, unique
+nonblank case numbers and convertible lower wages between $15,080 and $10,000,000 annualised.
+Hourly conversion assumes 2,080 hours, weekly 52, bi-weekly 26 and monthly 12.
+These are normalisation assumptions, not verified hours worked.
+
+Missing/invalid lower wages and unknown units are rejected; a missing or invalid upper endpoint
+does not remove a valid lower endpoint. Unmatched titles and unstated levels are retained;
+unmapped locations are excluded only from metro tables. Blank employer names may be grouped,
+and blank case IDs cannot be deduplicated. Historical missing-field counts were not recorded;
+new builds count blank fields among retained rows without inventing counts for the old snapshot.
+
+Each filing counts once, even when it requests multiple positions. Repeated filings, title parsing,
+corporate-name merging and nonrandom sponsorship selection limit independence and generalisation.
+Percentile bands describe observed filing spread, not uncertainty intervals. Small cohorts can be
+unstable even above a publication threshold. Employer comparisons remain unadjusted, including
+within-family comparisons; they are not matched by location or level. No causal premium is claimed.

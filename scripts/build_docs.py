@@ -20,6 +20,8 @@ import pathlib
 import sys
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT))
+from bands.disclosure import lines
 
 
 def esc(s):
@@ -135,27 +137,31 @@ def table(items, label, key="name"):
             f"<tbody>{rows}</tbody></table></div>")
 
 
-def main():
-    a = json.loads((ROOT / "data" / "aggregates.json").read_text(encoding="utf-8"))
+def main(a=None):
+    if a is None:
+        a = json.loads((ROOT / "data" / "aggregates.json").read_text(encoding="utf-8"))
     m = a["meta"]
     fams = sorted([f for f in a["families"] if f.get("family") != "unmatched"],
                   key=lambda x: -x["n"])
-    swe = next((f for f in fams if f["family"] == "Software engineer"), fams[0])
+    swe = next((f for f in fams if f["family"] == "Software engineer"), fams[0] if fams else {"family": "No retained family", "n": 0, "distinct_titles": 0})
     levels = sorted([l for l in swe.get("levels", []) if l["n"] >= 50],
                     key=lambda x: -(x["p50"] or 0))
     metros = sorted(a["metros_all_families"], key=lambda x: -(x["p50"] or 0))[:14]
     employers = sorted([e for e in a["employers_all_families"] if e["n"] >= 100],
                        key=lambda x: -(x["p50"] or 0))[:20]
     ctrl = a["employer_permutation_control"]
-    ratio = (ctrl["real_p10_to_p90_spread_of_employer_medians"]
-             / ctrl["shuffled_p10_to_p90_spread_of_employer_medians"])
+    denominator = ctrl["shuffled_p10_to_p90_spread_of_employer_medians"]
+    numerator = ctrl["real_p10_to_p90_spread_of_employer_medians"]
+    ratio_text = f"{numerator / denominator:.1f}" if denominator else "undefined (zero shuffled spread)"
 
     fam_rows = [{"name": f["family"], **{k: f[k] for k in ("n", "p10", "p25", "p50", "p75", "p90")}}
                 for f in fams[:12]]
-    lo = min(r["p10"] for r in fam_rows)
-    hi = max(r["p90"] for r in fam_rows)
+    lo = min((r["p10"] for r in fam_rows), default=0)
+    hi = max((r["p90"] for r in fam_rows), default=1)
 
-    src = m["sources"][0]
+    sources = m.get("sources", [])
+    disclosures = "".join(f"<li>{esc(line)}</li>" for line in lines(m))
+    source_details = "".join(f"<li>{esc(src.get('file', 'unknown'))}; bytes {esc(src.get('bytes', 'unknown'))}; sha256 {esc(src.get('sha256', 'unknown'))}</li>" for src in sources)
     units = m["wage_unit_counts_after_status_filters"]
     filt = m["filters"]
 
@@ -167,7 +173,7 @@ def main():
 <title>What US employers actually filed they would pay</title>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Ctext y='13' font-size='14'%3E%F0%9F%92%B5%3C/text%3E%3C/svg%3E">
 <meta name="description" content="Salary bands built from US Department of Labor H-1B disclosure
-filings: real per-employer wages an employer legally committed to, not self-reported survey data.">
+filings: annualised filed wage-range lower endpoints, not verified payroll or total compensation.">
 <style>{CSS}</style>
 </head>
 <body>
@@ -175,15 +181,15 @@ filings: real per-employer wages an employer legally committed to, not self-repo
 <header>
   <p class="eyebrow">Catalog task CAREER-010</p>
   <h1>What employers actually filed they would pay</h1>
-  <p class="lede">A US employer sponsoring an H-1B must file the wage it is offering, by job
-  title and worksite, and the Department of Labor publishes every filing. It is a large sample of
-  real compensation with none of the self-report bias of a salary aggregator, because a company
-  that files a number is legally committing to it.</p>
+  <p class="lede">Employer-filed H-1B application wages, not observed payroll.
+  Sponsorship selection and employer reporting limit generalisation to other jobs.</p>
   <p class="lede"><strong>{m['rows_kept']:,}</strong> filings kept from
   <strong>{m['rows_read']:,}</strong> read, decided between {esc(m['decision_date_min'])} and
   {esc(m['decision_date_max'])}.</p>
   <button type="button" id="theme">Theme: auto</button>
 </header>
+
+<section><h2>Source, cohort and interpretation</h2><ul>{disclosures}</ul></section>
 
 <section>
   <h2>By role family</h2>
@@ -214,36 +220,33 @@ filings: real per-employer wages an employer legally committed to, not self-repo
 
 <section>
   <h2>By employer</h2>
-  <p>Every employer with at least 100 filings, sorted by median. Name variants are merged, and the
+  <p>Up to 20 employers with at least 100 filings from the 60 highest-volume published groups, sorted by median. Comparisons are unadjusted, not matched by role or location. Name variants are merged, and the
   variants that were merged are recorded in the data.</p>
   {table(employers, "employer")}
 </section>
 
 <section>
-  <h2>The control that makes the employer table meaningful</h2>
-  <p>Employer medians differ. The question is whether they differ because employers pay
-  differently, or because a table of {ctrl['employers_published']} groups with uneven sample sizes
-  will always show a spread.</p>
-  <p>So the employer labels were shuffled at random and the whole table recomputed. If the spread
-  survived the shuffle it would be an artefact of the grouping and nothing else.</p>
+  <h2>An unadjusted employer-label association</h2>
+  <p>One seeded shuffle preserves wages and group sizes, but also destroys differences in
+  role, level, location and date mix. It does not isolate employer pay premiums.</p>
   <div class="note">
     <p><strong>Real spread of employer medians (p10 to p90):
     {money(ctrl['real_p10_to_p90_spread_of_employer_medians'])}</strong></p>
     <p>Shuffled: {money(ctrl['shuffled_p10_to_p90_spread_of_employer_medians'])},
-    a factor of {ratio:.1f} smaller (seed {ctrl['seed']}).</p>
+    real/shuffled spread ratio {esc(ratio_text)} (seed {ctrl['seed']}).</p>
   </div>
-  <p>The spread collapses, so employer identity is carrying real signal and the table above is
-  about who pays what rather than about how the groups were cut.</p>
+  <p>This is descriptive association, not a causal effect, p-value or confidence interval.
+  Fewer than four published employers produce a zero spread sentinel, not evidence of equality.</p>
 </section>
 
 <section>
   <h2>What this number is not</h2>
-  <p><strong>It is a floor, not an offer.</strong> The field used is
-  <code>{esc(m['wage_field'])}</code>, the bottom of the filed range and the figure the employer
-  commits to. Actual offers are routinely higher, and the median filed range top is
-  {m['offered_range']['median_top_over_bottom']:.2f}x the bottom. Every figure here understates
-  what was paid.</p>
-  <p><strong>It is not total compensation.</strong> Equity and bonus are not in this data at all,
+  <p><strong>It is a filed range endpoint, not observed pay.</strong>
+  <code>{esc(m['wage_field'])}</code> does not establish what any worker received.
+  A usable range top exceeds the bottom in {m['offered_range']['rows_with_top_of_range_above_bottom']:,}
+  of {m['rows_kept']:,} retained filings. Median top/bottom ratio within that subset:
+  {esc(m['offered_range']['median_top_over_bottom'])}. This does not imply higher realised pay.</p>
+  <p><strong>It is not total compensation.</strong> The selected wage field does not measure equity or bonus,
   which matters most at exactly the companies whose medians look highest.</p>
   <p><strong>It is sponsored roles only.</strong> These are filings for foreign workers, which is
   a particular slice of hiring and not a random sample of a company's engineers.</p>
@@ -262,10 +265,10 @@ filings: real per-employer wages an employer legally committed to, not self-repo
 </section>
 
 <footer>
-  <p>Source: <code>{esc(src['file'])}</code>, {src['bytes'] / 1e6:.0f} MB, sha256
-  <code>{esc(src['sha256'][:16])}…</code>, US Department of Labor OFLC disclosure data. The raw
-  file is not committed; the aggregates are. Every number here is generated from
-  <code>data/aggregates.json</code> at build time. Source at
+  <p>Sources: <a href="https://www.dol.gov/agencies/eta/foreign-labor/performance">DOL OFLC disclosure</a>.</p>
+  <ul>{source_details}</ul>
+  <p>Raw files are not committed; figures come from <code>data/aggregates.json</code>.
+  This is a historical snapshot, not live wage data. Source code at
   <a href="https://github.com/JesseRWeigel/salary-bands">salary-bands</a>, part of
   <a href="https://github.com/JesseRWeigel/722-things-to-build">722 things to build</a>.</p>
 </footer>
