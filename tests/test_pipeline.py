@@ -112,11 +112,11 @@ class TestAggregates(unittest.TestCase):
         self.assertEqual(self.out["meta"]["metro_mapped_rows"], EXPECTED["metro_mapped_rows"])
         self.assertEqual(self.out["meta"]["metro_mapped_share"], EXPECTED["metro_mapped_share"])
 
-    def test_offered_range_is_reported_as_a_lower_bound(self):
+    def test_offered_range_is_not_claimed_as_payroll(self):
         got = self.out["meta"]["offered_range"]
         for k, v in EXPECTED["offered_range"].items():
             self.assertEqual(got[k], v, k)
-        self.assertIn("LOWER BOUND", got["note"])
+        self.assertIn("do not establish actual pay", got["note"])
 
     def test_every_published_figure_carries_an_n(self):
         def walk(node):

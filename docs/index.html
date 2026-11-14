@@ -6,7 +6,7 @@
 <title>What US employers actually filed they would pay</title>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Ctext y='13' font-size='14'%3E%F0%9F%92%B5%3C/text%3E%3C/svg%3E">
 <meta name="description" content="Salary bands built from US Department of Labor H-1B disclosure
-filings: real per-employer wages an employer legally committed to, not self-reported survey data.">
+filings: annualised filed wage-range lower endpoints, not verified payroll or total compensation.">
 <style>
 :root{
   color-scheme:light;
@@ -81,15 +81,15 @@ footer{padding:2.3rem 0 4rem;color:var(--ink3);font-size:.84rem;border-top:1px s
 <header>
   <p class="eyebrow">Catalog task CAREER-010</p>
   <h1>What employers actually filed they would pay</h1>
-  <p class="lede">A US employer sponsoring an H-1B must file the wage it is offering, by job
-  title and worksite, and the Department of Labor publishes every filing. It is a large sample of
-  real compensation with none of the self-report bias of a salary aggregator, because a company
-  that files a number is legally committing to it.</p>
+  <p class="lede">Employer-filed H-1B application wages, not observed payroll.
+  Sponsorship selection and employer reporting limit generalisation to other jobs.</p>
   <p class="lede"><strong>171,617</strong> filings kept from
   <strong>201,700</strong> read, decided between 2025-07-01 and
   2025-12-30.</p>
   <button type="button" id="theme">Theme: auto</button>
 </header>
+
+<section><h2>Source, cohort and interpretation</h2><ul><li>WAGE_RATE_OF_PAY_FROM is the lower endpoint of the filed wage range, annualised using fixed unit factors. These application records do not establish actual pay, employment, or total compensation.</li><li>Source: US Department of Labor OFLC LCA application disclosure; LCA_Disclosure_Data_FY2025_Q4.xlsx; LCA_Disclosure_Data_FY2026_Q1.xlsx</li><li>Kept-row decision dates (not employment dates): 2025-07-01 to 2025-12-30</li><li>Cohort: 171617 filings kept of 201700 rows read; H-1B, Certified, full-time Y; duplicate nonblank case numbers removed; one filing is one observation, not one worker. No worker-count weighting.</li><li>Wages: unknown units/missing or invalid lower wages rejected; annualisation uses 2080 hours, 52 weeks, 26 bi-weeks or 12 months. Annual floor 15080.0; ceiling 10000000. Missing/invalid range tops do not remove a valid lower wage.</li><li>Exclusions (sequential counts): {&#x27;not_certified&#x27;: 19611, &#x27;not_full_time&#x27;: 3277, &#x27;not_h1b&#x27;: 7022, &#x27;wage_unconvertible&#x27;: 173}</li><li>Publication minimum n: {&#x27;cell&#x27;: 10, &#x27;employer&#x27;: 25, &#x27;metro&#x27;: 40}; n counts filings, not independent people.</li><li>Missing fields among kept rows: not recorded in this historical aggregate; no counts inferred.</li><li>Missing titles/locations are not imputed: titles may be unmatched/levels Unstated; unmapped metros excluded only from metro tables. Blank case IDs cannot be deduplicated. Blank employers may form a blank-name group; inspect before comparing.</li><li>Employer comparisons are unadjusted associations, not an employer pay premium. Role, level, location, date and selection mix can explain differences. No matched comparisons or causal effects are estimated.</li><li>Percentiles describe this selected filing cohort, not confidence intervals. Small cohorts are unstable; repeated filings and sponsorship selection limit generalisation. No uncertainty interval or population-pay estimate is claimed.</li></ul></section>
 
 <section>
   <h2>By role family</h2>
@@ -120,36 +120,33 @@ footer{padding:2.3rem 0 4rem;color:var(--ink3);font-size:.84rem;border-top:1px s
 
 <section>
   <h2>By employer</h2>
-  <p>Every employer with at least 100 filings, sorted by median. Name variants are merged, and the
+  <p>Up to 20 employers with at least 100 filings from the 60 highest-volume published groups, sorted by median. Comparisons are unadjusted, not matched by role or location. Name variants are merged, and the
   variants that were merged are recorded in the data.</p>
   <div class='scroll'><table><thead><tr><th>employer</th><th>n</th><th>p10</th><th>p25</th><th>median</th><th>p75</th><th>p90</th></tr></thead><tbody><tr><td class='name'>META PLATFORMS</td><td>1,662</td><td>$173,000</td><td>$193,000</td><td><strong>$220,471</strong></td><td>$245,713</td><td>$270,000</td></tr><tr><td class='name'>SALESFORCE</td><td>694</td><td>$153,294</td><td>$180,000</td><td><strong>$215,000</strong></td><td>$245,843</td><td>$283,433</td></tr><tr><td class='name'>ADOBE</td><td>261</td><td>$157,636</td><td>$181,922</td><td><strong>$205,000</strong></td><td>$227,000</td><td>$262,000</td></tr><tr><td class='name'>BYTEDANCE</td><td>255</td><td>$130,500</td><td>$162,411</td><td><strong>$200,000</strong></td><td>$253,650</td><td>$311,200</td></tr><tr><td class='name'>UBER</td><td>257</td><td>$150,000</td><td>$172,700</td><td><strong>$198,500</strong></td><td>$228,000</td><td>$241,820</td></tr><tr><td class='name'>GOOGLE</td><td>1,649</td><td>$158,000</td><td>$175,000</td><td><strong>$197,000</strong></td><td>$228,000</td><td>$256,400</td></tr><tr><td class='name'>NVIDIA</td><td>880</td><td>$148,049</td><td>$173,229</td><td><strong>$196,679</strong></td><td>$216,091</td><td>$248,186</td></tr><tr><td class='name'>PAYPAL</td><td>377</td><td>$140,937</td><td>$168,832</td><td><strong>$194,226</strong></td><td>$214,580</td><td>$242,597</td></tr><tr><td class='name'>PRICEWATERHOUSECOOPERS ADVISORY SERVICES</td><td>279</td><td>$147,000</td><td>$171,500</td><td><strong>$189,000</strong></td><td>$209,000</td><td>$238,000</td></tr><tr><td class='name'>TIKTOK</td><td>235</td><td>$120,000</td><td>$144,000</td><td><strong>$185,000</strong></td><td>$250,650</td><td>$303,325</td></tr><tr><td class='name'>APPLE</td><td>2,621</td><td>$147,400</td><td>$162,500</td><td><strong>$183,783</strong></td><td>$206,138</td><td>$223,142</td></tr><tr><td class='name'>INTUIT</td><td>238</td><td>$141,847</td><td>$153,158</td><td><strong>$183,108</strong></td><td>$217,579</td><td>$242,709</td></tr><tr><td class='name'>LINKEDIN</td><td>404</td><td>$139,000</td><td>$154,000</td><td><strong>$180,710</strong></td><td>$207,000</td><td>$232,846</td></tr><tr><td class='name'>MICROSOFT</td><td>3,084</td><td>$145,742</td><td>$161,166</td><td><strong>$179,000</strong></td><td>$197,995</td><td>$217,078</td></tr><tr><td class='name'>CAPITAL ONE SERVICES</td><td>293</td><td>$109,000</td><td>$150,197</td><td><strong>$175,800</strong></td><td>$204,900</td><td>$225,400</td></tr><tr><td class='name'>ERNST YOUNG U S</td><td>2,924</td><td>$101,125</td><td>$128,993</td><td><strong>$168,998</strong></td><td>$210,264</td><td>$251,016</td></tr><tr><td class='name'>SERVICENOW</td><td>257</td><td>$118,550</td><td>$139,152</td><td><strong>$168,958</strong></td><td>$198,702</td><td>$234,377</td></tr><tr><td class='name'>AT T SERVICES</td><td>249</td><td>$145,185</td><td>$155,150</td><td><strong>$166,673</strong></td><td>$182,695</td><td>$200,000</td></tr><tr><td class='name'>MORGAN STANLEY SERVICES GROUP</td><td>329</td><td>$135,000</td><td>$150,000</td><td><strong>$165,517</strong></td><td>$185,000</td><td>$205,600</td></tr><tr><td class='name'>AMAZON COM SERVICES</td><td>4,998</td><td>$114,000</td><td>$137,400</td><td><strong>$164,656</strong></td><td>$190,500</td><td>$213,700</td></tr></tbody></table></div>
 </section>
 
 <section>
-  <h2>The control that makes the employer table meaningful</h2>
-  <p>Employer medians differ. The question is whether they differ because employers pay
-  differently, or because a table of 836 groups with uneven sample sizes
-  will always show a spread.</p>
-  <p>So the employer labels were shuffled at random and the whole table recomputed. If the spread
-  survived the shuffle it would be an artefact of the grouping and nothing else.</p>
+  <h2>An unadjusted employer-label association</h2>
+  <p>One seeded shuffle preserves wages and group sizes, but also destroys differences in
+  role, level, location and date mix. It does not isolate employer pay premiums.</p>
   <div class="note">
     <p><strong>Real spread of employer medians (p10 to p90):
     $100,669</strong></p>
     <p>Shuffled: $23,217,
-    a factor of 4.3 smaller (seed 20260801).</p>
+    real/shuffled spread ratio 4.3 (seed 20260801).</p>
   </div>
-  <p>The spread collapses, so employer identity is carrying real signal and the table above is
-  about who pays what rather than about how the groups were cut.</p>
+  <p>This is descriptive association, not a causal effect, p-value or confidence interval.
+  Fewer than four published employers produce a zero spread sentinel, not evidence of equality.</p>
 </section>
 
 <section>
   <h2>What this number is not</h2>
-  <p><strong>It is a floor, not an offer.</strong> The field used is
-  <code>WAGE_RATE_OF_PAY_FROM</code>, the bottom of the filed range and the figure the employer
-  commits to. Actual offers are routinely higher, and the median filed range top is
-  1.22x the bottom. Every figure here understates
-  what was paid.</p>
-  <p><strong>It is not total compensation.</strong> Equity and bonus are not in this data at all,
+  <p><strong>It is a filed range endpoint, not observed pay.</strong>
+  <code>WAGE_RATE_OF_PAY_FROM</code> does not establish what any worker received.
+  A usable range top exceeds the bottom in 56,073
+  of 171,617 retained filings. Median top/bottom ratio within that subset:
+  1.218. This does not imply higher realised pay.</p>
+  <p><strong>It is not total compensation.</strong> The selected wage field does not measure equity or bonus,
   which matters most at exactly the companies whose medians look highest.</p>
   <p><strong>It is sponsored roles only.</strong> These are filings for foreign workers, which is
   a particular slice of hiring and not a random sample of a company's engineers.</p>
@@ -167,10 +164,10 @@ footer{padding:2.3rem 0 4rem;color:var(--ink3);font-size:.84rem;border-top:1px s
 </section>
 
 <footer>
-  <p>Source: <code>LCA_Disclosure_Data_FY2025_Q4.xlsx</code>, 79 MB, sha256
-  <code>81ebf97d471014b9…</code>, US Department of Labor OFLC disclosure data. The raw
-  file is not committed; the aggregates are. Every number here is generated from
-  <code>data/aggregates.json</code> at build time. Source at
+  <p>Sources: <a href="https://www.dol.gov/agencies/eta/foreign-labor/performance">DOL OFLC disclosure</a>.</p>
+  <ul><li>LCA_Disclosure_Data_FY2025_Q4.xlsx; bytes 79134156; sha256 81ebf97d471014b91ae685cb7eb505369d7c80af2de67944ddd7531814976370</li><li>LCA_Disclosure_Data_FY2026_Q1.xlsx; bytes 75609372; sha256 b81ef0197a395be685549442b996abef08210eb3495079a72b891f1e05048491</li></ul>
+  <p>Raw files are not committed; figures come from <code>data/aggregates.json</code>.
+  This is a historical snapshot, not live wage data. Source code at
   <a href="https://github.com/JesseRWeigel/salary-bands">salary-bands</a>, part of
   <a href="https://github.com/JesseRWeigel/722-things-to-build">722 things to build</a>.</p>
 </footer>

@@ -37,6 +37,7 @@ import random
 from dataclasses import dataclass
 
 from . import metro, roles, wage
+from .disclosure import WAGE_NOTE
 from .xlsxread import records
 
 MIN_N_EMPLOYER = 25      # an employer row is published only at or above this many filings
@@ -150,6 +151,7 @@ def load(paths: list, trace: list | None = None) -> tuple[list[Row], dict]:
     dates: list[str] = []
     kept: list[Row] = []
     total = 0
+    missing_fields = collections.Counter()
 
     for path in paths:
         for rec in records(path):
@@ -205,6 +207,10 @@ def load(paths: list, trace: list | None = None) -> tuple[list[Row], dict]:
             state = rec.get("WORKSITE_STATE", "").strip().upper()
             if trace is not None:
                 trace.append((case, "ok"))
+            for field in ("CASE_NUMBER", "JOB_TITLE", "EMPLOYER_NAME", "WORKSITE_CITY",
+                          "WORKSITE_STATE", "DECISION_DATE", "WAGE_RATE_OF_PAY_TO"):
+                if not str(rec.get(field, "")).strip():
+                    missing_fields[field] += 1
             kept.append(Row(
                 case=case,
                 annual=conv.annual,
@@ -223,6 +229,7 @@ def load(paths: list, trace: list | None = None) -> tuple[list[Row], dict]:
             ))
 
     meta = {
+        "missing_fields_kept": dict(sorted(missing_fields.items())),
         "rows_read": total,
         "rows_kept": len(kept),
         "filters": {k: filters[k] for k in sorted(filters)},
@@ -254,13 +261,11 @@ def _group_bands(rows: list[Row], key, min_n: int) -> list[dict]:
 
 
 def permutation_control(rows: list[Row], seed: int = 20260801) -> dict:
-    """Negative control for the claim "employer explains a lot of the spread".
+    """One seeded unconditional label shuffle, descriptive only.
 
-    Reshuffle the employer labels across rows, keeping every wage and every group size
-    exactly as they were, and recompute the same per-employer medians. If employer carried
-    no information, the spread of those medians would be unchanged by the shuffle. The gap
-    between the real spread and the shuffled spread is the part that is actually about who
-    the employer is, rather than about how wide the underlying wage distribution is.
+    Mixing employer labels also destroys role/location/level composition. A smaller
+    shuffled spread therefore does not isolate an employer premium or causal effect.
+    This is not a permutation p-value or an uncertainty interval.
     """
     real = _group_bands(rows, lambda r: r.employer, MIN_N_EMPLOYER)
     labels = [r.employer for r in rows]
@@ -303,9 +308,7 @@ def build(paths: list, source_meta: list[dict]) -> dict:
         "rows_with_top_of_range_above_bottom": len(with_to),
         "share_of_kept_rows": round(len(with_to) / len(rows), 4) if rows else 0.0,
         "median_top_over_bottom": round(percentile(ratios, 0.5), 3) if ratios else None,
-        "note": ("WAGE_RATE_OF_PAY_FROM is the bottom of the offered range and is what the "
-                 "employer is legally committed to. Every figure here is that bottom, so "
-                 "every figure is a LOWER BOUND on what the job actually paid."),
+        "note": WAGE_NOTE,
     }
 
     by_family: dict[str, list[Row]] = collections.defaultdict(list)

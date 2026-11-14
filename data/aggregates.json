@@ -7696,7 +7696,7 @@
   },
   "offered_range": {
    "median_top_over_bottom": 1.218,
-   "note": "WAGE_RATE_OF_PAY_FROM is the bottom of the offered range and is what the employer is legally committed to. Every figure here is that bottom, so every figure is a LOWER BOUND on what the job actually paid.",
+   "note": "WAGE_RATE_OF_PAY_FROM is the lower endpoint of the filed wage range, annualised using fixed unit factors. These application records do not establish actual pay, employment, or total compensation.",
    "rows_with_top_of_range_above_bottom": 56073,
    "share_of_kept_rows": 0.3267
   },

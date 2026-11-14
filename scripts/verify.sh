@@ -100,10 +100,10 @@ else
 fi
 
 echo
-echo "5. the permutation control: employer identity carries real signal"
+echo "5. the permutation control: historical unadjusted group spread regression"
 # Shuffle which employer each filing belongs to and the spread of employer medians must collapse.
-# If it does not, the published spread is an artefact of sample sizes rather than a fact about
-# who pays what, and every employer figure on the page is noise.
+# This fixed-artifact regression guard is not statistical evidence of a causal employer
+# effect: the unconditional shuffle also destroys role/location/level composition.
 if $PY - <<'PY' >"$TMP/perm.log" 2>&1; then
 import json
 a = json.load(open("data/aggregates.json"))
@@ -114,13 +114,13 @@ assert real > 0 and shuf > 0, c
 ratio = real / shuf
 assert ratio > 2.0, (
     f"the real spread ({real:,.0f}) is only {ratio:.1f}x the shuffled one ({shuf:,.0f}); "
-    "employer identity is not carrying enough signal to publish per-employer bands")
+    "fixed-artifact spread ratio changed; review data/algorithm, not causal validity")
 print(f"real spread {real:,.0f} vs shuffled {shuf:,.0f} = {ratio:.1f}x, "
       f"over {c['employers_published']} employers (seed {c['seed']})")
 PY
-  sed 's/^/        /' "$TMP/perm.log"; ok "shuffling employers collapses the spread, as it must"
+  sed 's/^/        /' "$TMP/perm.log"; ok "fixed-artifact descriptive shuffle regression passed"
 else
-  bad "the permutation control does not separate signal from noise"
+  bad "the fixed-artifact descriptive shuffle regression changed"
   tail -4 "$TMP/perm.log" | sed 's/^/        /'
 fi
 
